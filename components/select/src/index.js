@@ -16,7 +16,7 @@ const StyledSelect = styled('select')(
   typography.font({ size: 19 }),
   {
     boxSizing: 'border-box',
-    width: '100%',
+    width: '200%',
     height: '33px',
     padding: '5px 4px 4px',
     border: `2px solid ${BLACK}`,
