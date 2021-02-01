@@ -17,15 +17,15 @@ const StyledSelect = styled('select')(
   {
     boxSizing: 'border-box',
     width: '100%',
-    height: '33px',
+    height: '60px',
     padding: '5px 4px 4px',
     border: `2px solid ${BLACK}`,
     [MEDIA_QUERIES.LARGESCREEN]: {
-      width: '150%',
-      height: '60px', //38px
+      width: '50%',
+      height: '60px', 
     },
     ':focus': {
-      outline: `3px solid ${RED}`,
+      outline: `3px solid ${YELLOW}`,
       outlineOffset: 0,
     },
   },
