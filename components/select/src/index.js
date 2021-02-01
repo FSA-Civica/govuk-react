@@ -22,7 +22,7 @@ const StyledSelect = styled('select')(
     border: `2px solid ${BLACK}`,
     [MEDIA_QUERIES.LARGESCREEN]: {
       width: '150%',
-      height: '38px',
+      height: '60px', //38px
     },
     ':focus': {
       outline: `3px solid ${RED}`,
