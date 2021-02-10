@@ -16,12 +16,12 @@ const StyledSelect = styled('select')(
   typography.font({ size: 19 }),
   {
     boxSizing: 'border-box',
-    width: '500%',//100%
+    width: '150px',//100%
     height: '60px',
     padding: '5px 4px 4px',
     border: `2px solid ${BLACK}`,
     [MEDIA_QUERIES.LARGESCREEN]: {
-      width: '500%', //50%
+      width: '150%', //50%
       height: '60px', 
     },
     ':focus': {
