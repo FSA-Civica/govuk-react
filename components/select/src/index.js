@@ -13,19 +13,19 @@ import ErrorText from '@govuk-react/error-text';
 import HintText from '@govuk-react/hint-text';
 
 const StyledSelect = styled('select')(
-  typography.font({ size: 19 }),
+  typography.font({ size: 27 }),//19
   {
     boxSizing: 'border-box',
     width: '150px',//100%
-    height: '60px',
-    padding: '5px 4px 4px',
+    height: '120px',//60px
+    padding: '9px 8px 8px',//544
     border: `2px solid ${BLACK}`,
     [MEDIA_QUERIES.LARGESCREEN]: {
       width: '150%', //50%
       height: '60px', 
     },
     ':focus': {
-      outline: `3px solid ${YELLOW}`,
+      outline: `3px solid ${BLACK}`,
       outlineOffset: 0,
     },
   },
