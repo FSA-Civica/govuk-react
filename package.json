@@ -1,5 +1,6 @@
 {
-  "name": "@govuk-react/monorepo",
+  "name": "@slice-and-dice/govuk-react",
+  "version": "0.0.1",
   "scripts": {
     "start": "cd packages/storybook && npm start",
     "bootstrap": "lerna bootstrap",
@@ -104,14 +105,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/govuk-react/govuk-react.git"
+    "url": "git+https://github.com/FSA-Civica/govuk-react.git"
   },
   "author": "Alasdair McLeay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/govuk-react/govuk-react/issues"
+    "url": "https://github.com/FSA-Civica/govuk-react/issues"
   },
-  "homepage": "https://github.com/govuk-react/govuk-react#readme",
+  "homepage": "https://github.com/FSA-Civica/govuk-react#readme",
   "bundlesize": [
     {
       "path": "./dist/index.js",
