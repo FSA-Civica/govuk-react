@@ -21,7 +21,7 @@ const StyledSelect = styled('select')(
     padding: '5px 4px 4px',
     border: `2px solid ${BLACK}`,
     [MEDIA_QUERIES.LARGESCREEN]: {
-      width: '50%',
+      width: '80%',
       height: '38px',
     },
     ':focus': {
