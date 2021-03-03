@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/footer",
+  "name": "@slice-and-dice/govuk-react-footer",
   "version": "0.7.2",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",

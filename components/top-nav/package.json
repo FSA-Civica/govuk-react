@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/top-nav",
+  "name": "@slice-and-dice/govuk-react-top-nav",
   "version": "0.7.1",
   "dependencies": {
     "@govuk-react/button": "^0.7.1",

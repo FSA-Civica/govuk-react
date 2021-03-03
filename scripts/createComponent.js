@@ -31,7 +31,7 @@ const packageJson = () => {
   // also I'm not sure we need the storybook addons for all components,
   // can be added manually per component perhaps.
   const contents = `{
-  "name": "@govuk-react/${componentFolderName}",
+  "name": "@slice-and-dice/govuk-react-${componentFolderName}",
   "version": "${version}",
   "dependencies": {
     "@govuk-react/lib": "^${version}"

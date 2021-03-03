@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/monorepo",
+  "name": "@slice-and-dice/govuk-react-monorepo",
   "scripts": {
     "start": "cd packages/storybook && npm start",
     "bootstrap": "lerna bootstrap",

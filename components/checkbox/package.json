@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/checkbox",
+  "name": "@slice-and-dice/govuk-react-checkbox",
   "version": "0.7.1",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",

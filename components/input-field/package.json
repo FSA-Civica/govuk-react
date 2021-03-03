@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/input-field",
+  "name": "@slice-and-dice/govuk-react-input-field",
   "version": "0.7.1",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",

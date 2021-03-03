@@ -26,7 +26,7 @@ import PhaseBanner from '@govuk-react/phase-banner';
 import Radio from '@govuk-react/radio';
 import RelatedItems from '@govuk-react/related-items';
 import SearchBox from '@govuk-react/search-box';
-import Select from '@govuk-react/select';
+import Select from '@slice-and-dice/govuk-react-select';
 import Tag from '@govuk-react/tag';
 import TextArea from '@govuk-react/text-area';
 import UnorderedList from '@govuk-react/unordered-list';

@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/form-group",
+  "name": "@slice-and-dice/govuk-react-form-group",
   "version": "0.7.1",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",
