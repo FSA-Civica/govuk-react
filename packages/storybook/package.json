@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/storybook",
+  "name": "@slice-and-dice/govuk-react-storybook",
   "version": "0.7.2",
   "dependencies": {
     "@govuk-react/back-link": "^0.7.1",

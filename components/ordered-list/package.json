@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/ordered-list",
+  "name": "@slice-and-dice/govuk-react-ordered-list",
   "version": "0.7.1",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",

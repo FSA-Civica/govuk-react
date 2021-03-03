@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/loading-box",
+  "name": "@slice-and-dice/govuk-react-loading-box",
   "version": "0.7.2",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",

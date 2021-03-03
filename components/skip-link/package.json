@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/skip-link",
+  "name": "@slice-and-dice/govuk-react-skip-link",
   "version": "0.7.1",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",

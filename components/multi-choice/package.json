@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/multi-choice",
+  "name": "@slice-and-dice/govuk-react-multi-choice",
   "version": "0.7.1",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",
