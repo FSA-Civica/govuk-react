@@ -1,6 +1,6 @@
 {
   "name": "@slice-and-dice/govuk-react-select",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "dependencies": {
     "@govuk-react/constants": "^0.7.1",
     "@govuk-react/error-text": "^0.7.1",
