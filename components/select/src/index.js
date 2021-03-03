@@ -14,21 +14,21 @@ import HintText from '@govuk-react/hint-text';
 
 const StyledSelect = styled('select')(
   typography.font({ size: 19 }),
-  {
+  ({ width, height }) => ({
     boxSizing: 'border-box',
     width: '100%',
     height: '33px',
     padding: '5px 4px 4px',
     border: `2px solid ${BLACK}`,
     [MEDIA_QUERIES.LARGESCREEN]: {
-      width: '80%',
-      height: '38px',
+      width: width || '50%',
+      height: height || '38px',
     },
     ':focus': {
       outline: `3px solid ${YELLOW}`,
       outlineOffset: 0,
     },
-  },
+  }),
   ({ error }) => ({
     border: error ? `4px solid ${ERROR_COLOUR}` : undefined,
   })
@@ -103,12 +103,12 @@ const StyledSelect = styled('select')(
  * - https://github.com/alphagov/govuk-frontend/tree/master/src/components/select
  *
  */
-const Select = ({ children, hint, label, meta, input, ...props }) => (
+const Select = ({ children, hint, label, meta, height, width, input, ...props }) => (
   <Label {...props} error={meta.touched && meta.error}>
     <LabelText>{label}</LabelText>
     {hint && <HintText>{hint}</HintText>}
     {meta.touched && meta.error && <ErrorText>{meta.error}</ErrorText>}
-    <StyledSelect error={meta.touched && meta.error} {...input}>
+    <StyledSelect error={meta.touched && meta.error} {...input} width={width} height={height}>
       {children}
     </StyledSelect>
   </Label>
