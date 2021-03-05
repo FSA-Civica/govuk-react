@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { FOCUS_COLOUR } from 'govuk-colours';
 import { spacing, typography } from '@govuk-react/lib';
 import HintText from '@govuk-react/hint-text';
 import {
@@ -12,6 +11,7 @@ import {
   SPACING_POINTS,
 } from '@govuk-react/constants';
 
+const FOCUS_COLOUR = "#A89200"
 const radioSize = SPACING_POINTS[7];
 const labelPaddingLeftRight = SPACING_POINTS[3];
 // When the default focus width is used on a curved edge it looks visually smaller.
