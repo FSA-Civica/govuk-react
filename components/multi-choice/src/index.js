@@ -65,11 +65,11 @@ const StyledFieldset = styled('div')(
  * - https://govuk-elements.herokuapp.com/errors/example-form-validation-single-question-radio
  *
  */
-const MultiChoice = ({ meta, label, children, hint, ...props }) => (
+const MultiChoice = ({ meta, label, children, hint, language, ...props }) => (
   <StyledFieldset error={meta.touched && meta.error} {...props}>
     <LabelText>{label}</LabelText>
     {hint && <HintText>{hint}</HintText>}
-    {meta.touched && meta.error && <ErrorText>{meta.error}</ErrorText>}
+    {meta.touched && meta.error && <ErrorText><VisuallyHidden> {language === 'cy'? 'Gwall: ' : 'Error: '}</VisuallyHidden>{meta.error}</ErrorText>}
     {children}
   </StyledFieldset>
 );
