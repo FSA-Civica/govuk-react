@@ -13,7 +13,7 @@ Simple
 ```jsx
 import { H3 } from '@govuk-react/heading';
 import UnorderedList from '@govuk-react/unordered-list';
-import Link from '@govuk-react/link';
+import Link from '@slice-and-dice/govuk-react-link';
 import ListItem from '@govuk-react/list-item';
 
 <RelatedItems>

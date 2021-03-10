@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { MEDIA_QUERIES, SPACING, SITE_WIDTH } from '@govuk-react/constants';
+import { MEDIA_QUERIES, SPACING, SITE_WIDTH } from '@slice-and-dice/govuk-react-constants';
 
 const OuterContainer = styled('div')({
   paddingTop: SPACING.SCALE_5,

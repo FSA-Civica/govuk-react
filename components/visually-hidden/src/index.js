@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { visuallyHidden } from '@govuk-react/lib';
+import { visuallyHidden } from '@slice-and-dice/govuk-react-lib';
 
 const VisuallyHidden = styled('span').attrs(({ focusable, tabIndex }) =>
   // if we're focusable but don't have a `tabIndex` set, add one

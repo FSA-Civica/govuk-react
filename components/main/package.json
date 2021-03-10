@@ -2,7 +2,7 @@
   "name": "@slice-and-dice/govuk-react-main",
   "version": "0.7.1",
   "dependencies": {
-    "@govuk-react/constants": "^0.7.1"
+    "@slice-and-dice/govuk-react-constants": "^0.7.2"
   },
   "peerDependencies": {
     "react": ">=16.2.0",

@@ -2,9 +2,9 @@
   "name": "@slice-and-dice/govuk-react-list-navigation",
   "version": "0.7.1",
   "dependencies": {
-    "@govuk-react/constants": "^0.7.1",
-    "@govuk-react/list-item": "^0.7.1",
-    "@govuk-react/unordered-list": "^0.7.1"
+    "@slice-and-dice/govuk-react-constants": "^0.7.2",
+    "@slice-and-dice/govuk-react-list-item": "^0.7.1",
+    "@slice-and-dice/govuk-react-unordered-list": "^0.7.1"
   },
   "peerDependencies": {
     "react": ">=16.2.0",

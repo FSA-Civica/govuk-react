@@ -1,5 +1,5 @@
 import React from 'react';
-import { LEVEL_SIZE } from '@govuk-react/constants';
+import { LEVEL_SIZE } from '@slice-and-dice/govuk-react-constants';
 import Heading from '.';
 
 export const H1 = props => <Heading as="h1" size={LEVEL_SIZE[1]} {...props} />;

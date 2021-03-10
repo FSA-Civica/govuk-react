@@ -1,11 +1,11 @@
-// every export from @govuk-react/icons should be a React component that renders an SVG
+// every export from @slice-and-dice/govuk-react-icons should be a React component that renders an SVG
 // icons should be stateless therefore should be a function
 import { mount } from 'enzyme';
 import React from 'react';
 
 import * as exports from '.';
 
-describe('@govuk-react/icons', () => {
+describe('@slice-and-dice/govuk-react-icons', () => {
   // filter out private exports e.g. __esModule
   const componentNames = Object.keys(exports).filter(componentName => !componentName.startsWith('_'));
   for (let n = 0; n < componentNames.length; n += 1) {

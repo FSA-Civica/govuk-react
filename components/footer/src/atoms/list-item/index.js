@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { spacing } from '@govuk-react/lib';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const ListItem = styled('li')(
   ({ inline }) =>

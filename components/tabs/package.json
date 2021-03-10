@@ -2,8 +2,8 @@
   "name": "@slice-and-dice/govuk-react-tabs",
   "version": "0.7.1",
   "dependencies": {
-    "@govuk-react/constants": "^0.7.1",
-    "@govuk-react/lib": "^0.7.1",
+    "@slice-and-dice/govuk-react-constants": "^0.7.2",
+    "@slice-and-dice/govuk-react-lib": "^0.7.2",
     "govuk-colours": "^1.1.0"
   },
   "peerDependencies": {

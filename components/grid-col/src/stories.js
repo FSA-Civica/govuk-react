@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { storiesOf } from '@storybook/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
-import GridRow from '@govuk-react/grid-row';
-import { H2 } from '@govuk-react/heading';
-import Paragraph from '@govuk-react/paragraph';
+import GridRow from '@slice-and-dice/govuk-react-grid-row';
+import { H2 } from '@slice-and-dice/govuk-react-heading';
+import Paragraph from '@slice-and-dice/govuk-react-paragraph';
 
 import GridCol from '.';
 import ReadMe from '../README.md';

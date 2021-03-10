@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import UnorderedList from '@govuk-react/unordered-list';
-import ListItem from '@govuk-react/list-item';
+import UnorderedList from '@slice-and-dice/govuk-react-unordered-list';
+import ListItem from '@slice-and-dice/govuk-react-list-item';
 
 /**
  *

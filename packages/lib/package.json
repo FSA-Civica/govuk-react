@@ -1,8 +1,8 @@
 {
   "name": "@slice-and-dice/govuk-react-lib",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "dependencies": {
-    "@slice-and-dice/govuk-react-constants": "^0.7.1",
+    "@slice-and-dice/govuk-react-constants": "^0.7.2",
     "govuk-colours": "^1.1.0"
   },
   "scripts": {

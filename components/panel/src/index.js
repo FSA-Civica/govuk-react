@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { TURQUOISE, WHITE } from 'govuk-colours';
-import { spacing, typography } from '@govuk-react/lib';
-import { BORDER_WIDTH, MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react/constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
+import { BORDER_WIDTH, MEDIA_QUERIES, SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
 import { stripUnit } from 'polished';
 
 const RAW_BORDER_WIDTH = stripUnit(BORDER_WIDTH);

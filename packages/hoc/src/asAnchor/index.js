@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '@govuk-react/link';
+import Link from '@slice-and-dice/govuk-react-link';
 
 import deprecate from '../deprecate';
 

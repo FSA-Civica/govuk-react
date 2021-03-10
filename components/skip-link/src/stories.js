@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { storiesOf } from '@storybook/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
-import Paragraph from '@govuk-react/paragraph';
+import Paragraph from '@slice-and-dice/govuk-react-paragraph';
 
 import SkipLink from '.';
 

@@ -12,7 +12,7 @@ UnorderedList
 Simple
 ```jsx
 import UnorderedList from '@govuk-react/unordered-list';
-import ListItem from '@govuk-react/list-item';
+import ListItem from '@slice-and-dice/govuk-react-list-item';
 
 <UnorderedList>
   <ListItem>Lorem ipsum dolor sit.</ListItem>
@@ -24,7 +24,7 @@ import ListItem from '@govuk-react/list-item';
 with Roman
 ```jsx
 import UnorderedList from '@govuk-react/unordered-list';
-import ListItem from '@govuk-react/list-item';
+import ListItem from '@slice-and-dice/govuk-react-list-item';
 
 <UnorderedList listStyleType="lower-roman">
   <ListItem>Lorem ipsum dolor sit.</ListItem>

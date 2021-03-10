@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { withKnobs } from '@storybook/addon-knobs/react';
 import { FinalFormWrapper, withDocsCustom } from '@govuk-react/storybook-components';
 
-import MultiChoice from '@govuk-react/multi-choice';
+import MultiChoice from '@slice-and-dice/govuk-react-multi-choice';
 import Radio from '.';
 import ReadMe from '../README.md';
 

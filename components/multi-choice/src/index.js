@@ -14,12 +14,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { ERROR_COLOUR } from 'govuk-colours';
-import LabelText from '@govuk-react/label-text';
-import ErrorText from '@govuk-react/error-text';
-import HintText from '@govuk-react/hint-text';
+import LabelText from '@slice-and-dice/govuk-react-label-text';
+import ErrorText from '@slice-and-dice/govuk-react-error-text';
+import HintText from '@slice-and-dice/govuk-react-hint-text';
 
-import { BORDER_WIDTH_MOBILE, SPACING } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { BORDER_WIDTH_MOBILE, SPACING } from '@slice-and-dice/govuk-react-constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const StyledFieldset = styled('div')(
   {

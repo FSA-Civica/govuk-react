@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { shape, spacing, typography } from '@govuk-react/lib';
+import { shape, spacing, typography } from '@slice-and-dice/govuk-react-lib';
 import { stripUnit } from 'polished';
 
 import { BLACK, FOCUS_COLOUR, LINK_COLOUR, LINK_HOVER_COLOUR, BORDER_COLOUR } from 'govuk-colours';
-import { BORDER_WIDTH, FOCUS_WIDTH, SPACING_POINTS } from '@govuk-react/constants';
+import { BORDER_WIDTH, FOCUS_WIDTH, SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
 
 const CUSTOM_FOCUS_WIDTH = `${stripUnit(FOCUS_WIDTH) + 1}px`;
 

@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { SECONDARY_TEXT_COLOUR } from 'govuk-colours';
-import { SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
-import { deprecate } from '@govuk-react/hoc';
+import { deprecate } from '@slice-and-dice/govuk-react-hoc';
 
 import Link from './atoms/link';
 

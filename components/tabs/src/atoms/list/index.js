@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { BORDER_COLOUR } from 'govuk-colours';
-import { spacing } from '@govuk-react/lib';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
+import { MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
 
 const clearfix = {
   '::after': {

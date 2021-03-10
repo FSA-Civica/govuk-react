@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import OrderedList from '@govuk-react/ordered-list';
+import OrderedList from '@slice-and-dice/govuk-react-ordered-list';
 
 /**
  *

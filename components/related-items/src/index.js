@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { BLUE } from 'govuk-colours';
 
-import { FONT_SIZE, LINE_HEIGHT, MEDIA_QUERIES, SPACING } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { FONT_SIZE, LINE_HEIGHT, MEDIA_QUERIES, SPACING } from '@slice-and-dice/govuk-react-constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const StyledRelatedItems = styled('div')(
   {

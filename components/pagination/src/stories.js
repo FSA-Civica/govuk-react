@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import { asPaginationItem } from '@govuk-react/hoc';
+import { asPaginationItem } from '@slice-and-dice/govuk-react-hoc';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
 import Pagination from '.';
