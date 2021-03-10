@@ -10,6 +10,7 @@ import Label from '@govuk-react/label';
 import LabelText from '@govuk-react/label-text';
 import ErrorText from '@govuk-react/error-text';
 import HintText from '@govuk-react/hint-text';
+import VisuallyHidden from '@govuk-react/visually-hidden';
 
 const TextAreaField = styled('textarea')(
   {
@@ -73,11 +74,11 @@ const TextAreaField = styled('textarea')(
  * - https://github.com/alphagov/govuk-frontend/tree/master/src/components/textarea
  *
  */
-const TextArea = ({ children, hint, meta, input, ...props }) => (
+const TextArea = ({ children, hint, meta, input, language, ...props }) => (
   <Label error={meta.touched && meta.error} {...props}>
     <LabelText>{children}</LabelText>
     {hint && <HintText>{hint}</HintText>}
-    {meta.touched && meta.error && <ErrorText>{meta.error}</ErrorText>}
+    {meta.touched && meta.error && <ErrorText><VisuallyHidden> {language === 'cy'? 'Gwall: ' : 'Error: '}</VisuallyHidden>{meta.error}</ErrorText>}
     <TextAreaField type="text" rows="5" error={meta.touched && meta.error} {...input} />
   </Label>
 );
