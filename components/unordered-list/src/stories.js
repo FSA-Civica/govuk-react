@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import ListItem from '@govuk-react/list-item';
+import ListItem from '@slice-and-dice/govuk-react-list-item';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
-import OrderedList from '@govuk-react/ordered-list';
+import OrderedList from '@slice-and-dice/govuk-react-ordered-list';
 
 import UnorderedList from '.';
 import ReadMe from '../README.md';

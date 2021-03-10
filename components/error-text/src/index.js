@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ERROR_COLOUR } from 'govuk-colours';
-import { SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 const StyledError = styled('span')(
   typography.font({ size: 19, weight: 'bold' }),

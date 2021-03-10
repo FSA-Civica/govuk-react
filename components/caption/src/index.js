@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { SECONDARY_TEXT_COLOUR } from 'govuk-colours';
-import { spacing, typography } from '@govuk-react/lib';
-import { CAPTION_SIZES, MEDIA_QUERIES, SPACING_POINTS, TYPOGRAPHY_SCALE } from '@govuk-react/constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
+import { CAPTION_SIZES, MEDIA_QUERIES, SPACING_POINTS, TYPOGRAPHY_SCALE } from '@slice-and-dice/govuk-react-constants';
 
 const StyledCaption = styled('span')(
   ({ size }) => {

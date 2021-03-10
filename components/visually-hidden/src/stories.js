@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { storiesOf } from '@storybook/react';
 import { boolean, withKnobs } from '@storybook/addon-knobs/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
-import Paragraph from '@govuk-react/paragraph';
-import Button from '@govuk-react/button';
+import Paragraph from '@slice-and-dice/govuk-react-paragraph';
+import Button from '@slice-and-dice/govuk-react-button';
 
 import VisuallyHidden from '.';
 

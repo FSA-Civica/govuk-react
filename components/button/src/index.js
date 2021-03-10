@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { BORDER_WIDTH_FORM_ELEMENT, FOCUSABLE, MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { BORDER_WIDTH_FORM_ELEMENT, FOCUSABLE, MEDIA_QUERIES, SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 import { BUTTON_COLOUR, BUTTON_COLOUR_DARKEN_15, WHITE } from 'govuk-colours';
 import { darken, stripUnit } from 'polished';
 
@@ -145,7 +145,7 @@ const ButtonContents = styled('span')({
  *
  * With Icon
  * ```jsx
- * import { ButtonArrow } from '@govuk-react/icons';
+ * import { ButtonArrow } from '@slice-and-dice/govuk-react-icons';
  *
  * <Button icon={<ButtonArrow />}>My button text</Button>
  * ```

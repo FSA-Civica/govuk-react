@@ -1,6 +1,6 @@
 import React from 'react';
 import { text } from '@storybook/addon-knobs/react';
-import Paragraph from '@govuk-react/paragraph';
+import Paragraph from '@slice-and-dice/govuk-react-paragraph';
 
 import InsetText, { DocumentedInsetText } from '.';
 

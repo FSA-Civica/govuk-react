@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { BLACK, WHITE } from 'govuk-colours';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
-import { typography } from '@govuk-react/lib';
+import { MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
+import { typography } from '@slice-and-dice/govuk-react-lib';
 import CrownIcon from '@govuk-react/icon-crown';
 
 import styled from 'styled-components';

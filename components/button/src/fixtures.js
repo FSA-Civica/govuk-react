@@ -1,6 +1,6 @@
 import React from 'react';
 import { boolean, text } from '@storybook/addon-knobs/react';
-import { ButtonArrow } from '@govuk-react/icons';
+import { ButtonArrow } from '@slice-and-dice/govuk-react-icons';
 import { BLUE, TEXT_COLOUR, YELLOW, GREY_3, ORANGE } from 'govuk-colours';
 import { MemoryRouter, Route, Link } from 'react-router-dom';
 

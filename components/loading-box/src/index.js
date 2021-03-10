@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { CSSTransition } from 'react-transition-group';
 import hexRgb from 'hex-rgb';
-import { Spinner } from '@govuk-react/icons';
+import { Spinner } from '@slice-and-dice/govuk-react-icons';
 import { BLACK, WHITE } from 'govuk-colours';
 
 const spinnerClassName = 'icon-loading';

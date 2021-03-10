@@ -4,13 +4,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { BLACK, ERROR_COLOUR, YELLOW } from 'govuk-colours';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
-import { typography } from '@govuk-react/lib';
+import { MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
+import { typography } from '@slice-and-dice/govuk-react-lib';
 
-import Label from '@govuk-react/label';
-import LabelText from '@govuk-react/label-text';
-import ErrorText from '@govuk-react/error-text';
-import HintText from '@govuk-react/hint-text';
+import Label from '@slice-and-dice/govuk-react-label';
+import LabelText from '@slice-and-dice/govuk-react-label-text';
+import ErrorText from '@slice-and-dice/govuk-react-error-text';
+import HintText from '@slice-and-dice/govuk-react-hint-text';
 
 const StyledSelect = styled('select')(
   typography.font({ size: 19 }),

@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { boolean, withKnobs } from '@storybook/addon-knobs/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
-import Checkbox from '@govuk-react/checkbox';
+import Checkbox from '@slice-and-dice/govuk-react-checkbox';
 
 import FormGroup from '.';
 

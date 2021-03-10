@@ -6,9 +6,9 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import SkipLink from '@govuk-react/skip-link';
-import TopNav from '@govuk-react/top-nav';
-// import Footer from '@govuk-react/footer';
+import SkipLink from '@slice-and-dice/govuk-react-skip-link';
+import TopNav from '@slice-and-dice/govuk-react-top-nav';
+// import Footer from '@slice-and-dice/govuk-react-footer';
 
 import Main from './atoms/main';
 import WidthContainer from './atoms/width-container';

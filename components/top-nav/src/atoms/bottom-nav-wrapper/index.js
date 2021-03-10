@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { BLUE } from 'govuk-colours';
-import { MEDIA_QUERIES, SPACING } from '@govuk-react/constants';
+import { MEDIA_QUERIES, SPACING } from '@slice-and-dice/govuk-react-constants';
 
 const BottomNavWrapper = styled('div')({
   borderBottom: `10px solid ${BLUE}`,

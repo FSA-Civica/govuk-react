@@ -1,4 +1,4 @@
-import { FOCUSABLE_FILL } from '@govuk-react/constants';
+import { FOCUSABLE_FILL } from '@slice-and-dice/govuk-react-constants';
 import * as link from '.';
 import * as typography from '../typography';
 

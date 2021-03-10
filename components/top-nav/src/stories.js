@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 import { storiesOf } from '@storybook/react';
 import CrownIcon from '@govuk-react/icon-crown';
-import { Search as SearchIcon } from '@govuk-react/icons';
-import SearchBox from '@govuk-react/search-box';
+import { Search as SearchIcon } from '@slice-and-dice/govuk-react-icons';
+import SearchBox from '@slice-and-dice/govuk-react-search-box';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
 import TopNav, { asNavLinkAnchor, asTopNavAnchor } from '.';

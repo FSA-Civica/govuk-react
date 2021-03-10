@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { GUTTER_HALF, MEDIA_QUERIES, WIDTHS } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { GUTTER_HALF, MEDIA_QUERIES, WIDTHS } from '@slice-and-dice/govuk-react-constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const colValues = {
   columnOneQuarter: '25%',

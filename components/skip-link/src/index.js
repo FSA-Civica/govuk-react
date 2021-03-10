@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { SPACING_POINTS } from '@govuk-react/constants';
-import { link, typography, visuallyHidden } from '@govuk-react/lib';
+import { SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { link, typography, visuallyHidden } from '@slice-and-dice/govuk-react-lib';
 
 const SkipLink = styled('a')(visuallyHidden.focusable(), link.common(), link.styleText, typography.responsive(16), {
   display: 'block',

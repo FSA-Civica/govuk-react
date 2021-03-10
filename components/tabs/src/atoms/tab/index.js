@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { link, spacing, typography } from '@govuk-react/lib';
+import { link, spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 import { BLACK, BORDER_COLOUR, GREY_4, WHITE } from 'govuk-colours';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
+import { MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
 
 const spacingSimple1 = spacing.simple(1);
 const spacingSimple2 = spacing.simple(2);

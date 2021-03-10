@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { MEDIA_QUERIES, SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
-import ListItem from '@govuk-react/list-item';
+import { MEDIA_QUERIES, SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
+import ListItem from '@slice-and-dice/govuk-react-list-item';
 
 function translateType(type) {
   return { bullet: 'disc', number: 'decimal' }[type] || type;
