@@ -34,7 +34,7 @@ const packageJson = () => {
   "name": "@slice-and-dice/govuk-react-${componentFolderName}",
   "version": "${version}",
   "dependencies": {
-    "@govuk-react/lib": "^${version}"
+    "@slice-and-dice/govuk-react-lib": "^${version}"
   },
   "peerDependencies": {
     "react": ">=16.2.0",
@@ -111,7 +111,7 @@ const indexScript = () => {
   const contents = `import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { spacing, typography } from '@govuk-react/lib';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 const ${componentName} = styled('div')(
   typography.font({ size: 16 }),

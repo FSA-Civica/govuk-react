@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { BREAKPOINTS } from '@govuk-react/constants';
-import { H2, H4 } from '@govuk-react/heading';
-import SectionBreak from '@govuk-react/section-break';
-import Table from '@govuk-react/table';
+import { BREAKPOINTS } from '@slice-and-dice/govuk-react-constants';
+import { H2, H4 } from '@slice-and-dice/govuk-react-heading';
+import SectionBreak from '@slice-and-dice/govuk-react-section-break';
+import Table from '@slice-and-dice/govuk-react-table';
 
 import Tabs from '.';
 

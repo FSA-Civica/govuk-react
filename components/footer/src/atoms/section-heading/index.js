@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
-import { H2 } from '@govuk-react/heading';
-import { spacing } from '@govuk-react/lib';
+import { MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
+import { H2 } from '@slice-and-dice/govuk-react-heading';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 import { BORDER_COLOUR } from 'govuk-colours';
 
 const SectionHeading = styled(H2)(

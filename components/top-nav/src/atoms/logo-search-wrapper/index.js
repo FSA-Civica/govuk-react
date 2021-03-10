@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MEDIA_QUERIES, SPACING } from '@govuk-react/constants';
+import { MEDIA_QUERIES, SPACING } from '@slice-and-dice/govuk-react-constants';
 
 const LogoSearchWrapper = styled('div')({
   display: 'flex',

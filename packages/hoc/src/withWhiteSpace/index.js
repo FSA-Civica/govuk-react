@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { spacing } from '@govuk-react/lib';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 import deprecate from '../deprecate';
 

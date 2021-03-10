@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
-import Link from '@govuk-react/link';
+import Link from '@slice-and-dice/govuk-react-link';
 
 import ListItem from '.';
 import ReadMe from '../README.md';

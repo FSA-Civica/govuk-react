@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Link from '@govuk-react/link';
+import Link from '@slice-and-dice/govuk-react-link';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
 import DocumentFooterMetadata from '.';

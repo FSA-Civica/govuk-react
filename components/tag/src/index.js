@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { BLUE, GREY_1, WHITE } from 'govuk-colours';
-import { typography } from '@govuk-react/lib';
+import { typography } from '@slice-and-dice/govuk-react-lib';
 
 const Tag = styled('strong')(
   typography.font({ size: 16, weight: 'bold', lineHeight: 1.25 }),

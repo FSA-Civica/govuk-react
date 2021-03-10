@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import HintText from '@govuk-react/hint-text';
+import HintText from '@slice-and-dice/govuk-react-hint-text';
 import { FOCUS_COLOUR } from 'govuk-colours';
-import { BORDER_WIDTH, BORDER_WIDTH_FORM_ELEMENT, FOCUS_WIDTH, SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { BORDER_WIDTH, BORDER_WIDTH_FORM_ELEMENT, FOCUS_WIDTH, SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 const checkboxSize = SPACING_POINTS[7];
 const labelPaddingLeftRight = SPACING_POINTS[3];

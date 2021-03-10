@@ -1,10 +1,10 @@
 import React from 'react';
-import { CAPTION_SIZES, HEADING_SIZES, TYPOGRAPHY_SCALE } from '@govuk-react/constants';
+import { CAPTION_SIZES, HEADING_SIZES, TYPOGRAPHY_SCALE } from '@slice-and-dice/govuk-react-constants';
 import { storiesOf } from '@storybook/react';
 import { select, text, withKnobs } from '@storybook/addon-knobs/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
-import Heading from '@govuk-react/heading';
+import Heading from '@slice-and-dice/govuk-react-heading';
 
 import Caption, { CaptionWithKnobs } from './fixtures';
 import ReadMe from '../README.md';

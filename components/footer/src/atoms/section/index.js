@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { GUTTER, GUTTER_HALF, MEDIA_QUERIES } from '@govuk-react/constants';
+import { GUTTER, GUTTER_HALF, MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
 
 const Section = styled('div')({
   display: 'inline-block',

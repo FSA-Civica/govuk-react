@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown';
-import { spacing, typography } from '@govuk-react/lib';
-import Link from '@govuk-react/link';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
+import Link from '@slice-and-dice/govuk-react-link';
 
 const StyledParagraph = styled(ReactMarkdown)(
   {

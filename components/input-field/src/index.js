@@ -3,11 +3,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Label from '@govuk-react/label';
-import LabelText from '@govuk-react/label-text';
-import ErrorText from '@govuk-react/error-text';
-import HintText from '@govuk-react/hint-text';
-import Input from '@govuk-react/input';
+import Label from '@slice-and-dice/govuk-react-label';
+import LabelText from '@slice-and-dice/govuk-react-label-text';
+import ErrorText from '@slice-and-dice/govuk-react-error-text';
+import HintText from '@slice-and-dice/govuk-react-hint-text';
+import Input from '@slice-and-dice/govuk-react-input';
 
 /**
  *

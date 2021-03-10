@@ -20,7 +20,7 @@ that will pick the appropriate tag as well as set the appropriate corresponding 
 
 Using shortcuts
 ```jsx
-import { H1, H2, H3, H4, H5, H6 } from "@govuk-react/heading";
+import { H1, H2, H3, H4, H5, H6 } from "@slice-and-dice/govuk-react-heading";
 
 <H1>h1</H1>
 <H2>h2</H2>

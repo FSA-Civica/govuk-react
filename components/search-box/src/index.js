@@ -4,10 +4,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { LIGHT_BLUE, GREY_2, WHITE, YELLOW } from 'govuk-colours';
-import { NTA_LIGHT } from '@govuk-react/constants';
+import { NTA_LIGHT } from '@slice-and-dice/govuk-react-constants';
 
-import { Search } from '@govuk-react/icons';
-import { spacing } from '@govuk-react/lib';
+import { Search } from '@slice-and-dice/govuk-react-icons';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const SearchBoxWrapper = styled('div')(
   {
