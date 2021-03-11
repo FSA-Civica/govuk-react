@@ -4,11 +4,11 @@ import styled from 'styled-components';
 
 import { TEXT_COLOUR, ERROR_COLOUR, FOCUS_COLOUR } from 'govuk-colours';
 
-import { H2 } from '@govuk-react/heading';
-import Paragraph from '@govuk-react/paragraph';
-import UnorderedList from '@govuk-react/unordered-list';
-import Link from '@govuk-react/link';
-import ListItem from '@govuk-react/list-item';
+import { H2 } from '@slice-and-dice/govuk-react-heading';
+import Paragraph from '@slice-and-dice/govuk-react-paragraph';
+import UnorderedList from '@slice-and-dice/govuk-react-unordered-list';
+import Link from '@slice-and-dice/govuk-react-link';
+import ListItem from '@slice-and-dice/govuk-react-list-item';
 
 import {
   NTA_LIGHT,
@@ -20,9 +20,9 @@ import {
   SPACING,
   MEDIA_QUERIES,
   RESPONSIVE_4,
-} from '@govuk-react/constants';
+} from '@slice-and-dice/govuk-react-constants';
 
-import { spacing } from '@govuk-react/lib';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const StyledErrorText = styled(Link)({
   fontFamily: NTA_LIGHT,

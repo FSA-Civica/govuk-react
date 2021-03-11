@@ -31,10 +31,10 @@ const packageJson = () => {
   // also I'm not sure we need the storybook addons for all components,
   // can be added manually per component perhaps.
   const contents = `{
-  "name": "@govuk-react/${componentFolderName}",
+  "name": "@slice-and-dice/govuk-react-${componentFolderName}",
   "version": "${version}",
   "dependencies": {
-    "@govuk-react/lib": "^${version}"
+    "@slice-and-dice/govuk-react-lib": "^${version}"
   },
   "peerDependencies": {
     "react": ">=16.2.0",
@@ -111,7 +111,7 @@ const indexScript = () => {
   const contents = `import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { spacing, typography } from '@govuk-react/lib';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 const ${componentName} = styled('div')(
   typography.font({ size: 16 }),

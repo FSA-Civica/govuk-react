@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/api-docs",
+  "name": "@slice-and-dice/govuk-react-api-docs",
   "version": "0.7.2",
   "dependencies": {
     "@babel/node": "7.2.2",

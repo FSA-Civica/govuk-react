@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import { storiesOf } from '@storybook/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
-import GridCol from '@govuk-react/grid-col';
+import GridCol from '@slice-and-dice/govuk-react-grid-col';
 
 import GridRow from '.';
 import ReadMe from '../README.md';

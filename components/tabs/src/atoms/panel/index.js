@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { BORDER_COLOUR } from 'govuk-colours';
-import { spacing } from '@govuk-react/lib';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
+import { MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
 
 const TabPanel = styled('section')(
   spacing.responsiveMargin({ size: 8, direction: 'bottom' }),

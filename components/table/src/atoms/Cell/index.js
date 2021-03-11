@@ -3,8 +3,8 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { BORDER_COLOUR } from 'govuk-colours';
-import { FONT_WEIGHTS, SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+import { FONT_WEIGHTS, SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 const Cell = styled('td')(
   ({ numeric, alignRight = numeric, bold }) => ({

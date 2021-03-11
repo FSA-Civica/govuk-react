@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import UnorderedList from '@govuk-react/unordered-list';
-import { NTA_LIGHT } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import UnorderedList from '@slice-and-dice/govuk-react-unordered-list';
+import { NTA_LIGHT } from '@slice-and-dice/govuk-react-constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const StyledContainer = styled('div')({ fontFamily: NTA_LIGHT }, spacing.withWhiteSpace());
 

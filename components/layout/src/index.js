@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { SPACING } from '@govuk-react/constants';
+import { SPACING } from '@slice-and-dice/govuk-react-constants';
 
 const StyledLayout = styled('div')({
   padding: SPACING.SCALE_2,

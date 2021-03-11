@@ -1,5 +1,5 @@
 {
-  "name": "@govuk-react/monorepo",
+  "name": "@slice-and-dice/govuk-react-monorepo",
   "scripts": {
     "start": "cd packages/storybook && npm start",
     "bootstrap": "lerna bootstrap",
@@ -30,7 +30,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "dependencies": {
-    "govuk-colours": "^1.0.3",
+    "govuk-colours": "^1.1.0",
     "react-markdown": "^4.0.6"
   },
   "peerDependencies": {

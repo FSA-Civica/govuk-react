@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { text, object } from '@storybook/addon-knobs/react';
-import Radio from '@govuk-react/radio';
+import Radio from '@slice-and-dice/govuk-react-radio';
 
 import MultiChoice from '.';
 
