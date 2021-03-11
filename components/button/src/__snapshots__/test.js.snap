@@ -17,8 +17,8 @@ exports[`button basics matches snapshot 1`] = `
   border: 2px solid transparent;
   border-radius: 0;
   color: #ffffff;
-  background-color: #00823b;
-  box-shadow: 0 2px 0 #003618;
+  background-color: #00703c;
+  box-shadow: 0 2px 0 #002413;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -27,7 +27,7 @@ exports[`button basics matches snapshot 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
 
@@ -47,7 +47,7 @@ exports[`button basics matches snapshot 1`] = `
 
 .c0:hover,
 .c0:focus {
-  background-color: #00692f;
+  background-color: #00572e;
 }
 
 .c0:active {
@@ -72,11 +72,11 @@ exports[`button basics matches snapshot 1`] = `
 
 .c0:disabled {
   opacity: 0.5;
-  background: #00823b;
+  background: #00703c;
 }
 
 .c0:disabled:hover {
-  background-color: #00823b;
+  background-color: #00703c;
   cursor: default;
 }
 
@@ -86,7 +86,7 @@ exports[`button basics matches snapshot 1`] = `
 
 .c0:disabled:active {
   top: 0;
-  box-shadow: 0 2px 0 #003618;
+  box-shadow: 0 2px 0 #002413;
 }
 
 .c0 svg {
@@ -129,7 +129,7 @@ exports[`button basics matches snapshot 1`] = `
   disabled={false}
   start={false}
 >
-  <styled.button
+  <src__StyledButton
     disabled={false}
     isStart={false}
   >
@@ -140,23 +140,24 @@ exports[`button basics matches snapshot 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
+            "componentId": "src__StyledButton-w4d12l-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
               [Function],
-              "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0;
-}",
+              "&:focus {",
+              "outline: 3px solid #ffdd00;",
+              "outline-offset: 0;",
+              "}",
               [Function],
               [Function],
               [Function],
             ],
           },
-          "displayName": "styled.button",
+          "displayName": "src__StyledButton",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
+          "styledComponentId": "src__StyledButton-w4d12l-0",
           "target": "button",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -173,7 +174,7 @@ exports[`button basics matches snapshot 1`] = `
         Example
       </button>
     </StyledComponent>
-  </styled.button>
+  </src__StyledButton>
 </ForwardRef>
 `;
 
@@ -194,8 +195,8 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
   border: 2px solid transparent;
   border-radius: 0;
   color: #ffffff;
-  background-color: #005ea5;
-  box-shadow: 0 2px 0 #003259;
+  background-color: #1d70b8;
+  box-shadow: 0 2px 0 #134876;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -204,7 +205,7 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
 
@@ -224,7 +225,7 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
 
 .c0:hover,
 .c0:focus {
-  background-color: #004f8c;
+  background-color: #1a63a2;
 }
 
 .c0:active {
@@ -249,11 +250,11 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
 
 .c0:disabled {
   opacity: 0.5;
-  background: #005ea5;
+  background: #1d70b8;
 }
 
 .c0:disabled:hover {
-  background-color: #005ea5;
+  background-color: #1d70b8;
   cursor: default;
 }
 
@@ -263,7 +264,7 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
 
 .c0:disabled:active {
   top: 0;
-  box-shadow: 0 2px 0 #003259;
+  box-shadow: 0 2px 0 #134876;
 }
 
 .c0 svg {
@@ -304,40 +305,41 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
 
 <ButtonBlue>
   <ForwardRef
-    buttonColour="#005ea5"
+    buttonColour="#1d70b8"
     disabled={false}
     start={false}
   >
-    <styled.button
-      buttonColour="#005ea5"
+    <src__StyledButton
+      buttonColour="#1d70b8"
       disabled={false}
       isStart={false}
     >
       <StyledComponent
-        buttonColour="#005ea5"
+        buttonColour="#1d70b8"
         disabled={false}
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "src__StyledButton-w4d12l-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0;
-}",
+                "&:focus {",
+                "outline: 3px solid #ffdd00;",
+                "outline-offset: 0;",
+                "}",
                 [Function],
                 [Function],
                 [Function],
               ],
             },
-            "displayName": "styled.button",
+            "displayName": "src__StyledButton",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "src__StyledButton-w4d12l-0",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -354,7 +356,7 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
           Blue button
         </button>
       </StyledComponent>
-    </styled.button>
+    </src__StyledButton>
   </ForwardRef>
 </ButtonBlue>
 `;
@@ -376,8 +378,8 @@ exports[`button button with icon matches snapshot 1`] = `
   border: 2px solid transparent;
   border-radius: 0;
   color: #ffffff;
-  background-color: #00823b;
-  box-shadow: 0 2px 0 #003618;
+  background-color: #00703c;
+  box-shadow: 0 2px 0 #002413;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -398,7 +400,7 @@ exports[`button button with icon matches snapshot 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
 
@@ -418,7 +420,7 @@ exports[`button button with icon matches snapshot 1`] = `
 
 .c0:hover,
 .c0:focus {
-  background-color: #00692f;
+  background-color: #00572e;
 }
 
 .c0:active {
@@ -443,11 +445,11 @@ exports[`button button with icon matches snapshot 1`] = `
 
 .c0:disabled {
   opacity: 0.5;
-  background: #00823b;
+  background: #00703c;
 }
 
 .c0:disabled:hover {
-  background-color: #00823b;
+  background-color: #00703c;
   cursor: default;
 }
 
@@ -457,7 +459,7 @@ exports[`button button with icon matches snapshot 1`] = `
 
 .c0:disabled:active {
   top: 0;
-  box-shadow: 0 2px 0 #003618;
+  box-shadow: 0 2px 0 #002413;
 }
 
 .c0 svg {
@@ -514,7 +516,7 @@ exports[`button button with icon matches snapshot 1`] = `
     }
     start={true}
   >
-    <styled.button
+    <src__StyledButton
       disabled={false}
       icon={
         <ButtonArrow
@@ -531,23 +533,24 @@ exports[`button button with icon matches snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "src__StyledButton-w4d12l-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0;
-}",
+                "&:focus {",
+                "outline: 3px solid #ffdd00;",
+                "outline-offset: 0;",
+                "}",
                 [Function],
                 [Function],
                 [Function],
               ],
             },
-            "displayName": "styled.button",
+            "displayName": "src__StyledButton",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "src__StyledButton-w4d12l-0",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -567,24 +570,24 @@ exports[`button button with icon matches snapshot 1`] = `
           className="c0"
           disabled={false}
         >
-          <styled.span>
+          <src__ButtonContents>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bwzfXH",
-                    "isStatic": true,
+                    "componentId": "src__ButtonContents-w4d12l-1",
+                    "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
                       "flex-grow: 1;",
                     ],
                   },
-                  "displayName": "styled.span",
+                  "displayName": "src__ButtonContents",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bwzfXH",
+                  "styledComponentId": "src__ButtonContents-w4d12l-1",
                   "target": "span",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -599,7 +602,7 @@ exports[`button button with icon matches snapshot 1`] = `
                 Start now
               </span>
             </StyledComponent>
-          </styled.span>
+          </src__ButtonContents>
           <ButtonArrow
             fill="currentColor"
             title="ButtonArrow"
@@ -638,7 +641,7 @@ exports[`button button with icon matches snapshot 1`] = `
           </ButtonArrow>
         </button>
       </StyledComponent>
-    </styled.button>
+    </src__StyledButton>
   </ForwardRef>
 </ButtonStartIcon>
 `;
@@ -660,7 +663,7 @@ exports[`button custom colours matches snapshot 1`] = `
   border: 2px solid transparent;
   border-radius: 0;
   color: #0b0c0c;
-  background-color: #dee0e2;
+  background-color: #f3f2f1;
   box-shadow: 0 2px 0 #f47738;
   text-align: center;
   vertical-align: top;
@@ -670,7 +673,7 @@ exports[`button custom colours matches snapshot 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
 
@@ -690,7 +693,7 @@ exports[`button custom colours matches snapshot 1`] = `
 
 .c0:hover,
 .c0:focus {
-  background-color: #ffbf47;
+  background-color: #ffdd00;
 }
 
 .c0:active {
@@ -715,11 +718,11 @@ exports[`button custom colours matches snapshot 1`] = `
 
 .c0:disabled {
   opacity: 0.5;
-  background: #dee0e2;
+  background: #f3f2f1;
 }
 
 .c0:disabled:hover {
-  background-color: #dee0e2;
+  background-color: #f3f2f1;
   cursor: default;
 }
 
@@ -770,24 +773,24 @@ exports[`button custom colours matches snapshot 1`] = `
 
 <ButtonWacky>
   <ForwardRef
-    buttonColour="#dee0e2"
-    buttonHoverColour="#ffbf47"
+    buttonColour="#f3f2f1"
+    buttonHoverColour="#ffdd00"
     buttonShadowColour="#f47738"
     buttonTextColour="#0b0c0c"
     disabled={false}
     start={false}
   >
-    <styled.button
-      buttonColour="#dee0e2"
-      buttonHoverColour="#ffbf47"
+    <src__StyledButton
+      buttonColour="#f3f2f1"
+      buttonHoverColour="#ffdd00"
       buttonShadowColour="#f47738"
       buttonTextColour="#0b0c0c"
       disabled={false}
       isStart={false}
     >
       <StyledComponent
-        buttonColour="#dee0e2"
-        buttonHoverColour="#ffbf47"
+        buttonColour="#f3f2f1"
+        buttonHoverColour="#ffdd00"
         buttonShadowColour="#f47738"
         buttonTextColour="#0b0c0c"
         disabled={false}
@@ -796,23 +799,24 @@ exports[`button custom colours matches snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "src__StyledButton-w4d12l-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0;
-}",
+                "&:focus {",
+                "outline: 3px solid #ffdd00;",
+                "outline-offset: 0;",
+                "}",
                 [Function],
                 [Function],
                 [Function],
               ],
             },
-            "displayName": "styled.button",
+            "displayName": "src__StyledButton",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "src__StyledButton-w4d12l-0",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -829,7 +833,7 @@ exports[`button custom colours matches snapshot 1`] = `
           Wacky colours
         </button>
       </StyledComponent>
-    </styled.button>
+    </src__StyledButton>
   </ForwardRef>
 </ButtonWacky>
 `;
@@ -851,8 +855,8 @@ exports[`button disabled matches snapshot 1`] = `
   border: 2px solid transparent;
   border-radius: 0;
   color: #ffffff;
-  background-color: #00823b;
-  box-shadow: 0 2px 0 #003618;
+  background-color: #00703c;
+  box-shadow: 0 2px 0 #002413;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -861,7 +865,7 @@ exports[`button disabled matches snapshot 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
 
@@ -881,7 +885,7 @@ exports[`button disabled matches snapshot 1`] = `
 
 .c0:hover,
 .c0:focus {
-  background-color: #00692f;
+  background-color: #00572e;
 }
 
 .c0:active {
@@ -906,11 +910,11 @@ exports[`button disabled matches snapshot 1`] = `
 
 .c0:disabled {
   opacity: 0.5;
-  background: #00823b;
+  background: #00703c;
 }
 
 .c0:disabled:hover {
-  background-color: #00823b;
+  background-color: #00703c;
   cursor: default;
 }
 
@@ -920,7 +924,7 @@ exports[`button disabled matches snapshot 1`] = `
 
 .c0:disabled:active {
   top: 0;
-  box-shadow: 0 2px 0 #003618;
+  box-shadow: 0 2px 0 #002413;
 }
 
 .c0 svg {
@@ -964,7 +968,7 @@ exports[`button disabled matches snapshot 1`] = `
     disabled={true}
     start={false}
   >
-    <styled.button
+    <src__StyledButton
       disabled={true}
       isStart={false}
     >
@@ -975,23 +979,24 @@ exports[`button disabled matches snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "src__StyledButton-w4d12l-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0;
-}",
+                "&:focus {",
+                "outline: 3px solid #ffdd00;",
+                "outline-offset: 0;",
+                "}",
                 [Function],
                 [Function],
                 [Function],
               ],
             },
-            "displayName": "styled.button",
+            "displayName": "src__StyledButton",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "src__StyledButton-w4d12l-0",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1008,7 +1013,7 @@ exports[`button disabled matches snapshot 1`] = `
           Disabled primary button
         </button>
       </StyledComponent>
-    </styled.button>
+    </src__StyledButton>
   </ForwardRef>
 </ButtonDisabled>
 `;
@@ -1030,8 +1035,8 @@ exports[`button start button matches snapshot 1`] = `
   border: 2px solid transparent;
   border-radius: 0;
   color: #ffffff;
-  background-color: #00823b;
-  box-shadow: 0 2px 0 #003618;
+  background-color: #00703c;
+  box-shadow: 0 2px 0 #002413;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -1040,7 +1045,7 @@ exports[`button start button matches snapshot 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
 
@@ -1060,7 +1065,7 @@ exports[`button start button matches snapshot 1`] = `
 
 .c0:hover,
 .c0:focus {
-  background-color: #00692f;
+  background-color: #00572e;
 }
 
 .c0:active {
@@ -1085,11 +1090,11 @@ exports[`button start button matches snapshot 1`] = `
 
 .c0:disabled {
   opacity: 0.5;
-  background: #00823b;
+  background: #00703c;
 }
 
 .c0:disabled:hover {
-  background-color: #00823b;
+  background-color: #00703c;
   cursor: default;
 }
 
@@ -1099,7 +1104,7 @@ exports[`button start button matches snapshot 1`] = `
 
 .c0:disabled:active {
   top: 0;
-  box-shadow: 0 2px 0 #003618;
+  box-shadow: 0 2px 0 #002413;
 }
 
 .c0 svg {
@@ -1143,7 +1148,7 @@ exports[`button start button matches snapshot 1`] = `
     disabled={false}
     start={true}
   >
-    <styled.button
+    <src__StyledButton
       disabled={false}
       isStart={true}
     >
@@ -1154,23 +1159,24 @@ exports[`button start button matches snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "src__StyledButton-w4d12l-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0;
-}",
+                "&:focus {",
+                "outline: 3px solid #ffdd00;",
+                "outline-offset: 0;",
+                "}",
                 [Function],
                 [Function],
                 [Function],
               ],
             },
-            "displayName": "styled.button",
+            "displayName": "src__StyledButton",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "src__StyledButton-w4d12l-0",
             "target": "button",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1187,7 +1193,7 @@ exports[`button start button matches snapshot 1`] = `
           Save and continue
         </button>
       </StyledComponent>
-    </styled.button>
+    </src__StyledButton>
   </ForwardRef>
 </ButtonStart>
 `;
