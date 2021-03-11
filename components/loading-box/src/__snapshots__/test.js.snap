@@ -268,7 +268,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -289,7 +289,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -348,7 +348,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -369,7 +369,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -428,7 +428,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -449,7 +449,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -508,7 +508,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -529,7 +529,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -588,7 +588,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -609,7 +609,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -668,7 +668,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -689,7 +689,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -748,7 +748,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -769,7 +769,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -828,7 +828,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -849,7 +849,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -908,7 +908,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -929,7 +929,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -988,7 +988,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -1009,7 +1009,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -1068,7 +1068,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -1089,7 +1089,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -1148,7 +1148,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                  "componentId": "Spinner__Rect-sc-1swd5y1-0",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -1169,7 +1169,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "displayName": "Spinner__Rect",
                                 "foldedComponentIds": Array [],
                                 "render": [Function],
-                                "styledComponentId": "Spinner__Rect-sc-1pm4zwa-0",
+                                "styledComponentId": "Spinner__Rect-sc-1swd5y1-0",
                                 "target": "rect",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],

@@ -56,16 +56,6 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   word-wrap: normal;
 }
 
-.c6 {
-  font-family: "nta",Arial,sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  margin-bottom: 5px;
-}
-
 .c4 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -85,11 +75,21 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   margin-top: 10px;
 }
 
-.c4 > .c5 {
+.c4 > .c12 {
   margin-bottom: 5px;
 }
 
-.c7 {
+.c5 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 5px;
+}
+
+.c6 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -111,33 +111,33 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   padding-bottom: 2px;
 }
 
-.c7:link {
+.c6:link {
   color: #1d70b8;
 }
 
-.c7:visited {
+.c6:visited {
   color: #4c2c92;
 }
 
-.c7:hover {
+.c6:hover {
   color: #2b8cc4;
 }
 
-.c7:active {
+.c6:active {
   color: #2b8cc4;
 }
 
-.c7:focus {
+.c6:focus {
   color: #0b0c0c;
 }
 
-.c7:focus {
+.c6:focus {
   outline: 3px solid #ffdd00;
   outline-offset: 0;
   background-color: #ffdd00;
 }
 
-.c7:visited {
+.c6:visited {
   color: #d4351c;
 }
 
@@ -153,7 +153,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   outline-offset: 0;
 }
 
-.c8 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -165,13 +165,13 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   margin-bottom: 0;
 }
 
-.c8:after {
+.c7:after {
   content: '';
   display: table;
   clear: both;
 }
 
-.c9 {
+.c8 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -185,7 +185,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   margin-bottom: 0;
 }
 
-.c10 {
+.c9 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -197,7 +197,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   color: #6f777b;
 }
 
-.c11 {
+.c10 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -217,22 +217,22 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   margin-bottom: 0;
 }
 
-.c11:focus {
+.c10:focus {
   outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
 
-.c11::-webkit-outer-spin-button,
-.c11::-webkit-inner-spin-button {
+.c10::-webkit-outer-spin-button,
+.c10::-webkit-inner-spin-button {
   margin: 0;
   -webkit-appearance: none;
 }
 
-.c11[type="number"] {
+.c10[type="number"] {
   -moz-appearance: textfield;
 }
 
-.c12 {
+.c11 {
   box-sizing: border-box;
   font-family: "nta",Arial,sans-serif;
   font-weight: 400;
@@ -244,7 +244,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   border: 2px solid #0b0c0c;
 }
 
-.c12:focus {
+.c11:focus {
   outline: 3px solid #ffdd00;
   outline-offset: 0;
 }
@@ -296,20 +296,6 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
 }
 
 @media print {
-  .c6 {
-    font-size: 14px;
-    line-height: 1.15;
-  }
-}
-
-@media only screen and (min-width:641px) {
-  .c6 {
-    font-size: 19px;
-    line-height: 1.3157894736842106;
-  }
-}
-
-@media print {
   .c4 {
     font-size: 14px;
     line-height: 1.15;
@@ -342,15 +328,29 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
 }
 
 @media print {
-  .c7 {
+  .c5 {
+    font-size: 14px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c5 {
+    font-size: 19px;
+    line-height: 1.3157894736842106;
+  }
+}
+
+@media print {
+  .c6 {
     font-family: sans-serif;
   }
 }
 
 @media print {
-  .c7[href^="/"]::after,
-  .c7[href^="http://"]::after,
-  .c7[href^="https://"]::after {
+  .c6[href^="/"]::after,
+  .c6[href^="http://"]::after,
+  .c6[href^="https://"]::after {
     content: " (" attr(href) ")";
     font-size: 90%;
     word-wrap: break-word;
@@ -358,7 +358,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
 }
 
 @media only screen and (min-width:641px) {
-  .c7 {
+  .c6 {
     font-size: 19px;
     line-height: 1.3;
   }
@@ -374,6 +374,32 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
 @media only screen and (min-width:641px) {
   .c0 {
     margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c7 {
+    margin-bottom: 0;
+  }
+}
+
+@media print {
+  .c8 {
+    font-size: 14px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c8 {
+    font-size: 19px;
+    line-height: 1.3157894736842106;
+  }
+}
+
+@media print {
+  .c8 {
+    color: #000;
   }
 }
 
@@ -398,18 +424,6 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
 }
 
 @media print {
-  .c9 {
-    color: #000;
-  }
-}
-
-@media only screen and (min-width:641px) {
-  .c9 {
-    margin-bottom: 0;
-  }
-}
-
-@media print {
   .c10 {
     font-size: 14px;
     line-height: 1.15;
@@ -423,28 +437,14 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   }
 }
 
-@media print {
-  .c11 {
-    font-size: 14px;
-    line-height: 1.15;
-  }
-}
-
 @media only screen and (min-width:641px) {
-  .c11 {
-    font-size: 19px;
-    line-height: 1.3157894736842106;
-  }
-}
-
-@media only screen and (min-width:641px) {
-  .c11 {
+  .c10 {
     margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width:641px) {
-  .c12 {
+  .c11 {
     font-size: 19px;
     line-height: 1.3;
     width: 75%;
@@ -865,9 +865,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "c5",
+                              "componentId": "sc-bZQynM",
                               "isStatic": false,
-                              "lastClassName": "c6",
+                              "lastClassName": "c5",
                               "rules": Array [
                                 "font-family: \\"nta\\", Arial, sans-serif;",
                                 "-webkit-font-smoothing: antialiased;",
@@ -891,7 +891,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                             "foldedComponentIds": Array [],
                             "propTypes": undefined,
                             "render": [Function],
-                            "styledComponentId": "c5",
+                            "styledComponentId": "sc-bZQynM",
                             "target": "li",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -901,7 +901,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         forwardedRef={null}
                       >
                         <li
-                          className="c5 c6"
+                          className="c5"
                         >
                           <src__StyledErrorText
                             muted={false}
@@ -923,7 +923,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "src__StyledErrorText-shyq13-0",
                                     "isStatic": false,
-                                    "lastClassName": "c7",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "font-family: \\"nta\\", Arial, sans-serif;",
                                       "-webkit-font-smoothing: antialiased;",
@@ -988,7 +988,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                                   },
                                   "displayName": "src__StyledErrorText",
                                   "foldedComponentIds": Array [
-                                    "sc-bwzfXH",
+                                    "sc-EHOje",
                                   ],
                                   "propTypes": undefined,
                                   "render": [Function],
@@ -1007,7 +1007,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                               textColour={false}
                             >
                               <a
-                                className="c7"
+                                className="c6"
                                 muted={false}
                                 onClick={[Function]}
                                 tabIndex={1}
@@ -1028,9 +1028,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                             "$$typeof": Symbol(react.forward_ref),
                             "attrs": Array [],
                             "componentStyle": ComponentStyle {
-                              "componentId": "c5",
+                              "componentId": "sc-bZQynM",
                               "isStatic": false,
-                              "lastClassName": "c6",
+                              "lastClassName": "c5",
                               "rules": Array [
                                 "font-family: \\"nta\\", Arial, sans-serif;",
                                 "-webkit-font-smoothing: antialiased;",
@@ -1054,7 +1054,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                             "foldedComponentIds": Array [],
                             "propTypes": undefined,
                             "render": [Function],
-                            "styledComponentId": "c5",
+                            "styledComponentId": "sc-bZQynM",
                             "target": "li",
                             "toString": [Function],
                             "warnTooManyClasses": [Function],
@@ -1064,7 +1064,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         forwardedRef={null}
                       >
                         <li
-                          className="c5 c6"
+                          className="c5"
                         >
                           <src__StyledErrorText
                             muted={false}
@@ -1086,7 +1086,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "src__StyledErrorText-shyq13-0",
                                     "isStatic": false,
-                                    "lastClassName": "c7",
+                                    "lastClassName": "c6",
                                     "rules": Array [
                                       "font-family: \\"nta\\", Arial, sans-serif;",
                                       "-webkit-font-smoothing: antialiased;",
@@ -1151,7 +1151,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                                   },
                                   "displayName": "src__StyledErrorText",
                                   "foldedComponentIds": Array [
-                                    "sc-bwzfXH",
+                                    "sc-EHOje",
                                   ],
                                   "propTypes": undefined,
                                   "render": [Function],
@@ -1170,7 +1170,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                               textColour={false}
                             >
                               <a
-                                className="c7"
+                                className="c6"
                                 muted={false}
                                 onClick={[Function]}
                                 tabIndex={2}
@@ -1211,9 +1211,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "sc-EHOje",
+                  "componentId": "sc-gzVnrw",
                   "isStatic": false,
-                  "lastClassName": "c8",
+                  "lastClassName": "c7",
                   "rules": Array [
                     "display: flex;",
                     "flex-direction: column;",
@@ -1230,7 +1230,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                 "displayName": "styled.label",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "sc-EHOje",
+                "styledComponentId": "sc-gzVnrw",
                 "target": "label",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -1241,7 +1241,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
             name="national-insurance-number"
           >
             <label
-              className="c8"
+              className="c7"
               name="national-insurance-number"
             >
               <LabelText>
@@ -1252,9 +1252,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-bZQynM",
+                          "componentId": "sc-htoDjs",
                           "isStatic": false,
-                          "lastClassName": "c9",
+                          "lastClassName": "c8",
                           "rules": Array [
                             "font-family: \\"nta\\", Arial, sans-serif;",
                             "-webkit-font-smoothing: antialiased;",
@@ -1284,7 +1284,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "displayName": "styled.span",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-bZQynM",
+                        "styledComponentId": "sc-htoDjs",
                         "target": "span",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1294,7 +1294,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                     forwardedRef={null}
                   >
                     <span
-                      className="c9"
+                      className="c8"
                     >
                       National Insurance number
                     </span>
@@ -1309,9 +1309,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-htoDjs",
+                          "componentId": "sc-iwsKbI",
                           "isStatic": false,
-                          "lastClassName": "c10",
+                          "lastClassName": "c9",
                           "rules": Array [
                             "font-family: \\"nta\\", Arial, sans-serif;",
                             "-webkit-font-smoothing: antialiased;",
@@ -1336,7 +1336,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "displayName": "styled.span",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-htoDjs",
+                        "styledComponentId": "sc-iwsKbI",
                         "target": "span",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1346,7 +1346,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                     forwardedRef={null}
                   >
                     <span
-                      className="c10"
+                      className="c9"
                     >
                       It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
                     </span>
@@ -1365,9 +1365,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-dnqmqq",
+                          "componentId": "sc-gZMcBi",
                           "isStatic": false,
-                          "lastClassName": "c11",
+                          "lastClassName": "c10",
                           "rules": Array [
                             "font-family: \\"nta\\", Arial, sans-serif;",
                             "-webkit-font-smoothing: antialiased;",
@@ -1409,7 +1409,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "displayName": "styled.input",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-dnqmqq",
+                        "styledComponentId": "sc-gZMcBi",
                         "target": "input",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1420,7 +1420,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                     type="text"
                   >
                     <input
-                      className="c11"
+                      className="c10"
                       type="text"
                     />
                   </StyledComponent>
@@ -1452,9 +1452,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "sc-EHOje",
+                  "componentId": "sc-gzVnrw",
                   "isStatic": false,
-                  "lastClassName": "c8",
+                  "lastClassName": "c7",
                   "rules": Array [
                     "display: flex;",
                     "flex-direction: column;",
@@ -1471,7 +1471,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                 "displayName": "styled.label",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "sc-EHOje",
+                "styledComponentId": "sc-gzVnrw",
                 "target": "label",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -1482,7 +1482,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
             name="description"
           >
             <label
-              className="c8"
+              className="c7"
               name="description"
             >
               <LabelText>
@@ -1493,9 +1493,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-bZQynM",
+                          "componentId": "sc-htoDjs",
                           "isStatic": false,
-                          "lastClassName": "c9",
+                          "lastClassName": "c8",
                           "rules": Array [
                             "font-family: \\"nta\\", Arial, sans-serif;",
                             "-webkit-font-smoothing: antialiased;",
@@ -1525,7 +1525,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         "displayName": "styled.span",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-bZQynM",
+                        "styledComponentId": "sc-htoDjs",
                         "target": "span",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1535,14 +1535,14 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                     forwardedRef={null}
                   >
                     <span
-                      className="c9"
+                      className="c8"
                     >
                       Description of what you saw
                     </span>
                   </StyledComponent>
                 </styled.span>
               </LabelText>
-              <styled.textarea
+              <src__TextAreaField
                 rows="5"
                 type="text"
               >
@@ -1552,9 +1552,9 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-iwsKbI",
+                        "componentId": "src__TextAreaField-sc-1vkht04-0",
                         "isStatic": false,
-                        "lastClassName": "c12",
+                        "lastClassName": "c11",
                         "rules": Array [
                           "box-sizing: border-box;",
                           "font-family: \\"nta\\", Arial, sans-serif;",
@@ -1577,10 +1577,10 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                           [Function],
                         ],
                       },
-                      "displayName": "styled.textarea",
+                      "displayName": "src__TextAreaField",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "sc-iwsKbI",
+                      "styledComponentId": "src__TextAreaField-sc-1vkht04-0",
                       "target": "textarea",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1592,12 +1592,12 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                   type="text"
                 >
                   <textarea
-                    className="c12"
+                    className="c11"
                     rows="5"
                     type="text"
                   />
                 </StyledComponent>
-              </styled.textarea>
+              </src__TextAreaField>
             </label>
           </StyledComponent>
         </styled.label>

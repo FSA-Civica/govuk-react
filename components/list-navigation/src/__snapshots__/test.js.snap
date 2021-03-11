@@ -1,22 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ListNavigation matches wrapper snapshot: wrapper mount 1`] = `
-.c3 {
-  font-family: "nta",Arial,sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  margin-bottom: 5px;
-}
-
-.c4 .c0 {
+.c3 .c0 {
   margin-top: 10px;
-}
-
-.c4 > .c2 {
-  margin-bottom: 5px;
 }
 
 .c1 {
@@ -37,22 +23,18 @@ exports[`ListNavigation matches wrapper snapshot: wrapper mount 1`] = `
   margin-top: 10px;
 }
 
-.c1 > .c2 {
+.c1 > .c4 {
   margin-bottom: 5px;
 }
 
-@media print {
-  .c3 {
-    font-size: 14px;
-    line-height: 1.15;
-  }
-}
-
-@media only screen and (min-width:641px) {
-  .c3 {
-    font-size: 19px;
-    line-height: 1.3157894736842106;
-  }
+.c2 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 5px;
 }
 
 @media print {
@@ -78,6 +60,20 @@ exports[`ListNavigation matches wrapper snapshot: wrapper mount 1`] = `
 @media only screen and (min-width:641px) {
   .c1 {
     margin-bottom: 20px;
+  }
+}
+
+@media print {
+  .c2 {
+    font-size: 14px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c2 {
+    font-size: 19px;
+    line-height: 1.3157894736842106;
   }
 }
 
@@ -155,9 +151,9 @@ exports[`ListNavigation matches wrapper snapshot: wrapper mount 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "c2",
+                    "componentId": "sc-htpNat",
                     "isStatic": false,
-                    "lastClassName": "c3",
+                    "lastClassName": "c2",
                     "rules": Array [
                       "font-family: \\"nta\\", Arial, sans-serif;",
                       "-webkit-font-smoothing: antialiased;",
@@ -181,7 +177,7 @@ exports[`ListNavigation matches wrapper snapshot: wrapper mount 1`] = `
                   "foldedComponentIds": Array [],
                   "propTypes": undefined,
                   "render": [Function],
-                  "styledComponentId": "c2",
+                  "styledComponentId": "sc-htpNat",
                   "target": "li",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -191,7 +187,7 @@ exports[`ListNavigation matches wrapper snapshot: wrapper mount 1`] = `
               forwardedRef={null}
             >
               <li
-                className="c2 c3"
+                className="c2"
               >
                 Example
               </li>

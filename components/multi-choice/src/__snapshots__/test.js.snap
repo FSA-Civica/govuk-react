@@ -153,7 +153,7 @@ exports[`MultiChoice matches snapshot 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledFieldset-dd88ty-0",
+            "componentId": "src__StyledFieldset-sc-16f5t2-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -174,7 +174,7 @@ exports[`MultiChoice matches snapshot 1`] = `
           "displayName": "src__StyledFieldset",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledFieldset-dd88ty-0",
+          "styledComponentId": "src__StyledFieldset-sc-16f5t2-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
