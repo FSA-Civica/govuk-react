@@ -56,11 +56,11 @@ import VisuallyHidden from '@slice-and-dice/govuk-react-visually-hidden';
  * - https://github.com/alphagov/govuk-frontend/blob/master/src/components/input/_input.scss
  * - https://github.com/alphagov/govuk_elements/blob/master/assets/sass/elements/_forms.scss
  */
-const InputField = ({ meta, children, hint, input, language, ...props }) => (
+const InputField = ({ meta, children, hint, input, errorPrefix, ...props }) => (
   <Label {...props} error={meta.touched && meta.error}>
     <LabelText>{children}</LabelText>
     {hint && <HintText>{hint}</HintText>}
-    {meta.touched && meta.error && <ErrorText><VisuallyHidden> {language === 'cy'? 'Gwall: ' : 'Error: '}</VisuallyHidden>{meta.error}</ErrorText>}
+    {meta.touched && meta.error && <ErrorText><VisuallyHidden>{errorPrefix}</VisuallyHidden>{meta.error}</ErrorText>}
     <Input error={meta.touched && meta.error} {...input} />
   </Label>
 );
