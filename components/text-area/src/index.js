@@ -74,11 +74,11 @@ const TextAreaField = styled('textarea')(
  * - https://github.com/alphagov/govuk-frontend/tree/master/src/components/textarea
  *
  */
-const TextArea = ({ children, hint, meta, input, language, ...props }) => (
+const TextArea = ({ children, hint, meta, input, errorPrefix, ...props }) => (
   <Label error={meta.touched && meta.error} {...props}>
     <LabelText>{children}</LabelText>
     {hint && <HintText>{hint}</HintText>}
-    {meta.touched && meta.error && <ErrorText><VisuallyHidden> {language === 'cy'? 'Gwall: ' : 'Error: '}</VisuallyHidden>{meta.error}</ErrorText>}
+    {meta.touched && meta.error && <ErrorText><VisuallyHidden>{errorPrefix}</VisuallyHidden>{meta.error}</ErrorText>}
     <TextAreaField type="text" rows="5" error={meta.touched && meta.error} {...input} />
   </Label>
 );
