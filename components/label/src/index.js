@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ERROR_COLOUR } from 'govuk-colours';
-import { SPACING } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { SPACING } from '@slice-and-dice/govuk-react-constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 // TODO consider removing this, as it's not as per govuk-frontend
 // NB our approach to labels/fields differs at present, which is why we have this

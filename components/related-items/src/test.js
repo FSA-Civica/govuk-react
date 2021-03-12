@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { mount } from 'enzyme';
-import { H3 } from '@govuk-react/heading';
-import UnorderedList from '@govuk-react/unordered-list';
-import Link from '@govuk-react/link';
-import ListItem from '@govuk-react/list-item';
+import { H3 } from '@slice-and-dice/govuk-react-heading';
+import UnorderedList from '@slice-and-dice/govuk-react-unordered-list';
+import Link from '@slice-and-dice/govuk-react-link';
+import ListItem from '@slice-and-dice/govuk-react-list-item';
 
 import RelatedItems from '.';
 

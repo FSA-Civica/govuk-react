@@ -8,8 +8,8 @@ import {
   BORDER_WIDTH_FORM_ELEMENT_ERROR,
   FOCUSABLE,
   SPACING_POINTS,
-} from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
+} from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 export const StyledInput = styled('input')(
   typography.font({ size: 19 }),

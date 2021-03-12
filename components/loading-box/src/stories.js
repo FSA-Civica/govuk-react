@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text, number, boolean } from '@storybook/addon-knobs/react';
-import { H1, H2 } from '@govuk-react/heading';
-import InputField from '@govuk-react/input-field';
-import Button from '@govuk-react/button';
-import LabelText from '@govuk-react/label-text';
-import Link from '@govuk-react/link';
-import Radio from '@govuk-react/radio';
-import PhaseBanner from '@govuk-react/phase-banner';
+import { H1, H2 } from '@slice-and-dice/govuk-react-heading';
+import InputField from '@slice-and-dice/govuk-react-input-field';
+import Button from '@slice-and-dice/govuk-react-button';
+import LabelText from '@slice-and-dice/govuk-react-label-text';
+import Link from '@slice-and-dice/govuk-react-link';
+import Radio from '@slice-and-dice/govuk-react-radio';
+import PhaseBanner from '@slice-and-dice/govuk-react-phase-banner';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
 import LoadingBox from '.';

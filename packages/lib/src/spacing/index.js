@@ -6,7 +6,7 @@
 // https://github.com/alphagov/govuk-frontend/blob/master/src/settings/_spacing.scss
 
 import PropTypes from 'prop-types';
-import { MEDIA_QUERIES, SPACING_MAP, SPACING_MAP_INDEX, SPACING_POINTS, WIDTHS } from '@govuk-react/constants';
+import { MEDIA_QUERIES, SPACING_MAP, SPACING_MAP_INDEX, SPACING_POINTS, WIDTHS } from '@slice-and-dice/govuk-react-constants';
 
 export function simple(size) {
   const scale = SPACING_POINTS[Math.abs(size)];

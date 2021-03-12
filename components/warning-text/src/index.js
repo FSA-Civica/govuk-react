@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { IconImportant } from '@govuk-react/icons';
-import { spacing, typography } from '@govuk-react/lib';
+import { IconImportant } from '@slice-and-dice/govuk-react-icons';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
-import { SPACING_POINTS } from '@govuk-react/constants';
+import { SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
 
 const StyledWarningText = styled('div')(
   {

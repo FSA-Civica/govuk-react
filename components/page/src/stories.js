@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import { storiesOf } from '@storybook/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
-import BackLink from '@govuk-react/back-link';
-import { H1, H3 } from '@govuk-react/heading';
-import { MEDIA_QUERIES, GUTTER } from '@govuk-react/constants';
+import BackLink from '@slice-and-dice/govuk-react-back-link';
+import { H1, H3 } from '@slice-and-dice/govuk-react-heading';
+import { MEDIA_QUERIES, GUTTER } from '@slice-and-dice/govuk-react-constants';
 
 import ReadMe from '../README.md';
 

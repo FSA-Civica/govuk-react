@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { spacing, typography } from '@govuk-react/lib';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 // TODO should `LabelText` and `Label` be consolidated?
 // TODO add support for differing font sizes, as per govuk-frontend - see:

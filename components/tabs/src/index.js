@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { spacing, typography } from '@govuk-react/lib';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
 
 import List from './atoms/list';
 import Panel from './atoms/panel';

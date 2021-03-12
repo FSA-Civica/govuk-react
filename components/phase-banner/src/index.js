@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { BORDER_COLOUR } from 'govuk-colours';
-import { SPACING_POINTS } from '@govuk-react/constants';
-import { spacing, typography } from '@govuk-react/lib';
-import Tag from '@govuk-react/tag';
+import { SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
+import Tag from '@slice-and-dice/govuk-react-tag';
 
 const StyledBanner = styled('div')(
   {

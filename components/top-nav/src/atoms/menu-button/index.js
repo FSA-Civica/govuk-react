@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { MEDIA_QUERIES } from '@govuk-react/constants';
+import { MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
 
 // Label to be linked to checkbox in parent component
 // in order to provide toggle function of mobile menu

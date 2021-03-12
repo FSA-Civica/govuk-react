@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { GUTTER_HALF, MEDIA_QUERIES } from '@govuk-react/constants';
-import { spacing } from '@govuk-react/lib';
+import { GUTTER_HALF, MEDIA_QUERIES } from '@slice-and-dice/govuk-react-constants';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 const MetaItem = styled('div')(
   {

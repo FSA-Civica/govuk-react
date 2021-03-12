@@ -1,11 +1,11 @@
 {
-  "name": "@govuk-react/page",
+  "name": "@slice-and-dice/govuk-react-page",
   "version": "0.7.1",
   "dependencies": {
-    "@govuk-react/constants": "^0.7.1",
-    "@govuk-react/lib": "^0.7.1",
-    "@govuk-react/skip-link": "^0.7.1",
-    "@govuk-react/top-nav": "^0.7.1"
+    "@slice-and-dice/govuk-react-constants": "^0.7.2",
+    "@slice-and-dice/govuk-react-lib": "^0.7.2",
+    "@slice-and-dice/govuk-react-skip-link": "^0.7.1",
+    "@slice-and-dice/govuk-react-top-nav": "^0.7.1"
   },
   "peerDependencies": {
     "react": ">=15",

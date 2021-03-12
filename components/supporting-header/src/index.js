@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { SECONDARY_TEXT_COLOUR } from 'govuk-colours';
-import { spacing, typography } from '@govuk-react/lib';
-import { SPACING_POINTS } from '@govuk-react/constants';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
+import { SPACING_POINTS } from '@slice-and-dice/govuk-react-constants';
 
-import { deprecate } from '@govuk-react/hoc';
+import { deprecate } from '@slice-and-dice/govuk-react-hoc';
 
 const StyledHeader = styled('span')(
   typography.font({ size: 27 }),

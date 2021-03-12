@@ -4,12 +4,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { BLACK, YELLOW, ERROR_COLOUR } from 'govuk-colours';
-import { FONT_SIZE, LINE_HEIGHT, MEDIA_QUERIES, NTA_LIGHT } from '@govuk-react/constants';
+import { FONT_SIZE, LINE_HEIGHT, MEDIA_QUERIES, NTA_LIGHT } from '@slice-and-dice/govuk-react-constants';
 
-import Label from '@govuk-react/label';
-import LabelText from '@govuk-react/label-text';
-import ErrorText from '@govuk-react/error-text';
-import HintText from '@govuk-react/hint-text';
+import Label from '@slice-and-dice/govuk-react-label';
+import LabelText from '@slice-and-dice/govuk-react-label-text';
+import ErrorText from '@slice-and-dice/govuk-react-error-text';
+import HintText from '@slice-and-dice/govuk-react-hint-text';
 
 const TextAreaField = styled('textarea')(
   {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FOOTER_LINK, FOOTER_LINK_HOVER } from 'govuk-colours';
-import { LinkDocumented } from '@govuk-react/link';
+import { LinkDocumented } from '@slice-and-dice/govuk-react-link';
 
 const StyledFooterLink = styled(LinkDocumented)({
   ':link, :visited': {

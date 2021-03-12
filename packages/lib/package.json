@@ -1,9 +1,9 @@
 {
-  "name": "@govuk-react/lib",
-  "version": "0.7.1",
+  "name": "@slice-and-dice/govuk-react-lib",
+  "version": "0.7.2",
   "dependencies": {
-    "@govuk-react/constants": "^0.7.1",
-    "govuk-colours": "^1.0.3"
+    "@slice-and-dice/govuk-react-constants": "^0.7.2",
+    "govuk-colours": "^1.1.0"
   },
   "scripts": {
     "build": "yarn build:lib && yarn build:es",

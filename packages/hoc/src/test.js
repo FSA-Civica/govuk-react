@@ -1,8 +1,8 @@
-// every export from @govuk-react/hoc should be
+// every export from @slice-and-dice/govuk-react-hoc should be
 // - a function that takes a component and returns a component
 import * as exports from '.';
 
-describe('@govuk-react/hoc', () => {
+describe('@slice-and-dice/govuk-react-hoc', () => {
   // filter out private exports e.g. __esModule
   const hocNames = Object.keys(exports).filter(hocName => !hocName.startsWith('_'));
   for (let n = 0; n < hocNames.length; n += 1) {

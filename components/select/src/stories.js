@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withDocsCustom } from '@govuk-react/storybook-components';
 
-import LabelText from '@govuk-react/label-text';
+import LabelText from '@slice-and-dice/govuk-react-label-text';
 import Select, { SelectInput } from '.';
 import ReadMe from '../README.md';
 

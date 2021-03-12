@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { spacing } from '@govuk-react/lib';
+import { spacing } from '@slice-and-dice/govuk-react-lib';
 
 import Legend from './atoms/legend';
 

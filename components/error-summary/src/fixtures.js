@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { text } from '@storybook/addon-knobs/react';
-import InputField from '@govuk-react/input-field';
-import TextArea from '@govuk-react/text-area';
+import InputField from '@slice-and-dice/govuk-react-input-field';
+import TextArea from '@slice-and-dice/govuk-react-text-area';
 
 import ErrorSummary from '.';
 

@@ -2,15 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { FOCUS_COLOUR } from 'govuk-colours';
-import { spacing, typography } from '@govuk-react/lib';
-import HintText from '@govuk-react/hint-text';
+import { spacing, typography } from '@slice-and-dice/govuk-react-lib';
+import HintText from '@slice-and-dice/govuk-react-hint-text';
 import {
   BORDER_WIDTH_FORM_ELEMENT,
   FOCUS_WIDTH,
   FOCUS_WIDTH_RAW,
   MEDIA_QUERIES,
   SPACING_POINTS,
-} from '@govuk-react/constants';
+} from '@slice-and-dice/govuk-react-constants';
 
 const radioSize = SPACING_POINTS[7];
 const labelPaddingLeftRight = SPACING_POINTS[3];
