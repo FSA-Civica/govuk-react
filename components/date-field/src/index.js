@@ -69,12 +69,13 @@ const StyledContainer = styled('div')(
  * - https://github.com/alphagov/govuk-frontend/tree/master/src/components/date-field
  *
  */
-const DateField = ({ children, errorText, hintText, inputNames, defaultValues, input, ...props }) => (
+const DateField = ({ children, errorText, hintText, inputNames, labels, defaultValues, input, ...props }) => (
   <StyledContainer {...props} errorText={errorText}>
     <LabelText errorText={errorText}>{children}</LabelText>
     {hintText && <HintText>{hintText}</HintText>}
     {errorText && <ErrorText errorText={errorText}>{errorText}</ErrorText>}
     <Input
+      labels={labels}
       names={inputNames}
       // TODO: defaultValues should be a prop on input
       defaultValues={defaultValues}
@@ -98,6 +99,11 @@ DateField.defaultProps = {
     month: undefined,
     year: undefined,
   },
+  labels: {
+    day: 'Day',
+    month: 'Month',
+    year: 'Year',
+  },
   input: undefined,
 };
 
@@ -115,6 +121,11 @@ DateField.propTypes = {
    * Input name attributes
    */
   inputNames: PropTypes.shape({
+    day: PropTypes.string,
+    month: PropTypes.string,
+    year: PropTypes.string,
+  }),
+  labels: PropTypes.shape({
     day: PropTypes.string,
     month: PropTypes.string,
     year: PropTypes.string,
