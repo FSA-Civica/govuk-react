@@ -1,6 +1,6 @@
 {
   "name": "@slice-and-dice/govuk-react-error-summary",
-  "version": "0.7.1",
+  "version": "0.7.3",
   "dependencies": {
     "@slice-and-dice/govuk-react-constants": "^0.7.2",
     "@slice-and-dice/govuk-react-heading": "^0.7.1",
@@ -9,7 +9,7 @@
     "@slice-and-dice/govuk-react-link": "^0.7.1",
     "@slice-and-dice/govuk-react-list-item": "^0.7.1",
     "@slice-and-dice/govuk-react-paragraph": "^0.7.1",
-    "@slice-and-dice/govuk-react-text-area": "^0.7.1",
+    "@slice-and-dice/govuk-react-text-area": "^0.7.3",
     "@slice-and-dice/govuk-react-unordered-list": "^0.7.1",
     "govuk-colours": "^1.1.0"
   },
