@@ -8,6 +8,7 @@ import LabelText from '@slice-and-dice/govuk-react-label-text';
 import ErrorText from '@slice-and-dice/govuk-react-error-text';
 import HintText from '@slice-and-dice/govuk-react-hint-text';
 import Input from '@slice-and-dice/govuk-react-input';
+import VisuallyHidden from '@slice-and-dice/govuk-react-visually-hidden';
 
 /**
  *
@@ -55,11 +56,11 @@ import Input from '@slice-and-dice/govuk-react-input';
  * - https://github.com/alphagov/govuk-frontend/blob/master/src/components/input/_input.scss
  * - https://github.com/alphagov/govuk_elements/blob/master/assets/sass/elements/_forms.scss
  */
-const InputField = ({ meta, children, hint, input, ...props }) => (
+const InputField = ({ meta, children, hint, input, errorPrefix, ...props }) => (
   <Label {...props} error={meta.touched && meta.error}>
     <LabelText>{children}</LabelText>
     {hint && <HintText>{hint}</HintText>}
-    {meta.touched && meta.error && <ErrorText>{meta.error}</ErrorText>}
+    {meta.touched && meta.error && <ErrorText><VisuallyHidden>{errorPrefix}</VisuallyHidden>{meta.error}</ErrorText>}
     <Input error={meta.touched && meta.error} {...input} />
   </Label>
 );

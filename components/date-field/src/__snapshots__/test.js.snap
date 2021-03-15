@@ -204,7 +204,7 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
     }
   }
 >
-  <styled.div
+  <src__StyledContainer
     errorText="example"
   >
     <StyledComponent
@@ -214,19 +214,20 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-gzVnrw",
+            "componentId": "src__StyledContainer-sc-1365yw0-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "display: flex; flex-direction: column;",
+              "display: flex;",
+              "flex-direction: column;",
               [Function],
               [Function],
             ],
           },
-          "displayName": "styled.div",
+          "displayName": "src__StyledContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-gzVnrw",
+          "styledComponentId": "src__StyledContainer-sc-1365yw0-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -255,15 +256,27 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                      "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                      "display: block; clear: none; padding-bottom: 2px;",
+                      "font-family: \\"nta\\", Arial, sans-serif;",
+                      "-webkit-font-smoothing: antialiased;",
+                      "-moz-osx-font-smoothing: grayscale;",
+                      "@media print {",
+                      "font-size: 14px;",
+                      "line-height: 1.15;",
+                      "}",
+                      "font-weight: 400;",
+                      "font-size: 16px;",
+                      "line-height: 1.25;",
+                      "@media only screen and (min-width: 641px) {",
+                      "font-size: 19px;",
+                      "line-height: 1.3157894736842106;",
+                      "}",
+                      "color: #0b0c0c;",
+                      "@media print {",
+                      "color: #000;",
+                      "}",
+                      "display: block;",
+                      "clear: none;",
+                      "padding-bottom: 2px;",
                       [Function],
                       [Function],
                     ],
@@ -384,24 +397,24 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
             refs={[Function]}
             value={Object {}}
           >
-            <styled.div>
+            <input__StyledList>
               <StyledComponent
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-bZQynM",
-                      "isStatic": true,
+                      "componentId": "input__StyledList-sc-2tcp1m-1",
+                      "isStatic": false,
                       "lastClassName": "c3",
                       "rules": Array [
                         "display: flex;",
                       ],
                     },
-                    "displayName": "styled.div",
+                    "displayName": "input__StyledList",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-bZQynM",
+                    "styledComponentId": "input__StyledList-sc-2tcp1m-1",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -413,7 +426,7 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                 <div
                   className="c3"
                 >
-                  <Styled(Label)
+                  <input__StyledLabel
                     year={false}
                   >
                     <StyledComponent
@@ -422,18 +435,19 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c7",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -465,9 +479,14 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c5",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -486,7 +505,7 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                             year={false}
                           >
                             <label
-                              className="c4 c5"
+                              className="c5 c4"
                             >
                               <LabelText>
                                 <styled.span>
@@ -500,15 +519,27 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -598,8 +629,8 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
-                  <Styled(Label)
+                  </input__StyledLabel>
+                  <input__StyledLabel
                     year={false}
                   >
                     <StyledComponent
@@ -608,18 +639,19 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c7",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -651,9 +683,14 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c5",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -672,7 +709,7 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                             year={false}
                           >
                             <label
-                              className="c4 c5"
+                              className="c5 c4"
                             >
                               <LabelText>
                                 <styled.span>
@@ -686,15 +723,27 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -784,8 +833,8 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
-                  <Styled(Label)
+                  </input__StyledLabel>
+                  <input__StyledLabel
                     year={true}
                   >
                     <StyledComponent
@@ -794,18 +843,19 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c7",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -837,9 +887,14 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c5",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -858,7 +913,7 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                             year={true}
                           >
                             <label
-                              className="c7 c5"
+                              className="c5 c7"
                             >
                               <LabelText>
                                 <styled.span>
@@ -872,15 +927,27 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -970,15 +1037,15 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
+                  </input__StyledLabel>
                 </div>
               </StyledComponent>
-            </styled.div>
+            </input__StyledList>
           </Input>
         </MultiInputInput>
       </div>
     </StyledComponent>
-  </styled.div>
+  </src__StyledContainer>
 </DateField>
 `;
 
@@ -1159,26 +1226,27 @@ exports[`DateField should support null value: null value 1`] = `
     }
   }
 >
-  <styled.div>
+  <src__StyledContainer>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-gzVnrw",
+            "componentId": "src__StyledContainer-sc-1365yw0-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "display: flex; flex-direction: column;",
+              "display: flex;",
+              "flex-direction: column;",
               [Function],
               [Function],
             ],
           },
-          "displayName": "styled.div",
+          "displayName": "src__StyledContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-gzVnrw",
+          "styledComponentId": "src__StyledContainer-sc-1365yw0-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -1202,15 +1270,27 @@ exports[`DateField should support null value: null value 1`] = `
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                      "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                      "display: block; clear: none; padding-bottom: 2px;",
+                      "font-family: \\"nta\\", Arial, sans-serif;",
+                      "-webkit-font-smoothing: antialiased;",
+                      "-moz-osx-font-smoothing: grayscale;",
+                      "@media print {",
+                      "font-size: 14px;",
+                      "line-height: 1.15;",
+                      "}",
+                      "font-weight: 400;",
+                      "font-size: 16px;",
+                      "line-height: 1.25;",
+                      "@media only screen and (min-width: 641px) {",
+                      "font-size: 19px;",
+                      "line-height: 1.3157894736842106;",
+                      "}",
+                      "color: #0b0c0c;",
+                      "@media print {",
+                      "color: #000;",
+                      "}",
+                      "display: block;",
+                      "clear: none;",
+                      "padding-bottom: 2px;",
                       [Function],
                       [Function],
                     ],
@@ -1283,24 +1363,24 @@ exports[`DateField should support null value: null value 1`] = `
             refs={[Function]}
             value={null}
           >
-            <styled.div>
+            <input__StyledList>
               <StyledComponent
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-bZQynM",
-                      "isStatic": true,
+                      "componentId": "input__StyledList-sc-2tcp1m-1",
+                      "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
                         "display: flex;",
                       ],
                     },
-                    "displayName": "styled.div",
+                    "displayName": "input__StyledList",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-bZQynM",
+                    "styledComponentId": "input__StyledList-sc-2tcp1m-1",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -1312,7 +1392,7 @@ exports[`DateField should support null value: null value 1`] = `
                 <div
                   className="c2"
                 >
-                  <Styled(Label)
+                  <input__StyledLabel
                     year={false}
                   >
                     <StyledComponent
@@ -1321,18 +1401,19 @@ exports[`DateField should support null value: null value 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1364,9 +1445,14 @@ exports[`DateField should support null value: null value 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -1385,7 +1471,7 @@ exports[`DateField should support null value: null value 1`] = `
                             year={false}
                           >
                             <label
-                              className="c3 c4"
+                              className="c4 c3"
                             >
                               <LabelText>
                                 <styled.span>
@@ -1399,15 +1485,27 @@ exports[`DateField should support null value: null value 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -1497,8 +1595,8 @@ exports[`DateField should support null value: null value 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
-                  <Styled(Label)
+                  </input__StyledLabel>
+                  <input__StyledLabel
                     year={false}
                   >
                     <StyledComponent
@@ -1507,18 +1605,19 @@ exports[`DateField should support null value: null value 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1550,9 +1649,14 @@ exports[`DateField should support null value: null value 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -1571,7 +1675,7 @@ exports[`DateField should support null value: null value 1`] = `
                             year={false}
                           >
                             <label
-                              className="c3 c4"
+                              className="c4 c3"
                             >
                               <LabelText>
                                 <styled.span>
@@ -1585,15 +1689,27 @@ exports[`DateField should support null value: null value 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -1683,8 +1799,8 @@ exports[`DateField should support null value: null value 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
-                  <Styled(Label)
+                  </input__StyledLabel>
+                  <input__StyledLabel
                     year={true}
                   >
                     <StyledComponent
@@ -1693,18 +1809,19 @@ exports[`DateField should support null value: null value 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1736,9 +1853,14 @@ exports[`DateField should support null value: null value 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -1757,7 +1879,7 @@ exports[`DateField should support null value: null value 1`] = `
                             year={true}
                           >
                             <label
-                              className="c6 c4"
+                              className="c4 c6"
                             >
                               <LabelText>
                                 <styled.span>
@@ -1771,15 +1893,27 @@ exports[`DateField should support null value: null value 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -1869,15 +2003,15 @@ exports[`DateField should support null value: null value 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
+                  </input__StyledLabel>
                 </div>
               </StyledComponent>
-            </styled.div>
+            </input__StyledList>
           </Input>
         </MultiInputInput>
       </div>
     </StyledComponent>
-  </styled.div>
+  </src__StyledContainer>
 </DateField>
 `;
 
@@ -2062,26 +2196,27 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
     }
   }
 >
-  <styled.div>
+  <src__StyledContainer>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-gzVnrw",
+            "componentId": "src__StyledContainer-sc-1365yw0-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "display: flex; flex-direction: column;",
+              "display: flex;",
+              "flex-direction: column;",
               [Function],
               [Function],
             ],
           },
-          "displayName": "styled.div",
+          "displayName": "src__StyledContainer",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-gzVnrw",
+          "styledComponentId": "src__StyledContainer-sc-1365yw0-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -2105,15 +2240,27 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                      "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                      "display: block; clear: none; padding-bottom: 2px;",
+                      "font-family: \\"nta\\", Arial, sans-serif;",
+                      "-webkit-font-smoothing: antialiased;",
+                      "-moz-osx-font-smoothing: grayscale;",
+                      "@media print {",
+                      "font-size: 14px;",
+                      "line-height: 1.15;",
+                      "}",
+                      "font-weight: 400;",
+                      "font-size: 16px;",
+                      "line-height: 1.25;",
+                      "@media only screen and (min-width: 641px) {",
+                      "font-size: 19px;",
+                      "line-height: 1.3157894736842106;",
+                      "}",
+                      "color: #0b0c0c;",
+                      "@media print {",
+                      "color: #000;",
+                      "}",
+                      "display: block;",
+                      "clear: none;",
+                      "padding-bottom: 2px;",
                       [Function],
                       [Function],
                     ],
@@ -2198,24 +2345,24 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
               }
             }
           >
-            <styled.div>
+            <input__StyledList>
               <StyledComponent
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-bZQynM",
-                      "isStatic": true,
+                      "componentId": "input__StyledList-sc-2tcp1m-1",
+                      "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
                         "display: flex;",
                       ],
                     },
-                    "displayName": "styled.div",
+                    "displayName": "input__StyledList",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-bZQynM",
+                    "styledComponentId": "input__StyledList-sc-2tcp1m-1",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -2227,7 +2374,7 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                 <div
                   className="c2"
                 >
-                  <Styled(Label)
+                  <input__StyledLabel
                     year={false}
                   >
                     <StyledComponent
@@ -2236,18 +2383,19 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -2279,9 +2427,14 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -2300,7 +2453,7 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                             year={false}
                           >
                             <label
-                              className="c3 c4"
+                              className="c4 c3"
                             >
                               <LabelText>
                                 <styled.span>
@@ -2314,15 +2467,27 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -2415,8 +2580,8 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
-                  <Styled(Label)
+                  </input__StyledLabel>
+                  <input__StyledLabel
                     year={false}
                   >
                     <StyledComponent
@@ -2425,18 +2590,19 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -2468,9 +2634,14 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -2489,7 +2660,7 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                             year={false}
                           >
                             <label
-                              className="c3 c4"
+                              className="c4 c3"
                             >
                               <LabelText>
                                 <styled.span>
@@ -2503,15 +2674,27 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -2604,8 +2787,8 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
-                  <Styled(Label)
+                  </input__StyledLabel>
+                  <input__StyledLabel
                     year={true}
                   >
                     <StyledComponent
@@ -2614,18 +2797,19 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-EHOje",
+                            "componentId": "input__StyledLabel-sc-2tcp1m-0",
                             "isStatic": false,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "margin-right: 20px; margin-bottom: 0;",
+                              "margin-right: 20px;",
+                              "margin-bottom: 0;",
                               [Function],
                             ],
                           },
-                          "displayName": "Styled(Label)",
+                          "displayName": "input__StyledLabel",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "sc-EHOje",
+                          "styledComponentId": "input__StyledLabel-sc-2tcp1m-0",
                           "target": [Function],
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -2657,9 +2841,14 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
-                                    "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                                    "display: flex;",
+                                    "flex-direction: column;",
+                                    "box-sizing: border-box;",
+                                    ":after {",
+                                    "content: '';",
+                                    "display: table;",
+                                    "clear: both;",
+                                    "}",
                                     [Function],
                                     [Function],
                                   ],
@@ -2678,7 +2867,7 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                             year={true}
                           >
                             <label
-                              className="c6 c4"
+                              className="c4 c6"
                             >
                               <LabelText>
                                 <styled.span>
@@ -2692,15 +2881,27 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c1",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                                            "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                                            "display: block; clear: none; padding-bottom: 2px;",
+                                            "font-family: \\"nta\\", Arial, sans-serif;",
+                                            "-webkit-font-smoothing: antialiased;",
+                                            "-moz-osx-font-smoothing: grayscale;",
+                                            "@media print {",
+                                            "font-size: 14px;",
+                                            "line-height: 1.15;",
+                                            "}",
+                                            "font-weight: 400;",
+                                            "font-size: 16px;",
+                                            "line-height: 1.25;",
+                                            "@media only screen and (min-width: 641px) {",
+                                            "font-size: 19px;",
+                                            "line-height: 1.3157894736842106;",
+                                            "}",
+                                            "color: #0b0c0c;",
+                                            "@media print {",
+                                            "color: #000;",
+                                            "}",
+                                            "display: block;",
+                                            "clear: none;",
+                                            "padding-bottom: 2px;",
                                             [Function],
                                             [Function],
                                           ],
@@ -2793,14 +2994,14 @@ exports[`DateField should support setting value: value 1 2 3 1`] = `
                         </styled.label>
                       </Label>
                     </StyledComponent>
-                  </Styled(Label)>
+                  </input__StyledLabel>
                 </div>
               </StyledComponent>
-            </styled.div>
+            </input__StyledList>
           </Input>
         </MultiInputInput>
       </div>
     </StyledComponent>
-  </styled.div>
+  </src__StyledContainer>
 </DateField>
 `;

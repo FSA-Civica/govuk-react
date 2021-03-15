@@ -194,9 +194,14 @@ exports[`Select matches snapshot for errorText: errorText mount 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                "display: flex;",
+                "flex-direction: column;",
+                "box-sizing: border-box;",
+                ":after {",
+                "content: '';",
+                "display: table;",
+                "clear: both;",
+                "}",
                 [Function],
                 [Function],
               ],
@@ -228,15 +233,27 @@ exports[`Select matches snapshot for errorText: errorText mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                        "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                        "display: block; clear: none; padding-bottom: 2px;",
+                        "font-family: \\"nta\\", Arial, sans-serif;",
+                        "-webkit-font-smoothing: antialiased;",
+                        "-moz-osx-font-smoothing: grayscale;",
+                        "@media print {",
+                        "font-size: 14px;",
+                        "line-height: 1.15;",
+                        "}",
+                        "font-weight: 400;",
+                        "font-size: 16px;",
+                        "line-height: 1.25;",
+                        "@media only screen and (min-width: 641px) {",
+                        "font-size: 19px;",
+                        "line-height: 1.3157894736842106;",
+                        "}",
+                        "color: #0b0c0c;",
+                        "@media print {",
+                        "color: #000;",
+                        "}",
+                        "display: block;",
+                        "clear: none;",
+                        "padding-bottom: 2px;",
                         [Function],
                         [Function],
                       ],
@@ -273,12 +290,23 @@ exports[`Select matches snapshot for errorText: errorText mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                        "display: block; margin-bottom: 15px; color: #6f777b;",
+                        "font-family: \\"nta\\", Arial, sans-serif;",
+                        "-webkit-font-smoothing: antialiased;",
+                        "-moz-osx-font-smoothing: grayscale;",
+                        "@media print {",
+                        "font-size: 14px;",
+                        "line-height: 1.15;",
+                        "}",
+                        "font-weight: 400;",
+                        "font-size: 16px;",
+                        "line-height: 1.25;",
+                        "@media only screen and (min-width: 641px) {",
+                        "font-size: 19px;",
+                        "line-height: 1.3157894736842106;",
+                        "}",
+                        "display: block;",
+                        "margin-bottom: 15px;",
+                        "color: #6f777b;",
                         [Function],
                       ],
                     },
@@ -343,7 +371,7 @@ exports[`Select matches snapshot for errorText: errorText mount 1`] = `
               </StyledComponent>
             </styled.span>
           </ErrorText>
-          <styled.select
+          <src__StyledSelect
             error="example"
           >
             <StyledComponent
@@ -353,7 +381,7 @@ exports[`Select matches snapshot for errorText: errorText mount 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-ifAKCX",
+                    "componentId": "src__StyledSelect-sc-1kli347-0",
                     "isStatic": false,
                     "lastClassName": "c4",
                     "rules": Array [
@@ -370,10 +398,10 @@ exports[`Select matches snapshot for errorText: errorText mount 1`] = `
                       [Function],
                     ],
                   },
-                  "displayName": "styled.select",
+                  "displayName": "src__StyledSelect",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-ifAKCX",
+                  "styledComponentId": "src__StyledSelect-sc-1kli347-0",
                   "target": "select",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -388,7 +416,7 @@ exports[`Select matches snapshot for errorText: errorText mount 1`] = `
                 example
               </select>
             </StyledComponent>
-          </styled.select>
+          </src__StyledSelect>
         </label>
       </StyledComponent>
     </styled.label>
@@ -523,9 +551,14 @@ exports[`Select matches snapshot: enzyme.mount 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "display: flex; flex-direction: column; box-sizing: border-box; :after {
-  content: ''; display: table; clear: both;
-}",
+                "display: flex;",
+                "flex-direction: column;",
+                "box-sizing: border-box;",
+                ":after {",
+                "content: '';",
+                "display: table;",
+                "clear: both;",
+                "}",
                 [Function],
                 [Function],
               ],
@@ -557,15 +590,27 @@ exports[`Select matches snapshot: enzyme.mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                        "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                        "display: block; clear: none; padding-bottom: 2px;",
+                        "font-family: \\"nta\\", Arial, sans-serif;",
+                        "-webkit-font-smoothing: antialiased;",
+                        "-moz-osx-font-smoothing: grayscale;",
+                        "@media print {",
+                        "font-size: 14px;",
+                        "line-height: 1.15;",
+                        "}",
+                        "font-weight: 400;",
+                        "font-size: 16px;",
+                        "line-height: 1.25;",
+                        "@media only screen and (min-width: 641px) {",
+                        "font-size: 19px;",
+                        "line-height: 1.3157894736842106;",
+                        "}",
+                        "color: #0b0c0c;",
+                        "@media print {",
+                        "color: #000;",
+                        "}",
+                        "display: block;",
+                        "clear: none;",
+                        "padding-bottom: 2px;",
                         [Function],
                         [Function],
                       ],
@@ -590,14 +635,14 @@ exports[`Select matches snapshot: enzyme.mount 1`] = `
               </StyledComponent>
             </styled.span>
           </LabelText>
-          <styled.select>
+          <src__StyledSelect>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-ifAKCX",
+                    "componentId": "src__StyledSelect-sc-1kli347-0",
                     "isStatic": false,
                     "lastClassName": "c2",
                     "rules": Array [
@@ -614,10 +659,10 @@ exports[`Select matches snapshot: enzyme.mount 1`] = `
                       [Function],
                     ],
                   },
-                  "displayName": "styled.select",
+                  "displayName": "src__StyledSelect",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-ifAKCX",
+                  "styledComponentId": "src__StyledSelect-sc-1kli347-0",
                   "target": "select",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -632,7 +677,7 @@ exports[`Select matches snapshot: enzyme.mount 1`] = `
                 example
               </select>
             </StyledComponent>
-          </styled.select>
+          </src__StyledSelect>
         </label>
       </StyledComponent>
     </styled.label>

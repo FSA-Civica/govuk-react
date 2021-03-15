@@ -90,17 +90,21 @@ exports[`SkipLink matches snapshot: SkipLink 1`] = `
 <SkipLinkDocumented
   href="#content"
 >
-  <styled.a
+  <src__SkipLink
     href="#content"
   >
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "children": "Skip to main content",
+            "href": "#content",
+          },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": true,
+            "componentId": "src__SkipLink-vhx5xu-0",
+            "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
               "position: absolute !important; width: 1px !important; height: 1px !important; margin: 0 !important; overflow: hidden !important; clip: rect(0 0 0 0) !important; clip-path: inset(50%) !important; border: 0 !important; white-space: nowrap !important; &:active,&:focus {
@@ -127,15 +131,11 @@ exports[`SkipLink matches snapshot: SkipLink 1`] = `
 }",
             ],
           },
-          "defaultProps": Object {
-            "children": "Skip to main content",
-            "href": "#content",
-          },
-          "displayName": "styled.a",
+          "displayName": "src__SkipLink",
           "foldedComponentIds": Array [],
           "propTypes": undefined,
           "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
+          "styledComponentId": "src__SkipLink-vhx5xu-0",
           "target": "a",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -152,6 +152,6 @@ exports[`SkipLink matches snapshot: SkipLink 1`] = `
         Example
       </a>
     </StyledComponent>
-  </styled.a>
+  </src__SkipLink>
 </SkipLinkDocumented>
 `;
