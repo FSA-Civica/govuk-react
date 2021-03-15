@@ -855,24 +855,25 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         <li
                           className="c5 c6"
                         >
-                          <Styled(styled.a)
-                            muted={false}
-                            noVisitedState={false}
-                            onClick={[Function]}
-                            tabIndex={1}
-                            textColour={false}
-                          >
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-EHOje",
-                                    "isStatic": false,
-                                    "lastClassName": "c7",
-                                    "rules": Array [
-                                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+                          <a>
+                            <Styled(styled.a)
+                              muted={false}
+                              noVisitedState={false}
+                              onClick={[Function]}
+                              tabIndex={1}
+                              textColour={false}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-EHOje",
+                                      "isStatic": false,
+                                      "lastClassName": "c7",
+                                      "rules": Array [
+                                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-family: sans-serif;
 }",
                                       ":link {
@@ -889,7 +890,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                                       "&:focus {
   outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
 }",
-                                      "@media print {
+                                        "@media print {
   &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
   &::after {
   content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
@@ -905,42 +906,33 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   font-size: 19px; line-height: 1.3;
 } color: #d4351c; padding-top: 4px; padding-bottom: 2px;",
                                     ],
-                                  },
-                                  "defaultProps": Object {
-                                    "muted": false,
-                                    "noVisitedState": false,
-                                    "textColour": false,
-                                  },
-                                  "displayName": "Styled(styled.a)",
-                                  "foldedComponentIds": Array [
-                                    "sc-bwzfXH",
-                                  ],
-                                  "propTypes": undefined,
-                                  "render": [Function],
-                                  "styledComponentId": "sc-EHOje",
-                                  "target": "a",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
+                                    "propTypes": undefined,
+                                    "render": [Function],
+                                    "styledComponentId": "sc-EHOje",
+                                    "target": "a",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
                                 }
-                              }
-                              forwardedRef={null}
-                              muted={false}
-                              noVisitedState={false}
-                              onClick={[Function]}
-                              tabIndex={1}
-                              textColour={false}
-                            >
-                              <a
-                                className="c7"
+                                forwardedRef={null}
                                 muted={false}
+                                noVisitedState={false}
                                 onClick={[Function]}
                                 tabIndex={1}
+                                textColour={false}
                               >
-                                National Insurance number error
-                              </a>
-                            </StyledComponent>
-                          </Styled(styled.a)>
+                                <a
+                                  className="c7"
+                                  muted={false}
+                                  onClick={[Function]}
+                                  tabIndex={1}
+                                >
+                                  National Insurance number error
+                                </a>
+                              </StyledComponent>
+                            </Styled(styled.a)>
+                          </a>
                         </li>
                       </StyledComponent>
                     </styled.li>
@@ -982,24 +974,25 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                         <li
                           className="c5 c6"
                         >
-                          <Styled(styled.a)
-                            muted={false}
-                            noVisitedState={false}
-                            onClick={[Function]}
-                            tabIndex={2}
-                            textColour={false}
-                          >
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-EHOje",
-                                    "isStatic": false,
-                                    "lastClassName": "c7",
-                                    "rules": Array [
-                                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+                          <a>
+                            <Styled(styled.a)
+                              muted={false}
+                              noVisitedState={false}
+                              onClick={[Function]}
+                              tabIndex={2}
+                              textColour={false}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-EHOje",
+                                      "isStatic": false,
+                                      "lastClassName": "c7",
+                                      "rules": Array [
+                                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-family: sans-serif;
 }",
                                       ":link {
@@ -1016,7 +1009,7 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
                                       "&:focus {
   outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
 }",
-                                      "@media print {
+                                        "@media print {
   &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
   &::after {
   content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
@@ -1032,42 +1025,33 @@ exports[`error summary matches the ErrorSummary snapshot: error summary 1`] = `
   font-size: 19px; line-height: 1.3;
 } color: #d4351c; padding-top: 4px; padding-bottom: 2px;",
                                     ],
-                                  },
-                                  "defaultProps": Object {
-                                    "muted": false,
-                                    "noVisitedState": false,
-                                    "textColour": false,
-                                  },
-                                  "displayName": "Styled(styled.a)",
-                                  "foldedComponentIds": Array [
-                                    "sc-bwzfXH",
-                                  ],
-                                  "propTypes": undefined,
-                                  "render": [Function],
-                                  "styledComponentId": "sc-EHOje",
-                                  "target": "a",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
+                                    "propTypes": undefined,
+                                    "render": [Function],
+                                    "styledComponentId": "sc-EHOje",
+                                    "target": "a",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
                                 }
-                              }
-                              forwardedRef={null}
-                              muted={false}
-                              noVisitedState={false}
-                              onClick={[Function]}
-                              tabIndex={2}
-                              textColour={false}
-                            >
-                              <a
-                                className="c7"
+                                forwardedRef={null}
                                 muted={false}
+                                noVisitedState={false}
                                 onClick={[Function]}
                                 tabIndex={2}
+                                textColour={false}
                               >
-                                Description of what you saw error
-                              </a>
-                            </StyledComponent>
-                          </Styled(styled.a)>
+                                <a
+                                  className="c7"
+                                  muted={false}
+                                  onClick={[Function]}
+                                  tabIndex={2}
+                                >
+                                  Description of what you saw error
+                                </a>
+                              </StyledComponent>
+                            </Styled(styled.a)>
+                          </a>
                         </li>
                       </StyledComponent>
                     </styled.li>
