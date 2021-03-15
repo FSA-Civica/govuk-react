@@ -1,39 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
-.c4 {
+.c3 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.c4:link {
+.c3:link {
   color: #1d70b8;
 }
 
-.c4:visited {
+.c3:visited {
   color: #4c2c92;
 }
 
-.c4:hover {
+.c3:hover {
   color: #2b8cc4;
 }
 
-.c4:active {
+.c3:active {
   color: #2b8cc4;
 }
 
-.c4:focus {
+.c3:focus {
   color: #0b0c0c;
 }
 
-.c4:focus {
+.c3:focus {
   outline: 3px solid #ffdd00;
   outline-offset: 0;
   background-color: #ffdd00;
 }
 
-.c3 {
+.c2 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -60,28 +60,24 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
   margin-top: 10px;
 }
 
-.c1 > .c2 {
+.c1 > .c5 {
   margin-bottom: 5px;
 }
 
-.c5 .c0 {
+.c4 .c0 {
   margin-top: 10px;
 }
 
-.c5 > .c2 {
-  margin-bottom: 0;
-}
-
 @media print {
-  .c4 {
+  .c3 {
     font-family: sans-serif;
   }
 }
 
 @media print {
-  .c4[href^="/"]::after,
-  .c4[href^="http://"]::after,
-  .c4[href^="https://"]::after {
+  .c3[href^="/"]::after,
+  .c3[href^="http://"]::after,
+  .c3[href^="https://"]::after {
     content: " (" attr(href) ")";
     font-size: 90%;
     word-wrap: break-word;
@@ -89,14 +85,14 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
 }
 
 @media print {
-  .c3 {
+  .c2 {
     font-size: 14px;
     line-height: 1.15;
   }
 }
 
 @media only screen and (min-width:641px) {
-  .c3 {
+  .c2 {
     font-size: 19px;
     line-height: 1.3157894736842106;
   }
@@ -128,12 +124,6 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
   }
 }
 
-@media only screen and (min-width:641px) {
-  .c5 > .c2 {
-    margin-bottom: 5px;
-  }
-}
-
 <UnorderedList>
   <styled.ol
     as="ul"
@@ -143,29 +133,40 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "listStyleType": undefined,
+          },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "c0",
             "isStatic": false,
             "lastClassName": "c1",
             "rules": Array [
-              "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-              "color: #0b0c0c; @media print {
-  color: #000;
-}",
-              "margin-top: 0; & & {
-  margin-top: 10px;
-}",
+              "font-family: \\"nta\\", Arial, sans-serif;",
+              "-webkit-font-smoothing: antialiased;",
+              "-moz-osx-font-smoothing: grayscale;",
+              "@media print {",
+              "font-size: 14px;",
+              "line-height: 1.15;",
+              "}",
+              "font-weight: 400;",
+              "font-size: 16px;",
+              "line-height: 1.25;",
+              "@media only screen and (min-width: 641px) {",
+              "font-size: 19px;",
+              "line-height: 1.3157894736842106;",
+              "}",
+              "color: #0b0c0c;",
+              "@media print {",
+              "color: #000;",
+              "}",
+              "margin-top: 0;",
+              "& & {",
+              "margin-top: 10px;",
+              "}",
               [Function],
               [Function],
             ],
-          },
-          "defaultProps": Object {
-            "listStyleType": undefined,
           },
           "displayName": "styled.ol",
           "foldedComponentIds": Array [],
@@ -190,15 +191,24 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "c2",
+                  "componentId": "sc-bwzfXH",
                   "isStatic": false,
-                  "lastClassName": "c3",
+                  "lastClassName": "c2",
                   "rules": Array [
-                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
+                    "font-family: \\"nta\\", Arial, sans-serif;",
+                    "-webkit-font-smoothing: antialiased;",
+                    "-moz-osx-font-smoothing: grayscale;",
+                    "@media print {",
+                    "font-size: 14px;",
+                    "line-height: 1.15;",
+                    "}",
+                    "font-weight: 400;",
+                    "font-size: 16px;",
+                    "line-height: 1.25;",
+                    "@media only screen and (min-width: 641px) {",
+                    "font-size: 19px;",
+                    "line-height: 1.3157894736842106;",
+                    "}",
                     "margin-bottom: 5px;",
                     [Function],
                   ],
@@ -207,7 +217,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                 "foldedComponentIds": Array [],
                 "propTypes": undefined,
                 "render": [Function],
-                "styledComponentId": "c2",
+                "styledComponentId": "sc-bwzfXH",
                 "target": "li",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -217,7 +227,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
             forwardedRef={null}
           >
             <li
-              className="c2 c3"
+              className="c2"
             >
               <styled.a
                 href="http://example.com"
@@ -229,45 +239,56 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
+                      "_foldedDefaultProps": Object {
+                        "muted": false,
+                        "noVisitedState": false,
+                        "textColour": false,
+                      },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-bdVaJa",
                         "isStatic": false,
-                        "lastClassName": "c4",
+                        "lastClassName": "c3",
                         "rules": Array [
-                          "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-family: sans-serif;
-}",
-                          ":link {
-  color: #1d70b8;
-} :visited {
-  color: #4c2c92;
-} :hover {
-  color: #2b8cc4;
-} :active {
-  color: #2b8cc4;
-} :focus {
-  color: #0b0c0c;
-}",
-                          "&:focus {
-  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
-}",
-                          "@media print {
-  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
-  &::after {
-  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
-}
-}
-}",
+                          "font-family: \\"nta\\", Arial, sans-serif;",
+                          "-webkit-font-smoothing: antialiased;",
+                          "-moz-osx-font-smoothing: grayscale;",
+                          "@media print {",
+                          "font-family: sans-serif;",
+                          "}",
+                          ":link {",
+                          "color: #1d70b8;",
+                          "}",
+                          ":visited {",
+                          "color: #4c2c92;",
+                          "}",
+                          ":hover {",
+                          "color: #2b8cc4;",
+                          "}",
+                          ":active {",
+                          "color: #2b8cc4;",
+                          "}",
+                          ":focus {",
+                          "color: #0b0c0c;",
+                          "}",
+                          "&:focus {",
+                          "outline: 3px solid #ffdd00;",
+                          "outline-offset: 0;",
+                          "background-color: #ffdd00;",
+                          "}",
+                          "@media print {",
+                          "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
+                          "&::after {",
+                          "content: \\" (\\" attr(href) \\")\\";",
+                          "font-size: 90%;",
+                          "word-wrap: break-word;",
+                          "}",
+                          "}",
+                          "}",
                           [Function],
                           [Function],
                           [Function],
                         ],
-                      },
-                      "defaultProps": Object {
-                        "muted": false,
-                        "noVisitedState": false,
-                        "textColour": false,
                       },
                       "displayName": "styled.a",
                       "foldedComponentIds": Array [],
@@ -287,7 +308,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                   textColour={false}
                 >
                   <a
-                    className="c4"
+                    className="c3"
                     href="http://example.com"
                     muted={false}
                   >
@@ -305,15 +326,24 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "c2",
+                  "componentId": "sc-bwzfXH",
                   "isStatic": false,
-                  "lastClassName": "c3",
+                  "lastClassName": "c2",
                   "rules": Array [
-                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
+                    "font-family: \\"nta\\", Arial, sans-serif;",
+                    "-webkit-font-smoothing: antialiased;",
+                    "-moz-osx-font-smoothing: grayscale;",
+                    "@media print {",
+                    "font-size: 14px;",
+                    "line-height: 1.15;",
+                    "}",
+                    "font-weight: 400;",
+                    "font-size: 16px;",
+                    "line-height: 1.25;",
+                    "@media only screen and (min-width: 641px) {",
+                    "font-size: 19px;",
+                    "line-height: 1.3157894736842106;",
+                    "}",
                     "margin-bottom: 5px;",
                     [Function],
                   ],
@@ -322,7 +352,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                 "foldedComponentIds": Array [],
                 "propTypes": undefined,
                 "render": [Function],
-                "styledComponentId": "c2",
+                "styledComponentId": "sc-bwzfXH",
                 "target": "li",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -332,7 +362,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
             forwardedRef={null}
           >
             <li
-              className="c2 c3"
+              className="c2"
             >
               <styled.a
                 href="http://example.com"
@@ -344,45 +374,56 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
+                      "_foldedDefaultProps": Object {
+                        "muted": false,
+                        "noVisitedState": false,
+                        "textColour": false,
+                      },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-bdVaJa",
                         "isStatic": false,
-                        "lastClassName": "c4",
+                        "lastClassName": "c3",
                         "rules": Array [
-                          "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-family: sans-serif;
-}",
-                          ":link {
-  color: #1d70b8;
-} :visited {
-  color: #4c2c92;
-} :hover {
-  color: #2b8cc4;
-} :active {
-  color: #2b8cc4;
-} :focus {
-  color: #0b0c0c;
-}",
-                          "&:focus {
-  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
-}",
-                          "@media print {
-  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
-  &::after {
-  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
-}
-}
-}",
+                          "font-family: \\"nta\\", Arial, sans-serif;",
+                          "-webkit-font-smoothing: antialiased;",
+                          "-moz-osx-font-smoothing: grayscale;",
+                          "@media print {",
+                          "font-family: sans-serif;",
+                          "}",
+                          ":link {",
+                          "color: #1d70b8;",
+                          "}",
+                          ":visited {",
+                          "color: #4c2c92;",
+                          "}",
+                          ":hover {",
+                          "color: #2b8cc4;",
+                          "}",
+                          ":active {",
+                          "color: #2b8cc4;",
+                          "}",
+                          ":focus {",
+                          "color: #0b0c0c;",
+                          "}",
+                          "&:focus {",
+                          "outline: 3px solid #ffdd00;",
+                          "outline-offset: 0;",
+                          "background-color: #ffdd00;",
+                          "}",
+                          "@media print {",
+                          "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
+                          "&::after {",
+                          "content: \\" (\\" attr(href) \\")\\";",
+                          "font-size: 90%;",
+                          "word-wrap: break-word;",
+                          "}",
+                          "}",
+                          "}",
                           [Function],
                           [Function],
                           [Function],
                         ],
-                      },
-                      "defaultProps": Object {
-                        "muted": false,
-                        "noVisitedState": false,
-                        "textColour": false,
                       },
                       "displayName": "styled.a",
                       "foldedComponentIds": Array [],
@@ -402,7 +443,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                   textColour={false}
                 >
                   <a
-                    className="c4"
+                    className="c3"
                     href="http://example.com"
                     muted={false}
                   >
@@ -420,15 +461,24 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "c2",
+                  "componentId": "sc-bwzfXH",
                   "isStatic": false,
-                  "lastClassName": "c3",
+                  "lastClassName": "c2",
                   "rules": Array [
-                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
+                    "font-family: \\"nta\\", Arial, sans-serif;",
+                    "-webkit-font-smoothing: antialiased;",
+                    "-moz-osx-font-smoothing: grayscale;",
+                    "@media print {",
+                    "font-size: 14px;",
+                    "line-height: 1.15;",
+                    "}",
+                    "font-weight: 400;",
+                    "font-size: 16px;",
+                    "line-height: 1.25;",
+                    "@media only screen and (min-width: 641px) {",
+                    "font-size: 19px;",
+                    "line-height: 1.3157894736842106;",
+                    "}",
                     "margin-bottom: 5px;",
                     [Function],
                   ],
@@ -437,7 +487,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                 "foldedComponentIds": Array [],
                 "propTypes": undefined,
                 "render": [Function],
-                "styledComponentId": "c2",
+                "styledComponentId": "sc-bwzfXH",
                 "target": "li",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -447,7 +497,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
             forwardedRef={null}
           >
             <li
-              className="c2 c3"
+              className="c2"
             >
               <styled.a
                 href="http://example.com"
@@ -459,45 +509,56 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
+                      "_foldedDefaultProps": Object {
+                        "muted": false,
+                        "noVisitedState": false,
+                        "textColour": false,
+                      },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-bdVaJa",
                         "isStatic": false,
-                        "lastClassName": "c4",
+                        "lastClassName": "c3",
                         "rules": Array [
-                          "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-family: sans-serif;
-}",
-                          ":link {
-  color: #1d70b8;
-} :visited {
-  color: #4c2c92;
-} :hover {
-  color: #2b8cc4;
-} :active {
-  color: #2b8cc4;
-} :focus {
-  color: #0b0c0c;
-}",
-                          "&:focus {
-  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
-}",
-                          "@media print {
-  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
-  &::after {
-  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
-}
-}
-}",
+                          "font-family: \\"nta\\", Arial, sans-serif;",
+                          "-webkit-font-smoothing: antialiased;",
+                          "-moz-osx-font-smoothing: grayscale;",
+                          "@media print {",
+                          "font-family: sans-serif;",
+                          "}",
+                          ":link {",
+                          "color: #1d70b8;",
+                          "}",
+                          ":visited {",
+                          "color: #4c2c92;",
+                          "}",
+                          ":hover {",
+                          "color: #2b8cc4;",
+                          "}",
+                          ":active {",
+                          "color: #2b8cc4;",
+                          "}",
+                          ":focus {",
+                          "color: #0b0c0c;",
+                          "}",
+                          "&:focus {",
+                          "outline: 3px solid #ffdd00;",
+                          "outline-offset: 0;",
+                          "background-color: #ffdd00;",
+                          "}",
+                          "@media print {",
+                          "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
+                          "&::after {",
+                          "content: \\" (\\" attr(href) \\")\\";",
+                          "font-size: 90%;",
+                          "word-wrap: break-word;",
+                          "}",
+                          "}",
+                          "}",
                           [Function],
                           [Function],
                           [Function],
                         ],
-                      },
-                      "defaultProps": Object {
-                        "muted": false,
-                        "noVisitedState": false,
-                        "textColour": false,
                       },
                       "displayName": "styled.a",
                       "foldedComponentIds": Array [],
@@ -517,7 +578,7 @@ exports[`UnorderedList matches wrapper snapshot: wrapper mount 1`] = `
                   textColour={false}
                 >
                   <a
-                    className="c4"
+                    className="c3"
                     href="http://example.com"
                     muted={false}
                   >

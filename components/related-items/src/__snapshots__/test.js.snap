@@ -14,16 +14,6 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
   margin-bottom: 15px;
 }
 
-.c5 {
-  font-family: "nta",Arial,sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  margin-bottom: 5px;
-}
-
 .c3 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -42,40 +32,50 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
   margin-top: 10px;
 }
 
-.c3 > .c4 {
+.c3 > .c6 {
   margin-bottom: 5px;
 }
 
-.c6 {
+.c5 {
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.c6:link {
+.c5:link {
   color: #1d70b8;
 }
 
-.c6:visited {
+.c5:visited {
   color: #4c2c92;
 }
 
-.c6:hover {
+.c5:hover {
   color: #2b8cc4;
 }
 
-.c6:active {
+.c5:active {
   color: #2b8cc4;
 }
 
-.c6:focus {
+.c5:focus {
   color: #0b0c0c;
 }
 
-.c6:focus {
+.c5:focus {
   outline: 3px solid #ffdd00;
   outline-offset: 0;
   background-color: #ffdd00;
+}
+
+.c4 {
+  font-family: "nta",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 5px;
 }
 
 .c0 {
@@ -124,20 +124,6 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
 }
 
 @media print {
-  .c5 {
-    font-size: 14px;
-    line-height: 1.15;
-  }
-}
-
-@media only screen and (min-width:641px) {
-  .c5 {
-    font-size: 19px;
-    line-height: 1.3157894736842106;
-  }
-}
-
-@media print {
   .c3 {
     font-size: 14px;
     line-height: 1.15;
@@ -164,18 +150,32 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
 }
 
 @media print {
-  .c6 {
+  .c5 {
     font-family: sans-serif;
   }
 }
 
 @media print {
-  .c6[href^="/"]::after,
-  .c6[href^="http://"]::after,
-  .c6[href^="https://"]::after {
+  .c5[href^="/"]::after,
+  .c5[href^="http://"]::after,
+  .c5[href^="https://"]::after {
     content: " (" attr(href) ")";
     font-size: 90%;
     word-wrap: break-word;
+  }
+}
+
+@media print {
+  .c4 {
+    font-size: 14px;
+    line-height: 1.15;
+  }
+}
+
+@media only screen and (min-width:641px) {
+  .c4 {
+    font-size: 19px;
+    line-height: 1.3157894736842106;
   }
 }
 
@@ -193,33 +193,40 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
 }
 
 <RelatedItems>
-  <styled.div>
+  <src__StyledRelatedItems>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-ifAKCX",
+            "componentId": "src__StyledRelatedItems-uh5e57-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "border-top: 10px solid #1d70b8; padding-top: 5px; width: 100%; @media only screen and (min-width: 641px) {
-  font-size: 16px; line-height: 1.25;
-} > h3 {
-  margin-bottom: 10px;
-} > ul {
-  margin-bottom: 20px; > li {
-  margin-bottom: calc(10px + 2px);
-}
-}",
+              "border-top: 10px solid #1d70b8;",
+              "padding-top: 5px;",
+              "width: 100%;",
+              "@media only screen and (min-width: 641px) {",
+              "font-size: 16px;",
+              "line-height: 1.25;",
+              "}",
+              "> h3 {",
+              "margin-bottom: 10px;",
+              "}",
+              "> ul {",
+              "margin-bottom: 20px;",
+              "> li {",
+              "margin-bottom: calc(10px + 2px);",
+              "}",
+              "}",
               [Function],
             ],
           },
-          "displayName": "styled.div",
+          "displayName": "src__StyledRelatedItems",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-ifAKCX",
+          "styledComponentId": "src__StyledRelatedItems-uh5e57-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -251,11 +258,13 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
-                        "color: #0b0c0c; @media print {
-  color: #000;
-}",
+                        "color: #0b0c0c;",
+                        "@media print {",
+                        "color: #000;",
+                        "}",
                         [Function],
-                        "display: block; margin-top: 0;",
+                        "display: block;",
+                        "margin-top: 0;",
                         [Function],
                         [Function],
                       ],
@@ -295,29 +304,40 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
+                  "_foldedDefaultProps": Object {
+                    "listStyleType": undefined,
+                  },
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "c2",
                     "isStatic": false,
                     "lastClassName": "c3",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                      "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                      "margin-top: 0; & & {
-  margin-top: 10px;
-}",
+                      "font-family: \\"nta\\", Arial, sans-serif;",
+                      "-webkit-font-smoothing: antialiased;",
+                      "-moz-osx-font-smoothing: grayscale;",
+                      "@media print {",
+                      "font-size: 14px;",
+                      "line-height: 1.15;",
+                      "}",
+                      "font-weight: 400;",
+                      "font-size: 16px;",
+                      "line-height: 1.25;",
+                      "@media only screen and (min-width: 641px) {",
+                      "font-size: 19px;",
+                      "line-height: 1.3157894736842106;",
+                      "}",
+                      "color: #0b0c0c;",
+                      "@media print {",
+                      "color: #000;",
+                      "}",
+                      "margin-top: 0;",
+                      "& & {",
+                      "margin-top: 10px;",
+                      "}",
                       [Function],
                       [Function],
                     ],
-                  },
-                  "defaultProps": Object {
-                    "listStyleType": undefined,
                   },
                   "displayName": "styled.ol",
                   "foldedComponentIds": Array [],
@@ -343,15 +363,24 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "c4",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "c5",
+                          "lastClassName": "c4",
                           "rules": Array [
-                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
+                            "font-family: \\"nta\\", Arial, sans-serif;",
+                            "-webkit-font-smoothing: antialiased;",
+                            "-moz-osx-font-smoothing: grayscale;",
+                            "@media print {",
+                            "font-size: 14px;",
+                            "line-height: 1.15;",
+                            "}",
+                            "font-weight: 400;",
+                            "font-size: 16px;",
+                            "line-height: 1.25;",
+                            "@media only screen and (min-width: 641px) {",
+                            "font-size: 19px;",
+                            "line-height: 1.3157894736842106;",
+                            "}",
                             "margin-bottom: 5px;",
                             [Function],
                           ],
@@ -360,7 +389,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                         "foldedComponentIds": Array [],
                         "propTypes": undefined,
                         "render": [Function],
-                        "styledComponentId": "c4",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "li",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -370,7 +399,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                     forwardedRef={null}
                   >
                     <li
-                      className="c4 c5"
+                      className="c4"
                     >
                       <styled.a
                         href="https://example.com"
@@ -382,45 +411,56 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
+                              "_foldedDefaultProps": Object {
+                                "muted": false,
+                                "noVisitedState": false,
+                                "textColour": false,
+                              },
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bxivhb",
                                 "isStatic": false,
-                                "lastClassName": "c6",
+                                "lastClassName": "c5",
                                 "rules": Array [
-                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-family: sans-serif;
-}",
-                                  ":link {
-  color: #1d70b8;
-} :visited {
-  color: #4c2c92;
-} :hover {
-  color: #2b8cc4;
-} :active {
-  color: #2b8cc4;
-} :focus {
-  color: #0b0c0c;
-}",
-                                  "&:focus {
-  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
-}",
-                                  "@media print {
-  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
-  &::after {
-  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
-}
-}
-}",
+                                  "font-family: \\"nta\\", Arial, sans-serif;",
+                                  "-webkit-font-smoothing: antialiased;",
+                                  "-moz-osx-font-smoothing: grayscale;",
+                                  "@media print {",
+                                  "font-family: sans-serif;",
+                                  "}",
+                                  ":link {",
+                                  "color: #1d70b8;",
+                                  "}",
+                                  ":visited {",
+                                  "color: #4c2c92;",
+                                  "}",
+                                  ":hover {",
+                                  "color: #2b8cc4;",
+                                  "}",
+                                  ":active {",
+                                  "color: #2b8cc4;",
+                                  "}",
+                                  ":focus {",
+                                  "color: #0b0c0c;",
+                                  "}",
+                                  "&:focus {",
+                                  "outline: 3px solid #ffdd00;",
+                                  "outline-offset: 0;",
+                                  "background-color: #ffdd00;",
+                                  "}",
+                                  "@media print {",
+                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
+                                  "&::after {",
+                                  "content: \\" (\\" attr(href) \\")\\";",
+                                  "font-size: 90%;",
+                                  "word-wrap: break-word;",
+                                  "}",
+                                  "}",
+                                  "}",
                                   [Function],
                                   [Function],
                                   [Function],
                                 ],
-                              },
-                              "defaultProps": Object {
-                                "muted": false,
-                                "noVisitedState": false,
-                                "textColour": false,
                               },
                               "displayName": "styled.a",
                               "foldedComponentIds": Array [],
@@ -440,7 +480,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                           textColour={false}
                         >
                           <a
-                            className="c6"
+                            className="c5"
                             href="https://example.com"
                             muted={false}
                           >
@@ -458,15 +498,24 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "c4",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "c5",
+                          "lastClassName": "c4",
                           "rules": Array [
-                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
+                            "font-family: \\"nta\\", Arial, sans-serif;",
+                            "-webkit-font-smoothing: antialiased;",
+                            "-moz-osx-font-smoothing: grayscale;",
+                            "@media print {",
+                            "font-size: 14px;",
+                            "line-height: 1.15;",
+                            "}",
+                            "font-weight: 400;",
+                            "font-size: 16px;",
+                            "line-height: 1.25;",
+                            "@media only screen and (min-width: 641px) {",
+                            "font-size: 19px;",
+                            "line-height: 1.3157894736842106;",
+                            "}",
                             "margin-bottom: 5px;",
                             [Function],
                           ],
@@ -475,7 +524,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                         "foldedComponentIds": Array [],
                         "propTypes": undefined,
                         "render": [Function],
-                        "styledComponentId": "c4",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "li",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -485,7 +534,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                     forwardedRef={null}
                   >
                     <li
-                      className="c4 c5"
+                      className="c4"
                     >
                       <styled.a
                         href="https://example.com"
@@ -497,45 +546,56 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
+                              "_foldedDefaultProps": Object {
+                                "muted": false,
+                                "noVisitedState": false,
+                                "textColour": false,
+                              },
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bxivhb",
                                 "isStatic": false,
-                                "lastClassName": "c6",
+                                "lastClassName": "c5",
                                 "rules": Array [
-                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-family: sans-serif;
-}",
-                                  ":link {
-  color: #1d70b8;
-} :visited {
-  color: #4c2c92;
-} :hover {
-  color: #2b8cc4;
-} :active {
-  color: #2b8cc4;
-} :focus {
-  color: #0b0c0c;
-}",
-                                  "&:focus {
-  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
-}",
-                                  "@media print {
-  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
-  &::after {
-  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
-}
-}
-}",
+                                  "font-family: \\"nta\\", Arial, sans-serif;",
+                                  "-webkit-font-smoothing: antialiased;",
+                                  "-moz-osx-font-smoothing: grayscale;",
+                                  "@media print {",
+                                  "font-family: sans-serif;",
+                                  "}",
+                                  ":link {",
+                                  "color: #1d70b8;",
+                                  "}",
+                                  ":visited {",
+                                  "color: #4c2c92;",
+                                  "}",
+                                  ":hover {",
+                                  "color: #2b8cc4;",
+                                  "}",
+                                  ":active {",
+                                  "color: #2b8cc4;",
+                                  "}",
+                                  ":focus {",
+                                  "color: #0b0c0c;",
+                                  "}",
+                                  "&:focus {",
+                                  "outline: 3px solid #ffdd00;",
+                                  "outline-offset: 0;",
+                                  "background-color: #ffdd00;",
+                                  "}",
+                                  "@media print {",
+                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
+                                  "&::after {",
+                                  "content: \\" (\\" attr(href) \\")\\";",
+                                  "font-size: 90%;",
+                                  "word-wrap: break-word;",
+                                  "}",
+                                  "}",
+                                  "}",
                                   [Function],
                                   [Function],
                                   [Function],
                                 ],
-                              },
-                              "defaultProps": Object {
-                                "muted": false,
-                                "noVisitedState": false,
-                                "textColour": false,
                               },
                               "displayName": "styled.a",
                               "foldedComponentIds": Array [],
@@ -555,7 +615,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                           textColour={false}
                         >
                           <a
-                            className="c6"
+                            className="c5"
                             href="https://example.com"
                             muted={false}
                           >
@@ -573,15 +633,24 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "c4",
+                          "componentId": "sc-ifAKCX",
                           "isStatic": false,
-                          "lastClassName": "c5",
+                          "lastClassName": "c4",
                           "rules": Array [
-                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
+                            "font-family: \\"nta\\", Arial, sans-serif;",
+                            "-webkit-font-smoothing: antialiased;",
+                            "-moz-osx-font-smoothing: grayscale;",
+                            "@media print {",
+                            "font-size: 14px;",
+                            "line-height: 1.15;",
+                            "}",
+                            "font-weight: 400;",
+                            "font-size: 16px;",
+                            "line-height: 1.25;",
+                            "@media only screen and (min-width: 641px) {",
+                            "font-size: 19px;",
+                            "line-height: 1.3157894736842106;",
+                            "}",
                             "margin-bottom: 5px;",
                             [Function],
                           ],
@@ -590,7 +659,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                         "foldedComponentIds": Array [],
                         "propTypes": undefined,
                         "render": [Function],
-                        "styledComponentId": "c4",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "li",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -600,7 +669,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                     forwardedRef={null}
                   >
                     <li
-                      className="c4 c5"
+                      className="c4"
                     >
                       <styled.a
                         href="https://example.com"
@@ -612,45 +681,56 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
+                              "_foldedDefaultProps": Object {
+                                "muted": false,
+                                "noVisitedState": false,
+                                "textColour": false,
+                              },
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
                                 "componentId": "sc-bxivhb",
                                 "isStatic": false,
-                                "lastClassName": "c6",
+                                "lastClassName": "c5",
                                 "rules": Array [
-                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-family: sans-serif;
-}",
-                                  ":link {
-  color: #1d70b8;
-} :visited {
-  color: #4c2c92;
-} :hover {
-  color: #2b8cc4;
-} :active {
-  color: #2b8cc4;
-} :focus {
-  color: #0b0c0c;
-}",
-                                  "&:focus {
-  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
-}",
-                                  "@media print {
-  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
-  &::after {
-  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
-}
-}
-}",
+                                  "font-family: \\"nta\\", Arial, sans-serif;",
+                                  "-webkit-font-smoothing: antialiased;",
+                                  "-moz-osx-font-smoothing: grayscale;",
+                                  "@media print {",
+                                  "font-family: sans-serif;",
+                                  "}",
+                                  ":link {",
+                                  "color: #1d70b8;",
+                                  "}",
+                                  ":visited {",
+                                  "color: #4c2c92;",
+                                  "}",
+                                  ":hover {",
+                                  "color: #2b8cc4;",
+                                  "}",
+                                  ":active {",
+                                  "color: #2b8cc4;",
+                                  "}",
+                                  ":focus {",
+                                  "color: #0b0c0c;",
+                                  "}",
+                                  "&:focus {",
+                                  "outline: 3px solid #ffdd00;",
+                                  "outline-offset: 0;",
+                                  "background-color: #ffdd00;",
+                                  "}",
+                                  "@media print {",
+                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
+                                  "&::after {",
+                                  "content: \\" (\\" attr(href) \\")\\";",
+                                  "font-size: 90%;",
+                                  "word-wrap: break-word;",
+                                  "}",
+                                  "}",
+                                  "}",
                                   [Function],
                                   [Function],
                                   [Function],
                                 ],
-                              },
-                              "defaultProps": Object {
-                                "muted": false,
-                                "noVisitedState": false,
-                                "textColour": false,
                               },
                               "displayName": "styled.a",
                               "foldedComponentIds": Array [],
@@ -670,7 +750,7 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
                           textColour={false}
                         >
                           <a
-                            className="c6"
+                            className="c5"
                             href="https://example.com"
                             muted={false}
                           >
@@ -689,6 +769,6 @@ exports[`RelatedItems matches wrapper snapshot: wrapper mount 1`] = `
         </UnorderedList>
       </div>
     </StyledComponent>
-  </styled.div>
+  </src__StyledRelatedItems>
 </RelatedItems>
 `;
