@@ -269,7 +269,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -349,7 +349,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -429,7 +429,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -509,7 +509,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -589,7 +589,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -669,7 +669,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -749,7 +749,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -829,7 +829,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -909,7 +909,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -989,7 +989,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -1069,7 +1069,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",
@@ -1149,7 +1149,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
                                   "componentId": "Spinner__Rect-sc-1swd5y1-0",
-                                  "isStatic": false,
+                                  "isStatic": true,
                                   "lastClassName": "c2",
                                   "rules": Array [
                                     "animation:",

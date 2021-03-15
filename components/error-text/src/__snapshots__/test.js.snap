@@ -40,24 +40,12 @@ exports[`ErrorText matches wrapper snapshot: wrapper mount 1`] = `
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "font-family: \\"nta\\", Arial, sans-serif;",
-              "-webkit-font-smoothing: antialiased;",
-              "-moz-osx-font-smoothing: grayscale;",
-              "@media print {",
-              "font-size: 14px;",
-              "line-height: 1.15;",
-              "}",
-              "font-weight: 700;",
-              "font-size: 16px;",
-              "line-height: 1.25;",
-              "@media only screen and (min-width: 641px) {",
-              "font-size: 19px;",
-              "line-height: 1.3157894736842106;",
-              "}",
-              "display: block;",
-              "margin-bottom: 15px;",
-              "clear: both;",
-              "color: #d4351c;",
+              "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 700; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+              "display: block; margin-bottom: 15px; clear: both; color: #d4351c;",
               [Function],
             ],
           },

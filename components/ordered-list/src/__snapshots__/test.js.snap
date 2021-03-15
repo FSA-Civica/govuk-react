@@ -265,41 +265,30 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
-                          "font-family: \\"nta\\", Arial, sans-serif;",
-                          "-webkit-font-smoothing: antialiased;",
-                          "-moz-osx-font-smoothing: grayscale;",
-                          "@media print {",
-                          "font-family: sans-serif;",
-                          "}",
-                          ":link {",
-                          "color: #1d70b8;",
-                          "}",
-                          ":visited {",
-                          "color: #4c2c92;",
-                          "}",
-                          ":hover {",
-                          "color: #2b8cc4;",
-                          "}",
-                          ":active {",
-                          "color: #2b8cc4;",
-                          "}",
-                          ":focus {",
-                          "color: #0b0c0c;",
-                          "}",
-                          "&:focus {",
-                          "outline: 3px solid #ffdd00;",
-                          "outline-offset: 0;",
-                          "background-color: #ffdd00;",
-                          "}",
-                          "@media print {",
-                          "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                          "&::after {",
-                          "content: \\" (\\" attr(href) \\")\\";",
-                          "font-size: 90%;",
-                          "word-wrap: break-word;",
-                          "}",
-                          "}",
-                          "}",
+                          "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                          ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                          "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                          "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                           [Function],
                           [Function],
                           [Function],
@@ -400,41 +389,30 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
-                          "font-family: \\"nta\\", Arial, sans-serif;",
-                          "-webkit-font-smoothing: antialiased;",
-                          "-moz-osx-font-smoothing: grayscale;",
-                          "@media print {",
-                          "font-family: sans-serif;",
-                          "}",
-                          ":link {",
-                          "color: #1d70b8;",
-                          "}",
-                          ":visited {",
-                          "color: #4c2c92;",
-                          "}",
-                          ":hover {",
-                          "color: #2b8cc4;",
-                          "}",
-                          ":active {",
-                          "color: #2b8cc4;",
-                          "}",
-                          ":focus {",
-                          "color: #0b0c0c;",
-                          "}",
-                          "&:focus {",
-                          "outline: 3px solid #ffdd00;",
-                          "outline-offset: 0;",
-                          "background-color: #ffdd00;",
-                          "}",
-                          "@media print {",
-                          "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                          "&::after {",
-                          "content: \\" (\\" attr(href) \\")\\";",
-                          "font-size: 90%;",
-                          "word-wrap: break-word;",
-                          "}",
-                          "}",
-                          "}",
+                          "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                          ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                          "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                          "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                           [Function],
                           [Function],
                           [Function],
@@ -535,41 +513,30 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                         "isStatic": false,
                         "lastClassName": "c4",
                         "rules": Array [
-                          "font-family: \\"nta\\", Arial, sans-serif;",
-                          "-webkit-font-smoothing: antialiased;",
-                          "-moz-osx-font-smoothing: grayscale;",
-                          "@media print {",
-                          "font-family: sans-serif;",
-                          "}",
-                          ":link {",
-                          "color: #1d70b8;",
-                          "}",
-                          ":visited {",
-                          "color: #4c2c92;",
-                          "}",
-                          ":hover {",
-                          "color: #2b8cc4;",
-                          "}",
-                          ":active {",
-                          "color: #2b8cc4;",
-                          "}",
-                          ":focus {",
-                          "color: #0b0c0c;",
-                          "}",
-                          "&:focus {",
-                          "outline: 3px solid #ffdd00;",
-                          "outline-offset: 0;",
-                          "background-color: #ffdd00;",
-                          "}",
-                          "@media print {",
-                          "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                          "&::after {",
-                          "content: \\" (\\" attr(href) \\")\\";",
-                          "font-size: 90%;",
-                          "word-wrap: break-word;",
-                          "}",
-                          "}",
-                          "}",
+                          "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                          ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                          "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                          "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                           [Function],
                           [Function],
                           [Function],

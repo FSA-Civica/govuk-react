@@ -145,10 +145,9 @@ exports[`button basics matches snapshot 1`] = `
             "lastClassName": "c0",
             "rules": Array [
               [Function],
-              "&:focus {",
-              "outline: 3px solid #ffdd00;",
-              "outline-offset: 0;",
-              "}",
+              "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0;
+}",
               [Function],
               [Function],
               [Function],
@@ -309,7 +308,7 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
     disabled={false}
     start={false}
   >
-    <src__StyledButton
+    <styled.button
       buttonColour="#1d70b8"
       disabled={false}
       isStart={false}
@@ -327,10 +326,9 @@ exports[`button blue button, with automatic colours matches snapshot 1`] = `
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {",
-                "outline: 3px solid #ffdd00;",
-                "outline-offset: 0;",
-                "}",
+                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0;
+}",
                 [Function],
                 [Function],
                 [Function],
@@ -538,10 +536,9 @@ exports[`button button with icon matches snapshot 1`] = `
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {",
-                "outline: 3px solid #ffdd00;",
-                "outline-offset: 0;",
-                "}",
+                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0;
+}",
                 [Function],
                 [Function],
                 [Function],
@@ -780,7 +777,7 @@ exports[`button custom colours matches snapshot 1`] = `
     disabled={false}
     start={false}
   >
-    <src__StyledButton
+    <styled.button
       buttonColour="#f3f2f1"
       buttonHoverColour="#ffdd00"
       buttonShadowColour="#f47738"
@@ -804,10 +801,9 @@ exports[`button custom colours matches snapshot 1`] = `
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {",
-                "outline: 3px solid #ffdd00;",
-                "outline-offset: 0;",
-                "}",
+                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0;
+}",
                 [Function],
                 [Function],
                 [Function],
@@ -984,10 +980,9 @@ exports[`button disabled matches snapshot 1`] = `
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {",
-                "outline: 3px solid #ffdd00;",
-                "outline-offset: 0;",
-                "}",
+                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0;
+}",
                 [Function],
                 [Function],
                 [Function],
@@ -1164,10 +1159,9 @@ exports[`button start button matches snapshot 1`] = `
               "lastClassName": "c0",
               "rules": Array [
                 [Function],
-                "&:focus {",
-                "outline: 3px solid #ffdd00;",
-                "outline-offset: 0;",
-                "}",
+                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0;
+}",
                 [Function],
                 [Function],
                 [Function],

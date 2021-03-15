@@ -241,39 +241,19 @@ exports[`InputField matches wrapper snapshot: wrapper mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif;",
-                        "-webkit-font-smoothing: antialiased;",
-                        "-moz-osx-font-smoothing: grayscale;",
-                        "@media print {",
-                        "font-size: 14px;",
-                        "line-height: 1.15;",
-                        "}",
-                        "font-weight: 400;",
-                        "font-size: 16px;",
-                        "line-height: 1.25;",
-                        "@media only screen and (min-width: 641px) {",
-                        "font-size: 19px;",
-                        "line-height: 1.3157894736842106;",
-                        "}",
-                        "&:focus {",
-                        "outline: 3px solid #ffdd00;",
-                        "outline-offset: 0;",
-                        "}",
-                        "box-sizing: border-box;",
-                        "width: 100%;",
-                        "height: 40px;",
-                        "margin-top: 0;",
-                        "padding: 5px;",
-                        "border: 2px solid #0b0c0c;",
-                        "border-radius: 0;",
-                        "appearance: none;",
-                        "&::-webkit-outer-spin-button, &::-webkit-inner-spin-button {",
-                        "margin: 0;",
-                        "-webkit-appearance: none;",
-                        "}",
-                        "&[type=\\"number\\"] {",
-                        "-moz-appearance: textfield;",
-                        "}",
+                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                        "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0;
+}",
+                        "box-sizing: border-box; width: 100%; height: 40px; margin-top: 0; padding: 5px; border: 2px solid #0b0c0c; border-radius: 0; appearance: none; &::-webkit-outer-spin-button, &::-webkit-inner-spin-button {
+  margin: 0; -webkit-appearance: none;
+} &[type=\\"number\\"] {
+  -moz-appearance: textfield;
+}",
                         [Function],
                         [Function],
                       ],

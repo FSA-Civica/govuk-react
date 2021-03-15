@@ -182,50 +182,17 @@ exports[`details matches the Details snapshot: details 1`] = `
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "display: inline-block;",
-                      "position: relative;",
-                      "margin-bottom: 5px;",
-                      "padding-left: 25px;",
-                      "color: #1d70b8;",
-                      "cursor: pointer;",
-                      ":hover {",
-                      "color: #2b8cc4;",
-                      "}",
-                      ":focus {",
-                      "outline: 4px solid #ffdd00;",
-                      "outline-offset: -1px;",
-                      "color: #0b0c0c;",
-                      "background: #ffdd00;",
-                      "}",
-                      "::-webkit-details-marker {",
-                      "display: none;",
-                      "}",
-                      ":before {",
-                      "content: \\"\\";",
-                      "position: absolute;",
-                      "top: 0;",
-                      "bottom: 0;",
-                      "left: 0;",
-                      "margin: auto;",
-                      "display: block;",
-                      "width: 0;",
-                      "height: 0;",
-                      "border-style: solid;",
-                      "border-color: transparent;",
-                      "clip-path: polygon(0% 0%, 100% 50%, 0% 100%);",
-                      "border-width: 7px 0 7px 12.124px;",
-                      "border-left-color: inherit;",
-                      "[open] > & {",
-                      "display: block;",
-                      "width: 0;",
-                      "height: 0;",
-                      "border-style: solid;",
-                      "border-color: transparent;",
-                      "clip-path: polygon(0% 0%, 50% 100%, 100% 0%);",
-                      "border-width: 12.124px 7px 0 7px;",
-                      "border-top-color: inherit;",
-                      "}",
-                      "}",
+                      "display: inline-block; position: relative; margin-bottom: 5px; padding-left: 25px; color: #1d70b8; cursor: pointer; :hover {
+  color: #2b8cc4;
+} :focus {
+  outline: 4px solid #ffdd00; outline-offset: -1px; color: #0b0c0c; background: #ffdd00;
+} ::-webkit-details-marker {
+  display: none;
+} :before {
+  content: \\"\\"; position: absolute; top: 0; bottom: 0; left: 0; margin: auto; display: block; width: 0; height: 0; border-style: solid; border-color: transparent; clip-path: polygon(0% 0%, 100% 50%, 0% 100%); border-width: 7px 0 7px 12.124px; border-left-color: inherit; [open] > & {
+  display: block; width: 0; height: 0; border-style: solid; border-color: transparent; clip-path: polygon(0% 0%, 50% 100%, 100% 0%); border-width: 12.124px 7px 0 7px; border-top-color: inherit;
+}
+}",
                     ],
                   },
                   "displayName": "src__StyledSummary",

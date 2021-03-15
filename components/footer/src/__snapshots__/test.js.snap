@@ -227,23 +227,12 @@ exports[`Footer matches default snapshot: Footer 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2;",
-                "background: #f3f2f1;",
-                "color: #454a4c;",
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.2;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 14px;",
-                "line-height: 1.1428571428571428;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "}",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                 [Function],
               ],
             },
@@ -549,41 +538,30 @@ exports[`Footer matches default snapshot: Footer 1`] = `
                                                           "isStatic": false,
                                                           "lastClassName": "c7",
                                                           "rules": Array [
-                                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                                            "-webkit-font-smoothing: antialiased;",
-                                                            "-moz-osx-font-smoothing: grayscale;",
-                                                            "@media print {",
-                                                            "font-family: sans-serif;",
-                                                            "}",
-                                                            ":link {",
-                                                            "color: #1d70b8;",
-                                                            "}",
-                                                            ":visited {",
-                                                            "color: #4c2c92;",
-                                                            "}",
-                                                            ":hover {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":active {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":focus {",
-                                                            "color: #0b0c0c;",
-                                                            "}",
-                                                            "&:focus {",
-                                                            "outline: 3px solid #ffdd00;",
-                                                            "outline-offset: 0;",
-                                                            "background-color: #ffdd00;",
-                                                            "}",
-                                                            "@media print {",
-                                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                            "&::after {",
-                                                            "content: \\" (\\" attr(href) \\")\\";",
-                                                            "font-size: 90%;",
-                                                            "word-wrap: break-word;",
-                                                            "}",
-                                                            "}",
-                                                            "}",
+                                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                             [Function],
                                                             [Function],
                                                             [Function],
@@ -956,23 +934,12 @@ exports[`Footer matches with copyright snapshot: FooterWithCopyright 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2;",
-                "background: #f3f2f1;",
-                "color: #454a4c;",
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.2;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 14px;",
-                "line-height: 1.1428571428571428;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "}",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                 [Function],
               ],
             },
@@ -1290,41 +1257,30 @@ exports[`Footer matches with copyright snapshot: FooterWithCopyright 1`] = `
                                                           "isStatic": false,
                                                           "lastClassName": "c7",
                                                           "rules": Array [
-                                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                                            "-webkit-font-smoothing: antialiased;",
-                                                            "-moz-osx-font-smoothing: grayscale;",
-                                                            "@media print {",
-                                                            "font-family: sans-serif;",
-                                                            "}",
-                                                            ":link {",
-                                                            "color: #1d70b8;",
-                                                            "}",
-                                                            ":visited {",
-                                                            "color: #4c2c92;",
-                                                            "}",
-                                                            ":hover {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":active {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":focus {",
-                                                            "color: #0b0c0c;",
-                                                            "}",
-                                                            "&:focus {",
-                                                            "outline: 3px solid #ffdd00;",
-                                                            "outline-offset: 0;",
-                                                            "background-color: #ffdd00;",
-                                                            "}",
-                                                            "@media print {",
-                                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                            "&::after {",
-                                                            "content: \\" (\\" attr(href) \\")\\";",
-                                                            "font-size: 90%;",
-                                                            "word-wrap: break-word;",
-                                                            "}",
-                                                            "}",
-                                                            "}",
+                                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                             [Function],
                                                             [Function],
                                                             [Function],
@@ -1451,41 +1407,30 @@ exports[`Footer matches with copyright snapshot: FooterWithCopyright 1`] = `
                                           "isStatic": false,
                                           "lastClassName": "c9",
                                           "rules": Array [
-                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                            "-webkit-font-smoothing: antialiased;",
-                                            "-moz-osx-font-smoothing: grayscale;",
-                                            "@media print {",
-                                            "font-family: sans-serif;",
-                                            "}",
-                                            ":link {",
-                                            "color: #1d70b8;",
-                                            "}",
-                                            ":visited {",
-                                            "color: #4c2c92;",
-                                            "}",
-                                            ":hover {",
-                                            "color: #2b8cc4;",
-                                            "}",
-                                            ":active {",
-                                            "color: #2b8cc4;",
-                                            "}",
-                                            ":focus {",
-                                            "color: #0b0c0c;",
-                                            "}",
-                                            "&:focus {",
-                                            "outline: 3px solid #ffdd00;",
-                                            "outline-offset: 0;",
-                                            "background-color: #ffdd00;",
-                                            "}",
-                                            "@media print {",
-                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                            "&::after {",
-                                            "content: \\" (\\" attr(href) \\")\\";",
-                                            "font-size: 90%;",
-                                            "word-wrap: break-word;",
-                                            "}",
-                                            "}",
-                                            "}",
+                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                             [Function],
                                             [Function],
                                             [Function],
@@ -1796,23 +1741,12 @@ exports[`Footer matches with custom width snapshot: FooterWithCustomWidth 1`] = 
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2;",
-                "background: #f3f2f1;",
-                "color: #454a4c;",
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.2;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 14px;",
-                "line-height: 1.1428571428571428;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "}",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                 [Function],
               ],
             },
@@ -2124,41 +2058,30 @@ exports[`Footer matches with custom width snapshot: FooterWithCustomWidth 1`] = 
                                                           "isStatic": false,
                                                           "lastClassName": "c7",
                                                           "rules": Array [
-                                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                                            "-webkit-font-smoothing: antialiased;",
-                                                            "-moz-osx-font-smoothing: grayscale;",
-                                                            "@media print {",
-                                                            "font-family: sans-serif;",
-                                                            "}",
-                                                            ":link {",
-                                                            "color: #1d70b8;",
-                                                            "}",
-                                                            ":visited {",
-                                                            "color: #4c2c92;",
-                                                            "}",
-                                                            ":hover {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":active {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":focus {",
-                                                            "color: #0b0c0c;",
-                                                            "}",
-                                                            "&:focus {",
-                                                            "outline: 3px solid #ffdd00;",
-                                                            "outline-offset: 0;",
-                                                            "background-color: #ffdd00;",
-                                                            "}",
-                                                            "@media print {",
-                                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                            "&::after {",
-                                                            "content: \\" (\\" attr(href) \\")\\";",
-                                                            "font-size: 90%;",
-                                                            "word-wrap: break-word;",
-                                                            "}",
-                                                            "}",
-                                                            "}",
+                                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                             [Function],
                                                             [Function],
                                                             [Function],
@@ -2460,23 +2383,12 @@ exports[`Footer matches with meta custom snapshot: FooterWithMetaCustom 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2;",
-                "background: #f3f2f1;",
-                "color: #454a4c;",
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.2;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 14px;",
-                "line-height: 1.1428571428571428;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "}",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                 [Function],
               ],
             },
@@ -2713,41 +2625,30 @@ exports[`Footer matches with meta custom snapshot: FooterWithMetaCustom 1`] = `
                                                       "isStatic": false,
                                                       "lastClassName": "c6",
                                                       "rules": Array [
-                                                        "font-family: \\"nta\\", Arial, sans-serif;",
-                                                        "-webkit-font-smoothing: antialiased;",
-                                                        "-moz-osx-font-smoothing: grayscale;",
-                                                        "@media print {",
-                                                        "font-family: sans-serif;",
-                                                        "}",
-                                                        ":link {",
-                                                        "color: #1d70b8;",
-                                                        "}",
-                                                        ":visited {",
-                                                        "color: #4c2c92;",
-                                                        "}",
-                                                        ":hover {",
-                                                        "color: #2b8cc4;",
-                                                        "}",
-                                                        ":active {",
-                                                        "color: #2b8cc4;",
-                                                        "}",
-                                                        ":focus {",
-                                                        "color: #0b0c0c;",
-                                                        "}",
-                                                        "&:focus {",
-                                                        "outline: 3px solid #ffdd00;",
-                                                        "outline-offset: 0;",
-                                                        "background-color: #ffdd00;",
-                                                        "}",
-                                                        "@media print {",
-                                                        "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                        "&::after {",
-                                                        "content: \\" (\\" attr(href) \\")\\";",
-                                                        "font-size: 90%;",
-                                                        "word-wrap: break-word;",
-                                                        "}",
-                                                        "}",
-                                                        "}",
+                                                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                        ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                        "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                        "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                         [Function],
                                                         [Function],
                                                         [Function],
@@ -2952,41 +2853,30 @@ exports[`Footer matches with meta custom snapshot: FooterWithMetaCustom 1`] = `
                                                           "isStatic": false,
                                                           "lastClassName": "c6",
                                                           "rules": Array [
-                                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                                            "-webkit-font-smoothing: antialiased;",
-                                                            "-moz-osx-font-smoothing: grayscale;",
-                                                            "@media print {",
-                                                            "font-family: sans-serif;",
-                                                            "}",
-                                                            ":link {",
-                                                            "color: #1d70b8;",
-                                                            "}",
-                                                            ":visited {",
-                                                            "color: #4c2c92;",
-                                                            "}",
-                                                            ":hover {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":active {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":focus {",
-                                                            "color: #0b0c0c;",
-                                                            "}",
-                                                            "&:focus {",
-                                                            "outline: 3px solid #ffdd00;",
-                                                            "outline-offset: 0;",
-                                                            "background-color: #ffdd00;",
-                                                            "}",
-                                                            "@media print {",
-                                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                            "&::after {",
-                                                            "content: \\" (\\" attr(href) \\")\\";",
-                                                            "font-size: 90%;",
-                                                            "word-wrap: break-word;",
-                                                            "}",
-                                                            "}",
-                                                            "}",
+                                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                             [Function],
                                                             [Function],
                                                             [Function],
@@ -3416,23 +3306,12 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2;",
-                    "background: #f3f2f1;",
-                    "color: #454a4c;",
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.2;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 14px;",
-                    "line-height: 1.1428571428571428;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "}",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                     [Function],
                   ],
                 },
@@ -3824,41 +3703,30 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
                                                                   "isStatic": false,
                                                                   "lastClassName": "c9",
                                                                   "rules": Array [
-                                                                    "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                    "-webkit-font-smoothing: antialiased;",
-                                                                    "-moz-osx-font-smoothing: grayscale;",
-                                                                    "@media print {",
-                                                                    "font-family: sans-serif;",
-                                                                    "}",
-                                                                    ":link {",
-                                                                    "color: #1d70b8;",
-                                                                    "}",
-                                                                    ":visited {",
-                                                                    "color: #4c2c92;",
-                                                                    "}",
-                                                                    ":hover {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":active {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":focus {",
-                                                                    "color: #0b0c0c;",
-                                                                    "}",
-                                                                    "&:focus {",
-                                                                    "outline: 3px solid #ffdd00;",
-                                                                    "outline-offset: 0;",
-                                                                    "background-color: #ffdd00;",
-                                                                    "}",
-                                                                    "@media print {",
-                                                                    "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                    "&::after {",
-                                                                    "content: \\" (\\" attr(href) \\")\\";",
-                                                                    "font-size: 90%;",
-                                                                    "word-wrap: break-word;",
-                                                                    "}",
-                                                                    "}",
-                                                                    "}",
+                                                                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                    ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                    "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                    "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                     [Function],
                                                                     [Function],
                                                                     [Function],
@@ -4151,41 +4019,30 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
                                                                   "isStatic": false,
                                                                   "lastClassName": "c9",
                                                                   "rules": Array [
-                                                                    "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                    "-webkit-font-smoothing: antialiased;",
-                                                                    "-moz-osx-font-smoothing: grayscale;",
-                                                                    "@media print {",
-                                                                    "font-family: sans-serif;",
-                                                                    "}",
-                                                                    ":link {",
-                                                                    "color: #1d70b8;",
-                                                                    "}",
-                                                                    ":visited {",
-                                                                    "color: #4c2c92;",
-                                                                    "}",
-                                                                    ":hover {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":active {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":focus {",
-                                                                    "color: #0b0c0c;",
-                                                                    "}",
-                                                                    "&:focus {",
-                                                                    "outline: 3px solid #ffdd00;",
-                                                                    "outline-offset: 0;",
-                                                                    "background-color: #ffdd00;",
-                                                                    "}",
-                                                                    "@media print {",
-                                                                    "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                    "&::after {",
-                                                                    "content: \\" (\\" attr(href) \\")\\";",
-                                                                    "font-size: 90%;",
-                                                                    "word-wrap: break-word;",
-                                                                    "}",
-                                                                    "}",
-                                                                    "}",
+                                                                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                    ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                    "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                    "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                     [Function],
                                                                     [Function],
                                                                     [Function],
@@ -4325,41 +4182,30 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
                                                           "isStatic": false,
                                                           "lastClassName": "c9",
                                                           "rules": Array [
-                                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                                            "-webkit-font-smoothing: antialiased;",
-                                                            "-moz-osx-font-smoothing: grayscale;",
-                                                            "@media print {",
-                                                            "font-family: sans-serif;",
-                                                            "}",
-                                                            ":link {",
-                                                            "color: #1d70b8;",
-                                                            "}",
-                                                            ":visited {",
-                                                            "color: #4c2c92;",
-                                                            "}",
-                                                            ":hover {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":active {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":focus {",
-                                                            "color: #0b0c0c;",
-                                                            "}",
-                                                            "&:focus {",
-                                                            "outline: 3px solid #ffdd00;",
-                                                            "outline-offset: 0;",
-                                                            "background-color: #ffdd00;",
-                                                            "}",
-                                                            "@media print {",
-                                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                            "&::after {",
-                                                            "content: \\" (\\" attr(href) \\")\\";",
-                                                            "font-size: 90%;",
-                                                            "word-wrap: break-word;",
-                                                            "}",
-                                                            "}",
-                                                            "}",
+                                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                             [Function],
                                                             [Function],
                                                             [Function],
@@ -4564,41 +4410,30 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
                                                               "isStatic": false,
                                                               "lastClassName": "c9",
                                                               "rules": Array [
-                                                                "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                "-webkit-font-smoothing: antialiased;",
-                                                                "-moz-osx-font-smoothing: grayscale;",
-                                                                "@media print {",
-                                                                "font-family: sans-serif;",
-                                                                "}",
-                                                                ":link {",
-                                                                "color: #1d70b8;",
-                                                                "}",
-                                                                ":visited {",
-                                                                "color: #4c2c92;",
-                                                                "}",
-                                                                ":hover {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":active {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":focus {",
-                                                                "color: #0b0c0c;",
-                                                                "}",
-                                                                "&:focus {",
-                                                                "outline: 3px solid #ffdd00;",
-                                                                "outline-offset: 0;",
-                                                                "background-color: #ffdd00;",
-                                                                "}",
-                                                                "@media print {",
-                                                                "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                "&::after {",
-                                                                "content: \\" (\\" attr(href) \\")\\";",
-                                                                "font-size: 90%;",
-                                                                "word-wrap: break-word;",
-                                                                "}",
-                                                                "}",
-                                                                "}",
+                                                                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                 [Function],
                                                                 [Function],
                                                                 [Function],
@@ -5024,23 +4859,12 @@ exports[`Footer matches with meta links snapshot: FooterWithMetaLinks 1`] = `
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2;",
-                    "background: #f3f2f1;",
-                    "color: #454a4c;",
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.2;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 14px;",
-                    "line-height: 1.1428571428571428;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "}",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                     [Function],
                   ],
                 },
@@ -5432,41 +5256,30 @@ exports[`Footer matches with meta links snapshot: FooterWithMetaLinks 1`] = `
                                                                   "isStatic": false,
                                                                   "lastClassName": "c9",
                                                                   "rules": Array [
-                                                                    "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                    "-webkit-font-smoothing: antialiased;",
-                                                                    "-moz-osx-font-smoothing: grayscale;",
-                                                                    "@media print {",
-                                                                    "font-family: sans-serif;",
-                                                                    "}",
-                                                                    ":link {",
-                                                                    "color: #1d70b8;",
-                                                                    "}",
-                                                                    ":visited {",
-                                                                    "color: #4c2c92;",
-                                                                    "}",
-                                                                    ":hover {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":active {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":focus {",
-                                                                    "color: #0b0c0c;",
-                                                                    "}",
-                                                                    "&:focus {",
-                                                                    "outline: 3px solid #ffdd00;",
-                                                                    "outline-offset: 0;",
-                                                                    "background-color: #ffdd00;",
-                                                                    "}",
-                                                                    "@media print {",
-                                                                    "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                    "&::after {",
-                                                                    "content: \\" (\\" attr(href) \\")\\";",
-                                                                    "font-size: 90%;",
-                                                                    "word-wrap: break-word;",
-                                                                    "}",
-                                                                    "}",
-                                                                    "}",
+                                                                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                    ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                    "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                    "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                     [Function],
                                                                     [Function],
                                                                     [Function],
@@ -5759,41 +5572,30 @@ exports[`Footer matches with meta links snapshot: FooterWithMetaLinks 1`] = `
                                                                   "isStatic": false,
                                                                   "lastClassName": "c9",
                                                                   "rules": Array [
-                                                                    "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                    "-webkit-font-smoothing: antialiased;",
-                                                                    "-moz-osx-font-smoothing: grayscale;",
-                                                                    "@media print {",
-                                                                    "font-family: sans-serif;",
-                                                                    "}",
-                                                                    ":link {",
-                                                                    "color: #1d70b8;",
-                                                                    "}",
-                                                                    ":visited {",
-                                                                    "color: #4c2c92;",
-                                                                    "}",
-                                                                    ":hover {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":active {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":focus {",
-                                                                    "color: #0b0c0c;",
-                                                                    "}",
-                                                                    "&:focus {",
-                                                                    "outline: 3px solid #ffdd00;",
-                                                                    "outline-offset: 0;",
-                                                                    "background-color: #ffdd00;",
-                                                                    "}",
-                                                                    "@media print {",
-                                                                    "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                    "&::after {",
-                                                                    "content: \\" (\\" attr(href) \\")\\";",
-                                                                    "font-size: 90%;",
-                                                                    "word-wrap: break-word;",
-                                                                    "}",
-                                                                    "}",
-                                                                    "}",
+                                                                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                    ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                    "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                    "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                     [Function],
                                                                     [Function],
                                                                     [Function],
@@ -6002,41 +5804,30 @@ exports[`Footer matches with meta links snapshot: FooterWithMetaLinks 1`] = `
                                                               "isStatic": false,
                                                               "lastClassName": "c9",
                                                               "rules": Array [
-                                                                "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                "-webkit-font-smoothing: antialiased;",
-                                                                "-moz-osx-font-smoothing: grayscale;",
-                                                                "@media print {",
-                                                                "font-family: sans-serif;",
-                                                                "}",
-                                                                ":link {",
-                                                                "color: #1d70b8;",
-                                                                "}",
-                                                                ":visited {",
-                                                                "color: #4c2c92;",
-                                                                "}",
-                                                                ":hover {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":active {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":focus {",
-                                                                "color: #0b0c0c;",
-                                                                "}",
-                                                                "&:focus {",
-                                                                "outline: 3px solid #ffdd00;",
-                                                                "outline-offset: 0;",
-                                                                "background-color: #ffdd00;",
-                                                                "}",
-                                                                "@media print {",
-                                                                "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                "&::after {",
-                                                                "content: \\" (\\" attr(href) \\")\\";",
-                                                                "font-size: 90%;",
-                                                                "word-wrap: break-word;",
-                                                                "}",
-                                                                "}",
-                                                                "}",
+                                                                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                 [Function],
                                                                 [Function],
                                                                 [Function],
@@ -6629,23 +6420,12 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2;",
-                    "background: #f3f2f1;",
-                    "color: #454a4c;",
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.2;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 14px;",
-                    "line-height: 1.1428571428571428;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "}",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                     [Function],
                   ],
                 },
@@ -7030,41 +6810,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -7357,41 +7126,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -7539,41 +7297,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -7721,41 +7468,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -7903,41 +7639,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -8278,41 +8003,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -8460,41 +8174,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -8642,41 +8345,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -9093,41 +8785,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                   "isStatic": false,
                                                                   "lastClassName": "c9",
                                                                   "rules": Array [
-                                                                    "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                    "-webkit-font-smoothing: antialiased;",
-                                                                    "-moz-osx-font-smoothing: grayscale;",
-                                                                    "@media print {",
-                                                                    "font-family: sans-serif;",
-                                                                    "}",
-                                                                    ":link {",
-                                                                    "color: #1d70b8;",
-                                                                    "}",
-                                                                    ":visited {",
-                                                                    "color: #4c2c92;",
-                                                                    "}",
-                                                                    ":hover {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":active {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":focus {",
-                                                                    "color: #0b0c0c;",
-                                                                    "}",
-                                                                    "&:focus {",
-                                                                    "outline: 3px solid #ffdd00;",
-                                                                    "outline-offset: 0;",
-                                                                    "background-color: #ffdd00;",
-                                                                    "}",
-                                                                    "@media print {",
-                                                                    "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                    "&::after {",
-                                                                    "content: \\" (\\" attr(href) \\")\\";",
-                                                                    "font-size: 90%;",
-                                                                    "word-wrap: break-word;",
-                                                                    "}",
-                                                                    "}",
-                                                                    "}",
+                                                                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                    ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                    "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                    "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                     [Function],
                                                                     [Function],
                                                                     [Function],
@@ -9420,41 +9101,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                                   "isStatic": false,
                                                                   "lastClassName": "c9",
                                                                   "rules": Array [
-                                                                    "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                    "-webkit-font-smoothing: antialiased;",
-                                                                    "-moz-osx-font-smoothing: grayscale;",
-                                                                    "@media print {",
-                                                                    "font-family: sans-serif;",
-                                                                    "}",
-                                                                    ":link {",
-                                                                    "color: #1d70b8;",
-                                                                    "}",
-                                                                    ":visited {",
-                                                                    "color: #4c2c92;",
-                                                                    "}",
-                                                                    ":hover {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":active {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":focus {",
-                                                                    "color: #0b0c0c;",
-                                                                    "}",
-                                                                    "&:focus {",
-                                                                    "outline: 3px solid #ffdd00;",
-                                                                    "outline-offset: 0;",
-                                                                    "background-color: #ffdd00;",
-                                                                    "}",
-                                                                    "@media print {",
-                                                                    "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                    "&::after {",
-                                                                    "content: \\" (\\" attr(href) \\")\\";",
-                                                                    "font-size: 90%;",
-                                                                    "word-wrap: break-word;",
-                                                                    "}",
-                                                                    "}",
-                                                                    "}",
+                                                                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                    ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                    "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                    "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                     [Function],
                                                                     [Function],
                                                                     [Function],
@@ -9594,41 +9264,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                           "isStatic": false,
                                                           "lastClassName": "c9",
                                                           "rules": Array [
-                                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                                            "-webkit-font-smoothing: antialiased;",
-                                                            "-moz-osx-font-smoothing: grayscale;",
-                                                            "@media print {",
-                                                            "font-family: sans-serif;",
-                                                            "}",
-                                                            ":link {",
-                                                            "color: #1d70b8;",
-                                                            "}",
-                                                            ":visited {",
-                                                            "color: #4c2c92;",
-                                                            "}",
-                                                            ":hover {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":active {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":focus {",
-                                                            "color: #0b0c0c;",
-                                                            "}",
-                                                            "&:focus {",
-                                                            "outline: 3px solid #ffdd00;",
-                                                            "outline-offset: 0;",
-                                                            "background-color: #ffdd00;",
-                                                            "}",
-                                                            "@media print {",
-                                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                            "&::after {",
-                                                            "content: \\" (\\" attr(href) \\")\\";",
-                                                            "font-size: 90%;",
-                                                            "word-wrap: break-word;",
-                                                            "}",
-                                                            "}",
-                                                            "}",
+                                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                             [Function],
                                                             [Function],
                                                             [Function],
@@ -9833,41 +9492,30 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                                                               "isStatic": false,
                                                               "lastClassName": "c9",
                                                               "rules": Array [
-                                                                "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                "-webkit-font-smoothing: antialiased;",
-                                                                "-moz-osx-font-smoothing: grayscale;",
-                                                                "@media print {",
-                                                                "font-family: sans-serif;",
-                                                                "}",
-                                                                ":link {",
-                                                                "color: #1d70b8;",
-                                                                "}",
-                                                                ":visited {",
-                                                                "color: #4c2c92;",
-                                                                "}",
-                                                                ":hover {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":active {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":focus {",
-                                                                "color: #0b0c0c;",
-                                                                "}",
-                                                                "&:focus {",
-                                                                "outline: 3px solid #ffdd00;",
-                                                                "outline-offset: 0;",
-                                                                "background-color: #ffdd00;",
-                                                                "}",
-                                                                "@media print {",
-                                                                "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                "&::after {",
-                                                                "content: \\" (\\" attr(href) \\")\\";",
-                                                                "font-size: 90%;",
-                                                                "word-wrap: break-word;",
-                                                                "}",
-                                                                "}",
-                                                                "}",
+                                                                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                 [Function],
                                                                 [Function],
                                                                 [Function],
@@ -10341,23 +9989,12 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2;",
-                    "background: #f3f2f1;",
-                    "color: #454a4c;",
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.2;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 14px;",
-                    "line-height: 1.1428571428571428;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "}",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                     [Function],
                   ],
                 },
@@ -10742,41 +10379,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -11069,41 +10695,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -11251,41 +10866,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -11433,41 +11037,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -11615,41 +11208,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -11990,41 +11572,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -12172,41 +11743,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -12354,41 +11914,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                                 "isStatic": false,
                                                                 "lastClassName": "c9",
                                                                 "rules": Array [
-                                                                  "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                  "-webkit-font-smoothing: antialiased;",
-                                                                  "-moz-osx-font-smoothing: grayscale;",
-                                                                  "@media print {",
-                                                                  "font-family: sans-serif;",
-                                                                  "}",
-                                                                  ":link {",
-                                                                  "color: #1d70b8;",
-                                                                  "}",
-                                                                  ":visited {",
-                                                                  "color: #4c2c92;",
-                                                                  "}",
-                                                                  ":hover {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":active {",
-                                                                  "color: #2b8cc4;",
-                                                                  "}",
-                                                                  ":focus {",
-                                                                  "color: #0b0c0c;",
-                                                                  "}",
-                                                                  "&:focus {",
-                                                                  "outline: 3px solid #ffdd00;",
-                                                                  "outline-offset: 0;",
-                                                                  "background-color: #ffdd00;",
-                                                                  "}",
-                                                                  "@media print {",
-                                                                  "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                  "&::after {",
-                                                                  "content: \\" (\\" attr(href) \\")\\";",
-                                                                  "font-size: 90%;",
-                                                                  "word-wrap: break-word;",
-                                                                  "}",
-                                                                  "}",
-                                                                  "}",
+                                                                  "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                  ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                  "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                  "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                   [Function],
                                                                   [Function],
                                                                   [Function],
@@ -12719,41 +12268,30 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                                                               "isStatic": false,
                                                               "lastClassName": "c9",
                                                               "rules": Array [
-                                                                "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                "-webkit-font-smoothing: antialiased;",
-                                                                "-moz-osx-font-smoothing: grayscale;",
-                                                                "@media print {",
-                                                                "font-family: sans-serif;",
-                                                                "}",
-                                                                ":link {",
-                                                                "color: #1d70b8;",
-                                                                "}",
-                                                                ":visited {",
-                                                                "color: #4c2c92;",
-                                                                "}",
-                                                                ":hover {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":active {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":focus {",
-                                                                "color: #0b0c0c;",
-                                                                "}",
-                                                                "&:focus {",
-                                                                "outline: 3px solid #ffdd00;",
-                                                                "outline-offset: 0;",
-                                                                "background-color: #ffdd00;",
-                                                                "}",
-                                                                "@media print {",
-                                                                "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                "&::after {",
-                                                                "content: \\" (\\" attr(href) \\")\\";",
-                                                                "font-size: 90%;",
-                                                                "word-wrap: break-word;",
-                                                                "}",
-                                                                "}",
-                                                                "}",
+                                                                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                 [Function],
                                                                 [Function],
                                                                 [Function],
@@ -13155,23 +12693,12 @@ exports[`Footer matches with single meta link snapshot: FooterWithSingleMetaLink
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2;",
-                    "background: #f3f2f1;",
-                    "color: #454a4c;",
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.2;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 14px;",
-                    "line-height: 1.1428571428571428;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "}",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                     [Function],
                   ],
                 },
@@ -13562,41 +13089,30 @@ exports[`Footer matches with single meta link snapshot: FooterWithSingleMetaLink
                                                                   "isStatic": false,
                                                                   "lastClassName": "c9",
                                                                   "rules": Array [
-                                                                    "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                    "-webkit-font-smoothing: antialiased;",
-                                                                    "-moz-osx-font-smoothing: grayscale;",
-                                                                    "@media print {",
-                                                                    "font-family: sans-serif;",
-                                                                    "}",
-                                                                    ":link {",
-                                                                    "color: #1d70b8;",
-                                                                    "}",
-                                                                    ":visited {",
-                                                                    "color: #4c2c92;",
-                                                                    "}",
-                                                                    ":hover {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":active {",
-                                                                    "color: #2b8cc4;",
-                                                                    "}",
-                                                                    ":focus {",
-                                                                    "color: #0b0c0c;",
-                                                                    "}",
-                                                                    "&:focus {",
-                                                                    "outline: 3px solid #ffdd00;",
-                                                                    "outline-offset: 0;",
-                                                                    "background-color: #ffdd00;",
-                                                                    "}",
-                                                                    "@media print {",
-                                                                    "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                    "&::after {",
-                                                                    "content: \\" (\\" attr(href) \\")\\";",
-                                                                    "font-size: 90%;",
-                                                                    "word-wrap: break-word;",
-                                                                    "}",
-                                                                    "}",
-                                                                    "}",
+                                                                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                    ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                    "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                    "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                     [Function],
                                                                     [Function],
                                                                     [Function],
@@ -13805,41 +13321,30 @@ exports[`Footer matches with single meta link snapshot: FooterWithSingleMetaLink
                                                               "isStatic": false,
                                                               "lastClassName": "c9",
                                                               "rules": Array [
-                                                                "font-family: \\"nta\\", Arial, sans-serif;",
-                                                                "-webkit-font-smoothing: antialiased;",
-                                                                "-moz-osx-font-smoothing: grayscale;",
-                                                                "@media print {",
-                                                                "font-family: sans-serif;",
-                                                                "}",
-                                                                ":link {",
-                                                                "color: #1d70b8;",
-                                                                "}",
-                                                                ":visited {",
-                                                                "color: #4c2c92;",
-                                                                "}",
-                                                                ":hover {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":active {",
-                                                                "color: #2b8cc4;",
-                                                                "}",
-                                                                ":focus {",
-                                                                "color: #0b0c0c;",
-                                                                "}",
-                                                                "&:focus {",
-                                                                "outline: 3px solid #ffdd00;",
-                                                                "outline-offset: 0;",
-                                                                "background-color: #ffdd00;",
-                                                                "}",
-                                                                "@media print {",
-                                                                "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                                "&::after {",
-                                                                "content: \\" (\\" attr(href) \\")\\";",
-                                                                "font-size: 90%;",
-                                                                "word-wrap: break-word;",
-                                                                "}",
-                                                                "}",
-                                                                "}",
+                                                                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                                ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                                "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                                "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                                 [Function],
                                                                 [Function],
                                                                 [Function],
@@ -14275,23 +13780,12 @@ exports[`Footer matches with single navigation link snapshot: FooterWithSingleNa
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2;",
-                "background: #f3f2f1;",
-                "color: #454a4c;",
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.2;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 14px;",
-                "line-height: 1.1428571428571428;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "}",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
                 [Function],
               ],
             },
@@ -14675,41 +14169,30 @@ exports[`Footer matches with single navigation link snapshot: FooterWithSingleNa
                                                             "isStatic": false,
                                                             "lastClassName": "c9",
                                                             "rules": Array [
-                                                              "font-family: \\"nta\\", Arial, sans-serif;",
-                                                              "-webkit-font-smoothing: antialiased;",
-                                                              "-moz-osx-font-smoothing: grayscale;",
-                                                              "@media print {",
-                                                              "font-family: sans-serif;",
-                                                              "}",
-                                                              ":link {",
-                                                              "color: #1d70b8;",
-                                                              "}",
-                                                              ":visited {",
-                                                              "color: #4c2c92;",
-                                                              "}",
-                                                              ":hover {",
-                                                              "color: #2b8cc4;",
-                                                              "}",
-                                                              ":active {",
-                                                              "color: #2b8cc4;",
-                                                              "}",
-                                                              ":focus {",
-                                                              "color: #0b0c0c;",
-                                                              "}",
-                                                              "&:focus {",
-                                                              "outline: 3px solid #ffdd00;",
-                                                              "outline-offset: 0;",
-                                                              "background-color: #ffdd00;",
-                                                              "}",
-                                                              "@media print {",
-                                                              "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                              "&::after {",
-                                                              "content: \\" (\\" attr(href) \\")\\";",
-                                                              "font-size: 90%;",
-                                                              "word-wrap: break-word;",
-                                                              "}",
-                                                              "}",
-                                                              "}",
+                                                              "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                              ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                              "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                              "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                               [Function],
                                                               [Function],
                                                               [Function],
@@ -15040,41 +14523,30 @@ exports[`Footer matches with single navigation link snapshot: FooterWithSingleNa
                                                           "isStatic": false,
                                                           "lastClassName": "c9",
                                                           "rules": Array [
-                                                            "font-family: \\"nta\\", Arial, sans-serif;",
-                                                            "-webkit-font-smoothing: antialiased;",
-                                                            "-moz-osx-font-smoothing: grayscale;",
-                                                            "@media print {",
-                                                            "font-family: sans-serif;",
-                                                            "}",
-                                                            ":link {",
-                                                            "color: #1d70b8;",
-                                                            "}",
-                                                            ":visited {",
-                                                            "color: #4c2c92;",
-                                                            "}",
-                                                            ":hover {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":active {",
-                                                            "color: #2b8cc4;",
-                                                            "}",
-                                                            ":focus {",
-                                                            "color: #0b0c0c;",
-                                                            "}",
-                                                            "&:focus {",
-                                                            "outline: 3px solid #ffdd00;",
-                                                            "outline-offset: 0;",
-                                                            "background-color: #ffdd00;",
-                                                            "}",
-                                                            "@media print {",
-                                                            "&[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {",
-                                                            "&::after {",
-                                                            "content: \\" (\\" attr(href) \\")\\";",
-                                                            "font-size: 90%;",
-                                                            "word-wrap: break-word;",
-                                                            "}",
-                                                            "}",
-                                                            "}",
+                                                            "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-family: sans-serif;
+}",
+                                                            ":link {
+  color: #1d70b8;
+} :visited {
+  color: #4c2c92;
+} :hover {
+  color: #2b8cc4;
+} :active {
+  color: #2b8cc4;
+} :focus {
+  color: #0b0c0c;
+}",
+                                                            "&:focus {
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
+}",
+                                                            "@media print {
+  &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
+  &::after {
+  content: \\" (\\" attr(href) \\")\\"; font-size: 90%; word-wrap: break-word;
+}
+}
+}",
                                                             [Function],
                                                             [Function],
                                                             [Function],

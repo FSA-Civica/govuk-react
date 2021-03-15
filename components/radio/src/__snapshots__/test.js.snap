@@ -198,22 +198,11 @@ exports[`Radio can render with hint text: hint text 1`] = `
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "position: absolute;",
-                    "z-index: 1;",
-                    "top: 0;",
-                    "left: 0;",
-                    "width: 40px;",
-                    "height: 40px;",
-                    "cursor: pointer;",
-                    "opacity: 0;",
-                    ":checked + span::after {",
-                    "opacity: 1;",
-                    "}",
-                    ":focus + span::before {",
-                    "outline: 3px solid transparent;",
-                    "outline-offset: 3px;",
-                    "box-shadow: 0 0 0 4px #ffdd00;",
-                    "}",
+                    "position: absolute; z-index: 1; top: 0; left: 0; width: 40px; height: 40px; cursor: pointer; opacity: 0; :checked + span::after {
+  opacity: 1;
+} :focus + span::before {
+  outline: 3px solid transparent; outline-offset: 3px; box-shadow: 0 0 0 4px #ffdd00;
+}",
                     [Function],
                   ],
                 },
@@ -558,22 +547,11 @@ exports[`Radio disabled: disabled 1`] = `
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "position: absolute;",
-                    "z-index: 1;",
-                    "top: 0;",
-                    "left: 0;",
-                    "width: 40px;",
-                    "height: 40px;",
-                    "cursor: pointer;",
-                    "opacity: 0;",
-                    ":checked + span::after {",
-                    "opacity: 1;",
-                    "}",
-                    ":focus + span::before {",
-                    "outline: 3px solid transparent;",
-                    "outline-offset: 3px;",
-                    "box-shadow: 0 0 0 4px #ffdd00;",
-                    "}",
+                    "position: absolute; z-index: 1; top: 0; left: 0; width: 40px; height: 40px; cursor: pointer; opacity: 0; :checked + span::after {
+  opacity: 1;
+} :focus + span::before {
+  outline: 3px solid transparent; outline-offset: 3px; box-shadow: 0 0 0 4px #ffdd00;
+}",
                     [Function],
                   ],
                 },
@@ -839,22 +817,11 @@ exports[`Radio matches snapshot for inline: inline mount 1`] = `
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "position: absolute;",
-                    "z-index: 1;",
-                    "top: 0;",
-                    "left: 0;",
-                    "width: 40px;",
-                    "height: 40px;",
-                    "cursor: pointer;",
-                    "opacity: 0;",
-                    ":checked + span::after {",
-                    "opacity: 1;",
-                    "}",
-                    ":focus + span::before {",
-                    "outline: 3px solid transparent;",
-                    "outline-offset: 3px;",
-                    "box-shadow: 0 0 0 4px #ffdd00;",
-                    "}",
+                    "position: absolute; z-index: 1; top: 0; left: 0; width: 40px; height: 40px; cursor: pointer; opacity: 0; :checked + span::after {
+  opacity: 1;
+} :focus + span::before {
+  outline: 3px solid transparent; outline-offset: 3px; box-shadow: 0 0 0 4px #ffdd00;
+}",
                     [Function],
                   ],
                 },
@@ -1113,22 +1080,11 @@ exports[`Radio matches snapshot: standard mount 1`] = `
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "position: absolute;",
-                    "z-index: 1;",
-                    "top: 0;",
-                    "left: 0;",
-                    "width: 40px;",
-                    "height: 40px;",
-                    "cursor: pointer;",
-                    "opacity: 0;",
-                    ":checked + span::after {",
-                    "opacity: 1;",
-                    "}",
-                    ":focus + span::before {",
-                    "outline: 3px solid transparent;",
-                    "outline-offset: 3px;",
-                    "box-shadow: 0 0 0 4px #ffdd00;",
-                    "}",
+                    "position: absolute; z-index: 1; top: 0; left: 0; width: 40px; height: 40px; cursor: pointer; opacity: 0; :checked + span::after {
+  opacity: 1;
+} :focus + span::before {
+  outline: 3px solid transparent; outline-offset: 3px; box-shadow: 0 0 0 4px #ffdd00;
+}",
                     [Function],
                   ],
                 },

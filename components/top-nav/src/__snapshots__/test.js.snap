@@ -1037,27 +1037,16 @@ exports[`TopNav matches the <TopNav> with a <NavLinkAnchor> tag snapshot: enzyme
                                           "isStatic": false,
                                           "lastClassName": "c16",
                                           "rules": Array [
-                                            "color: #ffffff;",
-                                            "text-decoration: none;",
-                                            "text-decoration-skip-ink: none;",
-                                            "border-bottom: 1px solid transparent;",
-                                            "font-weight: 700;",
-                                            "line-height: 1;",
-                                            ":hover {",
-                                            "border-bottom-color: #ffffff;",
-                                            "}",
-                                            ":focus {",
-                                            "outline: 3px solid #ffdd00;",
-                                            "}",
-                                            "display: inline-block;",
-                                            ":focus {",
-                                            "color: #0b0c0c;",
-                                            "background-color: #ffdd00;",
-                                            "outline: 3px solid #ffdd00;",
-                                            ":hover {",
-                                            "border-bottom-color: #0b0c0c;",
-                                            "}",
-                                            "}",
+                                            "color: #ffffff; text-decoration: none; text-decoration-skip-ink: none; border-bottom: 1px solid transparent; font-weight: 700; line-height: 1; :hover {
+  border-bottom-color: #ffffff;
+} :focus {
+  outline: 3px solid #ffdd00;
+}",
+                                            "display: inline-block; :focus {
+  color: #0b0c0c; background-color: #ffdd00; outline: 3px solid #ffdd00; :hover {
+  border-bottom-color: #0b0c0c;
+}
+}",
                                           ],
                                         },
                                         "displayName": "asNavLinkAnchor__StyledNavLinkAnchor",
@@ -1114,13 +1103,9 @@ exports[`TopNav matches the <TopNav> with a <NavLinkAnchor> tag snapshot: enzyme
             "isStatic": false,
             "lastClassName": "c17",
             "rules": Array [
-              "border-bottom: 10px solid #1d70b8;",
-              "max-width: 960px;",
-              "margin: 0 auto;",
-              "width: calc(100% - 30px);",
-              "@media only screen and (min-width: 641px) {",
-              "width: calc(100% - 60px);",
-              "}",
+              "border-bottom: 10px solid #1d70b8; max-width: 960px; margin: 0 auto; width: calc(100% - 30px); @media only screen and (min-width: 641px) {
+  width: calc(100% - 60px);
+}",
             ],
           },
           "displayName": "bottom-nav-wrapper__BottomNavWrapper",
@@ -2174,18 +2159,11 @@ exports[`TopNav matches the <TopNav> with multiple <Anchor> tags snapshot: enzym
                                           "isStatic": false,
                                           "lastClassName": "c16",
                                           "rules": Array [
-                                            "color: #ffffff;",
-                                            "text-decoration: none;",
-                                            "text-decoration-skip-ink: none;",
-                                            "border-bottom: 1px solid transparent;",
-                                            "font-weight: 700;",
-                                            "line-height: 1;",
-                                            ":hover {",
-                                            "border-bottom-color: #ffffff;",
-                                            "}",
-                                            ":focus {",
-                                            "outline: 3px solid #ffdd00;",
-                                            "}",
+                                            "color: #ffffff; text-decoration: none; text-decoration-skip-ink: none; border-bottom: 1px solid transparent; font-weight: 700; line-height: 1; :hover {
+  border-bottom-color: #ffffff;
+} :focus {
+  outline: 3px solid #ffdd00;
+}",
                                           ],
                                         },
                                         "displayName": "asTopNavAnchor__StyledHoc",
@@ -2272,18 +2250,11 @@ exports[`TopNav matches the <TopNav> with multiple <Anchor> tags snapshot: enzym
                                           "isStatic": false,
                                           "lastClassName": "c16",
                                           "rules": Array [
-                                            "color: #ffffff;",
-                                            "text-decoration: none;",
-                                            "text-decoration-skip-ink: none;",
-                                            "border-bottom: 1px solid transparent;",
-                                            "font-weight: 700;",
-                                            "line-height: 1;",
-                                            ":hover {",
-                                            "border-bottom-color: #ffffff;",
-                                            "}",
-                                            ":focus {",
-                                            "outline: 3px solid #ffdd00;",
-                                            "}",
+                                            "color: #ffffff; text-decoration: none; text-decoration-skip-ink: none; border-bottom: 1px solid transparent; font-weight: 700; line-height: 1; :hover {
+  border-bottom-color: #ffffff;
+} :focus {
+  outline: 3px solid #ffdd00;
+}",
                                           ],
                                         },
                                         "displayName": "asTopNavAnchor__StyledHoc",
@@ -2338,13 +2309,9 @@ exports[`TopNav matches the <TopNav> with multiple <Anchor> tags snapshot: enzym
             "isStatic": false,
             "lastClassName": "c17",
             "rules": Array [
-              "border-bottom: 10px solid #1d70b8;",
-              "max-width: 960px;",
-              "margin: 0 auto;",
-              "width: calc(100% - 30px);",
-              "@media only screen and (min-width: 641px) {",
-              "width: calc(100% - 60px);",
-              "}",
+              "border-bottom: 10px solid #1d70b8; max-width: 960px; margin: 0 auto; width: calc(100% - 30px); @media only screen and (min-width: 641px) {
+  width: calc(100% - 60px);
+}",
             ],
           },
           "displayName": "bottom-nav-wrapper__BottomNavWrapper",
@@ -2974,13 +2941,9 @@ exports[`TopNav with icon title: icon title 1`] = `
             "isStatic": false,
             "lastClassName": "c9",
             "rules": Array [
-              "border-bottom: 10px solid #1d70b8;",
-              "max-width: 960px;",
-              "margin: 0 auto;",
-              "width: calc(100% - 30px);",
-              "@media only screen and (min-width: 641px) {",
-              "width: calc(100% - 60px);",
-              "}",
+              "border-bottom: 10px solid #1d70b8; max-width: 960px; margin: 0 auto; width: calc(100% - 30px); @media only screen and (min-width: 641px) {
+  width: calc(100% - 60px);
+}",
             ],
           },
           "displayName": "bottom-nav-wrapper__BottomNavWrapper",
