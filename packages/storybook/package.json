@@ -8,7 +8,7 @@
     "@slice-and-dice/govuk-react-button": "^0.7.3",
     "@slice-and-dice/govuk-react-caption": "^0.7.1",
     "@slice-and-dice/govuk-react-checkbox": "^0.7.1",
-    "@slice-and-dice/govuk-react-date-field": "^0.7.1",
+    "@slice-and-dice/govuk-react-date-field": "^0.7.2",
     "@slice-and-dice/govuk-react-details": "^0.7.1",
     "@slice-and-dice/govuk-react-document-footer-metadata": "^0.7.1",
     "@slice-and-dice/govuk-react-error-summary": "^0.7.3",
