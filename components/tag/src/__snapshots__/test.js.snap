@@ -14,7 +14,7 @@ exports[`Tag matches wrapper snapshot: wrapper mount 1`] = `
   outline: 2px solid transparent;
   outline-offset: -2px;
   color: #ffffff;
-  background-color: #005ea5;
+  background-color: #1d70b8;
   -webkit-letter-spacing: 1px;
   -moz-letter-spacing: 1px;
   -ms-letter-spacing: 1px;
@@ -41,16 +41,19 @@ exports[`Tag matches wrapper snapshot: wrapper mount 1`] = `
 <DocumentedTag
   inactive={false}
 >
-  <styled.strong
+  <src__Tag
     inactive={false}
   >
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
+          "_foldedDefaultProps": Object {
+            "inactive": false,
+          },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
+            "componentId": "src__Tag-gbtxvg-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -59,18 +62,15 @@ exports[`Tag matches wrapper snapshot: wrapper mount 1`] = `
 } font-weight: 700; font-size: 14px; line-height: 1.25; @media only screen and (min-width: 641px) {
   font-size: 16px; line-height: 1.25;
 }",
-              "display: inline-block; padding: 4px 8px; padding-bottom: 1px; outline: 2px solid transparent; outline-offset: -2px; color: #ffffff; background-color: #005ea5; letter-spacing: 1px; text-decoration: none; text-transform: uppercase;",
+              "display: inline-block; padding: 4px 8px; padding-bottom: 1px; outline: 2px solid transparent; outline-offset: -2px; color: #ffffff; background-color: #1d70b8; letter-spacing: 1px; text-decoration: none; text-transform: uppercase;",
               [Function],
             ],
           },
-          "defaultProps": Object {
-            "inactive": false,
-          },
-          "displayName": "styled.strong",
+          "displayName": "src__Tag",
           "foldedComponentIds": Array [],
           "propTypes": undefined,
           "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
+          "styledComponentId": "src__Tag-gbtxvg-0",
           "target": "strong",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -86,6 +86,6 @@ exports[`Tag matches wrapper snapshot: wrapper mount 1`] = `
         beta
       </strong>
     </StyledComponent>
-  </styled.strong>
+  </src__Tag>
 </DocumentedTag>
 `;

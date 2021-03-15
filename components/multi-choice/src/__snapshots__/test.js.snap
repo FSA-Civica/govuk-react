@@ -25,7 +25,7 @@ exports[`MultiChoice matches snapshot 1`] = `
   display: block;
   margin-bottom: 15px;
   clear: both;
-  color: #b10e1e;
+  color: #d4351c;
 }
 
 .c2 {
@@ -40,13 +40,28 @@ exports[`MultiChoice matches snapshot 1`] = `
   color: #6f777b;
 }
 
+.c4 {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  -webkit-clip: rect(0 0 0 0) !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+  padding: 0 !important;
+}
+
 .c0 {
   padding: 0;
   margin: 0;
   border: 0;
   box-sizing: border-box;
   width: 100%;
-  border-left: 4px solid #b10e1e;
+  border-left: 4px solid #d4351c;
   margin-right: 15px;
   padding-left: 10px;
   margin-bottom: 0;
@@ -128,7 +143,7 @@ exports[`MultiChoice matches snapshot 1`] = `
     }
   }
 >
-  <styled.div
+  <src__StyledFieldset
     error="Example error"
   >
     <StyledComponent
@@ -138,21 +153,28 @@ exports[`MultiChoice matches snapshot 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-bxivhb",
+            "componentId": "src__StyledFieldset-sc-16f5t2-0",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "padding: 0; margin: 0; border: 0; box-sizing: border-box; width: 100%; :after {
-  content: ''; display: table; clear: both;
-}",
+              "padding: 0;",
+              "margin: 0;",
+              "border: 0;",
+              "box-sizing: border-box;",
+              "width: 100%;",
+              ":after {",
+              "content: '';",
+              "display: table;",
+              "clear: both;",
+              "}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "styled.div",
+          "displayName": "src__StyledFieldset",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-bxivhb",
+          "styledComponentId": "src__StyledFieldset-sc-16f5t2-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -176,15 +198,27 @@ exports[`MultiChoice matches snapshot 1`] = `
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                      "color: #0b0c0c; @media print {
-  color: #000;
-}",
-                      "display: block; clear: none; padding-bottom: 2px;",
+                      "font-family: \\"nta\\", Arial, sans-serif;",
+                      "-webkit-font-smoothing: antialiased;",
+                      "-moz-osx-font-smoothing: grayscale;",
+                      "@media print {",
+                      "font-size: 14px;",
+                      "line-height: 1.15;",
+                      "}",
+                      "font-weight: 400;",
+                      "font-size: 16px;",
+                      "line-height: 1.25;",
+                      "@media only screen and (min-width: 641px) {",
+                      "font-size: 19px;",
+                      "line-height: 1.3157894736842106;",
+                      "}",
+                      "color: #0b0c0c;",
+                      "@media print {",
+                      "color: #000;",
+                      "}",
+                      "display: block;",
+                      "clear: none;",
+                      "padding-bottom: 2px;",
                       [Function],
                       [Function],
                     ],
@@ -221,12 +255,23 @@ exports[`MultiChoice matches snapshot 1`] = `
                     "isStatic": false,
                     "lastClassName": "c2",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
-  font-size: 14px; line-height: 1.15;
-} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
-  font-size: 19px; line-height: 1.3157894736842106;
-}",
-                      "display: block; margin-bottom: 15px; color: #6f777b;",
+                      "font-family: \\"nta\\", Arial, sans-serif;",
+                      "-webkit-font-smoothing: antialiased;",
+                      "-moz-osx-font-smoothing: grayscale;",
+                      "@media print {",
+                      "font-size: 14px;",
+                      "line-height: 1.15;",
+                      "}",
+                      "font-weight: 400;",
+                      "font-size: 16px;",
+                      "line-height: 1.25;",
+                      "@media only screen and (min-width: 641px) {",
+                      "font-size: 19px;",
+                      "line-height: 1.3157894736842106;",
+                      "}",
+                      "display: block;",
+                      "margin-bottom: 15px;",
+                      "color: #6f777b;",
                       [Function],
                     ],
                   },
@@ -267,7 +312,7 @@ exports[`MultiChoice matches snapshot 1`] = `
 } font-weight: 700; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
   font-size: 19px; line-height: 1.3157894736842106;
 }",
-                      "display: block; margin-bottom: 15px; clear: both; color: #b10e1e;",
+                      "display: block; margin-bottom: 15px; clear: both; color: #d4351c;",
                       [Function],
                     ],
                   },
@@ -286,6 +331,50 @@ exports[`MultiChoice matches snapshot 1`] = `
               <span
                 className="c3"
               >
+                <styled.span
+                  focusable={false}
+                  important={true}
+                >
+                  <StyledComponent
+                    focusable={false}
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "_foldedDefaultProps": Object {
+                          "focusable": false,
+                          "important": true,
+                        },
+                        "attrs": Array [
+                          [Function],
+                        ],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bxivhb",
+                          "isStatic": false,
+                          "lastClassName": "c4",
+                          "rules": Array [
+                            [Function],
+                          ],
+                        },
+                        "displayName": "styled.span",
+                        "foldedComponentIds": Array [],
+                        "propTypes": undefined,
+                        "render": [Function],
+                        "styledComponentId": "sc-bxivhb",
+                        "target": "span",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    important={true}
+                  >
+                    <span
+                      className="c4"
+                      focusable={false}
+                    />
+                  </StyledComponent>
+                </styled.span>
                 Example error
               </span>
             </StyledComponent>
@@ -293,6 +382,6 @@ exports[`MultiChoice matches snapshot 1`] = `
         </ErrorText>
       </div>
     </StyledComponent>
-  </styled.div>
+  </src__StyledFieldset>
 </MultiChoice>
 `;

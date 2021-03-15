@@ -8,7 +8,7 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
 }
 
 .c0:link {
-  color: #005ea5;
+  color: #1d70b8;
 }
 
 .c0:visited {
@@ -28,9 +28,9 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
-  background-color: #ffbf47;
+  background-color: #ffdd00;
 }
 
 .c0:link,
@@ -53,11 +53,11 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
 }
 
 .c0:link {
-  color: #005ea5;
+  color: #1d70b8;
 }
 
 .c0:visited {
-  color: #005ea5;
+  color: #1d70b8;
 }
 
 .c0:hover {
@@ -105,7 +105,7 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
     noVisitedState={true}
     textColour={true}
   >
-    <styled.a
+    <src__Link
       href="#"
       muted={true}
       noVisitedState={true}
@@ -115,9 +115,14 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
+            "_foldedDefaultProps": Object {
+              "muted": false,
+              "noVisitedState": false,
+              "textColour": false,
+            },
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "src__Link-sc-181hvi2-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
@@ -125,7 +130,7 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
   font-family: sans-serif;
 }",
                 ":link {
-  color: #005ea5;
+  color: #1d70b8;
 } :visited {
   color: #4c2c92;
 } :hover {
@@ -136,7 +141,7 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
   color: #0b0c0c;
 }",
                 "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0; background-color: #ffbf47;
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
 }",
                 "@media print {
   &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
@@ -150,16 +155,11 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
                 [Function],
               ],
             },
-            "defaultProps": Object {
-              "muted": false,
-              "noVisitedState": false,
-              "textColour": false,
-            },
-            "displayName": "styled.a",
+            "displayName": "src__Link",
             "foldedComponentIds": Array [],
             "propTypes": undefined,
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "src__Link-sc-181hvi2-0",
             "target": "a",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -180,7 +180,7 @@ exports[`Link all options view matches snapshot: link with all options 1`] = `
           Link example
         </a>
       </StyledComponent>
-    </styled.a>
+    </src__Link>
   </LinkDocumented>
 </LinkWithAllOptionsOn>
 `;
@@ -193,7 +193,7 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
 }
 
 .c0:link {
-  color: #005ea5;
+  color: #1d70b8;
 }
 
 .c0:visited {
@@ -213,9 +213,9 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
 }
 
 .c0:focus {
-  outline: 3px solid #ffbf47;
+  outline: 3px solid #ffdd00;
   outline-offset: 0;
-  background-color: #ffbf47;
+  background-color: #ffdd00;
 }
 
 @media print {
@@ -241,7 +241,7 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
     noVisitedState={false}
     textColour={false}
   >
-    <styled.a
+    <src__Link
       href="#"
       muted={false}
       noVisitedState={false}
@@ -251,9 +251,14 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
+            "_foldedDefaultProps": Object {
+              "muted": false,
+              "noVisitedState": false,
+              "textColour": false,
+            },
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "src__Link-sc-181hvi2-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
@@ -261,7 +266,7 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
   font-family: sans-serif;
 }",
                 ":link {
-  color: #005ea5;
+  color: #1d70b8;
 } :visited {
   color: #4c2c92;
 } :hover {
@@ -272,7 +277,7 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
   color: #0b0c0c;
 }",
                 "&:focus {
-  outline: 3px solid #ffbf47; outline-offset: 0; background-color: #ffbf47;
+  outline: 3px solid #ffdd00; outline-offset: 0; background-color: #ffdd00;
 }",
                 "@media print {
   &[href^=\\"/\\"], &[href^=\\"http://\\"], &[href^=\\"https://\\"] {
@@ -286,16 +291,11 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
                 [Function],
               ],
             },
-            "defaultProps": Object {
-              "muted": false,
-              "noVisitedState": false,
-              "textColour": false,
-            },
-            "displayName": "styled.a",
+            "displayName": "src__Link",
             "foldedComponentIds": Array [],
             "propTypes": undefined,
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "src__Link-sc-181hvi2-0",
             "target": "a",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -316,7 +316,7 @@ exports[`Link basic view matches snapshot: plain link 1`] = `
           Link example
         </a>
       </StyledComponent>
-    </styled.a>
+    </src__Link>
   </LinkDocumented>
 </_default>
 `;
