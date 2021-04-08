@@ -1,10 +1,10 @@
 {
   "name": "@slice-and-dice/govuk-react-date-field",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "dependencies": {
     "@slice-and-dice/govuk-react-constants": "^0.7.2",
     "@slice-and-dice/govuk-react-error-text": "^0.7.2",
-    "@slice-and-dice/govuk-react-hint-text": "^0.7.2",
+    "@slice-and-dice/govuk-react-hint-text": "^0.7.3",
     "@slice-and-dice/govuk-react-input": "^0.7.1",
     "@slice-and-dice/govuk-react-label": "^0.7.2",
     "@slice-and-dice/govuk-react-label-text": "^0.7.2",

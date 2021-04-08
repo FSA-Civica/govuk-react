@@ -29,7 +29,7 @@ exports[`FormGroup matches snapshot with error prop set: with error prop 1`] = `
 <FormGroupDocumented
   error={true}
 >
-  <src__FormGroup
+  <styled.div
     error={true}
   >
     <StyledComponent
@@ -37,27 +37,26 @@ exports[`FormGroup matches snapshot with error prop set: with error prop 1`] = `
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "_foldedDefaultProps": Object {
-            "error": false,
-          },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "c0",
             "isStatic": false,
             "lastClassName": "c1",
             "rules": Array [
-              "margin-bottom: 20px;",
-              "@media only screen and (min-width: 641px) {",
-              "margin-bottom: 30px;",
-              "}",
-              "& &:last-of-type {",
-              "margin-bottom: 0;",
-              "}",
+              "margin-bottom: 20px; @media only screen and (min-width: 641px) {
+  margin-bottom: 30px;
+}",
+              "& &:last-of-type {
+  margin-bottom: 0;
+}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__FormGroup",
+          "defaultProps": Object {
+            "error": false,
+          },
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "propTypes": undefined,
           "render": [Function],
@@ -76,7 +75,7 @@ exports[`FormGroup matches snapshot with error prop set: with error prop 1`] = `
         FormGroup example
       </div>
     </StyledComponent>
-  </src__FormGroup>
+  </styled.div>
 </FormGroupDocumented>
 `;
 
@@ -98,7 +97,7 @@ exports[`FormGroup matches snapshot: FormGroup 1`] = `
 <FormGroupDocumented
   error={false}
 >
-  <src__FormGroup
+  <styled.div
     error={false}
   >
     <StyledComponent
@@ -106,27 +105,26 @@ exports[`FormGroup matches snapshot: FormGroup 1`] = `
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "_foldedDefaultProps": Object {
-            "error": false,
-          },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "c0",
             "isStatic": false,
             "lastClassName": "c1",
             "rules": Array [
-              "margin-bottom: 20px;",
-              "@media only screen and (min-width: 641px) {",
-              "margin-bottom: 30px;",
-              "}",
-              "& &:last-of-type {",
-              "margin-bottom: 0;",
-              "}",
+              "margin-bottom: 20px; @media only screen and (min-width: 641px) {
+  margin-bottom: 30px;
+}",
+              "& &:last-of-type {
+  margin-bottom: 0;
+}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__FormGroup",
+          "defaultProps": Object {
+            "error": false,
+          },
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "propTypes": undefined,
           "render": [Function],
@@ -145,6 +143,6 @@ exports[`FormGroup matches snapshot: FormGroup 1`] = `
         FormGroup example
       </div>
     </StyledComponent>
-  </src__FormGroup>
+  </styled.div>
 </FormGroupDocumented>
 `;

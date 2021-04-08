@@ -67,7 +67,7 @@ exports[`Paragraph matches wrapper snapshot 1`] = `
   linkRenderer={[Function]}
   supportingText={true}
 >
-  <src__StyledParagraph
+  <Styled(ReactMarkdown)
     allowedTypes={
       Array [
         "paragraph",
@@ -108,43 +108,24 @@ exports[`Paragraph matches wrapper snapshot 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledParagraph-sc-1ug3kso-0",
+            "componentId": "sc-bwzfXH",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "margin: 0;",
-              "> p {",
-              "margin: 0;",
-              "}",
-              "> p > code {",
-              "padding: 0.2em 0.4em;",
-              "margin: 0;",
-              "font-size: 85%;",
-              "background-color: rgba(27,31,35,0.05);",
-              "border-radius: 3px;",
-              "}",
-              "> pre {",
-              "padding: 16px;",
-              "overflow: auto;",
-              "font-size: 85%;",
-              "line-height: 1.45;",
-              "background-color: #f6f8fa;",
-              "border-radius: 3px;",
-              "}",
-              "> pre > code {",
-              "display: inline;",
-              "padding: 0;",
-              "margin: 0;",
-              "border: 0;",
-              "overflow: visible;",
-              "line-height: inherit;",
-              "word-wrap: normal;",
-              "}",
+              "margin: 0; > p {
+  margin: 0;
+} > p > code {
+  padding: 0.2em 0.4em; margin: 0; font-size: 85%; background-color: rgba(27,31,35,0.05); border-radius: 3px;
+} > pre {
+  padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: #f6f8fa; border-radius: 3px;
+} > pre > code {
+  display: inline; padding: 0; margin: 0; border: 0; overflow: visible; line-height: inherit; word-wrap: normal;
+}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__StyledParagraph",
+          "displayName": "Styled(ReactMarkdown)",
           "foldedComponentIds": Array [],
           "render": [Function],
           "renderers": Object {
@@ -176,7 +157,7 @@ exports[`Paragraph matches wrapper snapshot 1`] = `
             "thematicBreak": "hr",
             "virtualHtml": [Function],
           },
-          "styledComponentId": "src__StyledParagraph-sc-1ug3kso-0",
+          "styledComponentId": "sc-bwzfXH",
           "target": [Function],
           "toString": [Function],
           "types": Array [
@@ -240,7 +221,6 @@ exports[`Paragraph matches wrapper snapshot 1`] = `
         className="c0"
         escapeHtml={false}
         linkRenderer={[Function]}
-        parserOptions={Object {}}
         plugins={Array []}
         rawSourcePos={false}
         renderers={
@@ -256,17 +236,17 @@ exports[`Paragraph matches wrapper snapshot 1`] = `
       >
         <Root
           className="c0"
-          key="root-1-1-0"
+          key="root-1-1"
         >
           <div
             className="c0"
           >
             <p
-              key="paragraph-1-1-0"
+              key="paragraph-1-1"
             >
               <TextRenderer
-                key="text-1-1-0"
-                nodeKey="text-1-1-0"
+                key="text-1-1"
+                nodeKey="text-1-1"
                 value="Some basic text"
               >
                 Some basic text
@@ -276,6 +256,6 @@ exports[`Paragraph matches wrapper snapshot 1`] = `
         </Root>
       </ReactMarkdown>
     </StyledComponent>
-  </src__StyledParagraph>
+  </Styled(ReactMarkdown)>
 </Paragraph>
 `;

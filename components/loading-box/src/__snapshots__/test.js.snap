@@ -120,26 +120,24 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
   timeIn={800}
   timeOut={200}
 >
-  <src__StyledContainer>
+  <styled.div>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledContainer-f9eud0-0",
-            "isStatic": false,
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
-              "position: relative;",
-              "padding-bottom: 2px;",
-              "min-height: 10px;",
+              "position: relative; padding-bottom: 2px; min-height: 10px;",
             ],
           },
-          "displayName": "src__StyledContainer",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledContainer-f9eud0-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -172,7 +170,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
             timeout={200}
             unmountOnExit={true}
           >
-            <src__Innerwrap
+            <styled.div
               backgroundColor="#ffffff"
               backgroundColorOpacity={0.85}
               loading={true}
@@ -187,17 +185,17 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
                     "componentStyle": ComponentStyle {
-                      "componentId": "src__Innerwrap-f9eud0-1",
+                      "componentId": "sc-bwzfXH",
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
                         [Function],
                       ],
                     },
-                    "displayName": "src__Innerwrap",
+                    "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "src__Innerwrap-f9eud0-1",
+                    "styledComponentId": "sc-bwzfXH",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -211,7 +209,6 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
               >
                 <div
                   className="c1"
-                  loading={true}
                 >
                   <Spinner
                     className="icon-loading"
@@ -1209,7 +1206,7 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                       </svg>
                     </SVG>
                   </Spinner>
-                  <src__Overlay
+                  <styled.div
                     className="overlay"
                   >
                     <StyledComponent
@@ -1219,24 +1216,17 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": Array [],
                           "componentStyle": ComponentStyle {
-                            "componentId": "src__Overlay-f9eud0-2",
-                            "isStatic": false,
+                            "componentId": "sc-htpNat",
+                            "isStatic": true,
                             "lastClassName": "c3",
                             "rules": Array [
-                              "position: absolute;",
-                              "top: 0;",
-                              "right: 0;",
-                              "bottom: 0;",
-                              "left: 0;",
-                              "overflow: hidden;",
-                              "height: 100%;",
-                              "width: 100%;",
+                              "position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; height: 100%; width: 100%;",
                             ],
                           },
-                          "displayName": "src__Overlay",
+                          "displayName": "styled.div",
                           "foldedComponentIds": Array [],
                           "render": [Function],
-                          "styledComponentId": "src__Overlay-f9eud0-2",
+                          "styledComponentId": "sc-htpNat",
                           "target": "div",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1246,18 +1236,18 @@ exports[`LoadingBox matches wrapper loading: wrapper loading 1`] = `
                       forwardedRef={null}
                     >
                       <div
-                        className="c3 overlay"
+                        className="overlay c3"
                       />
                     </StyledComponent>
-                  </src__Overlay>
+                  </styled.div>
                 </div>
               </StyledComponent>
-            </src__Innerwrap>
+            </styled.div>
           </Transition>
         </CSSTransition>
         example
       </div>
     </StyledComponent>
-  </src__StyledContainer>
+  </styled.div>
 </LoadingBox>
 `;

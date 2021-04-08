@@ -88,27 +88,25 @@ exports[`PhaseBanner matches wrapper snapshot: wrapper mount 1`] = `
 <PhaseBanner
   level="beta"
 >
-  <src__StyledBanner>
+  <styled.div>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledBanner-sc-42ib1-0",
+            "componentId": "sc-bwzfXH",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "padding-top: 10px;",
-              "padding-bottom: 10px;",
-              "border-bottom: 1px solid #bfc1c3;",
+              "padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #bfc1c3;",
               [Function],
             ],
           },
-          "displayName": "src__StyledBanner",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledBanner-sc-42ib1-0",
+          "styledComponentId": "sc-bwzfXH",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -120,46 +118,34 @@ exports[`PhaseBanner matches wrapper snapshot: wrapper mount 1`] = `
       <div
         className="c0"
       >
-        <src__BannerContent>
+        <styled.p>
           <StyledComponent
             forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "src__BannerContent-sc-42ib1-1",
-                  "isStatic": false,
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.2;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 14px;",
-                    "line-height: 1.1428571428571428;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "}",
-                    "color: #0b0c0c;",
-                    "@media print {",
-                    "color: #000;",
-                    "}",
-                    "display: table;",
-                    "margin: 0;",
-                    ".c2 {",
-                    "margin-right: 10px;",
-                    "}",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.2;
+} font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25;
+}",
+                    "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                    "display: table; margin: 0; .c2 {
+  margin-right: 10px;
+}",
                   ],
                 },
-                "displayName": "src__BannerContent",
+                "displayName": "styled.p",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "src__BannerContent-sc-42ib1-1",
+                "styledComponentId": "sc-htpNat",
                 "target": "p",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -178,9 +164,6 @@ exports[`PhaseBanner matches wrapper snapshot: wrapper mount 1`] = `
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
-                      "_foldedDefaultProps": Object {
-                        "inactive": false,
-                      },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "c2",
@@ -195,6 +178,9 @@ exports[`PhaseBanner matches wrapper snapshot: wrapper mount 1`] = `
                           "display: inline-block; padding: 4px 8px; padding-bottom: 1px; outline: 2px solid transparent; outline-offset: -2px; color: #ffffff; background-color: #1d70b8; letter-spacing: 1px; text-decoration: none; text-transform: uppercase;",
                           [Function],
                         ],
+                      },
+                      "defaultProps": Object {
+                        "inactive": false,
                       },
                       "displayName": "styled.strong",
                       "foldedComponentIds": Array [],
@@ -217,25 +203,24 @@ exports[`PhaseBanner matches wrapper snapshot: wrapper mount 1`] = `
                   </strong>
                 </StyledComponent>
               </styled.strong>
-              <src__BannerText>
+              <styled.span>
                 <StyledComponent
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
-                        "componentId": "src__BannerText-sc-42ib1-2",
-                        "isStatic": false,
+                        "componentId": "sc-bxivhb",
+                        "isStatic": true,
                         "lastClassName": "c4",
                         "rules": Array [
-                          "display: table-cell;",
-                          "vertical-align: baseline;",
+                          "display: table-cell; vertical-align: baseline;",
                         ],
                       },
-                      "displayName": "src__BannerText",
+                      "displayName": "styled.span",
                       "foldedComponentIds": Array [],
                       "render": [Function],
-                      "styledComponentId": "src__BannerText-sc-42ib1-2",
+                      "styledComponentId": "sc-bxivhb",
                       "target": "span",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -250,12 +235,12 @@ exports[`PhaseBanner matches wrapper snapshot: wrapper mount 1`] = `
                     example
                   </span>
                 </StyledComponent>
-              </src__BannerText>
+              </styled.span>
             </p>
           </StyledComponent>
-        </src__BannerContent>
+        </styled.p>
       </div>
     </StyledComponent>
-  </src__StyledBanner>
+  </styled.div>
 </PhaseBanner>
 `;

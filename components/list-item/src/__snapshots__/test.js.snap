@@ -26,40 +26,31 @@ exports[`ListItem matches wrapper snapshot: list item mount 1`] = `
 }
 
 <DocumentedComponent>
-  <src__ListItem>
+  <styled.li>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__ListItem-sc-1sl3lzv-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "font-family: \\"nta\\", Arial, sans-serif;",
-              "-webkit-font-smoothing: antialiased;",
-              "-moz-osx-font-smoothing: grayscale;",
-              "@media print {",
-              "font-size: 14px;",
-              "line-height: 1.15;",
-              "}",
-              "font-weight: 400;",
-              "font-size: 16px;",
-              "line-height: 1.25;",
-              "@media only screen and (min-width: 641px) {",
-              "font-size: 19px;",
-              "line-height: 1.3157894736842106;",
-              "}",
+              "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
               "margin-bottom: 5px;",
               [Function],
             ],
           },
-          "displayName": "src__ListItem",
+          "displayName": "styled.li",
           "foldedComponentIds": Array [],
           "propTypes": undefined,
           "render": [Function],
-          "styledComponentId": "src__ListItem-sc-1sl3lzv-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "li",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -74,6 +65,6 @@ exports[`ListItem matches wrapper snapshot: list item mount 1`] = `
         example
       </li>
     </StyledComponent>
-  </src__ListItem>
+  </styled.li>
 </DocumentedComponent>
 `;

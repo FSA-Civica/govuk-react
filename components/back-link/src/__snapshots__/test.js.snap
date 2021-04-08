@@ -86,7 +86,7 @@ exports[`Back Link matches wrapper snapshot: wrapper mount 1`] = `
 <BackLink
   onClick={[Function]}
 >
-  <src__Anchor
+  <styled.a
     onClick={[Function]}
   >
     <StyledComponent
@@ -95,7 +95,7 @@ exports[`Back Link matches wrapper snapshot: wrapper mount 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__Anchor-sc-1006a3o-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -121,10 +121,10 @@ exports[`Back Link matches wrapper snapshot: wrapper mount 1`] = `
               [Function],
             ],
           },
-          "displayName": "src__Anchor",
+          "displayName": "styled.a",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__Anchor-sc-1006a3o-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "a",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -141,6 +141,6 @@ exports[`Back Link matches wrapper snapshot: wrapper mount 1`] = `
         example
       </a>
     </StyledComponent>
-  </src__Anchor>
+  </styled.a>
 </BackLink>
 `;

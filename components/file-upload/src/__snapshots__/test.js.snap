@@ -106,14 +106,9 @@ exports[`FileUpload matches snapshot: enzyme.mount 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "display: flex;",
-                "flex-direction: column;",
-                "box-sizing: border-box;",
-                ":after {",
-                "content: '';",
-                "display: table;",
-                "clear: both;",
-                "}",
+                "display: flex; flex-direction: column; box-sizing: border-box; :after {
+  content: ''; display: table; clear: both;
+}",
                 [Function],
                 [Function],
               ],
@@ -145,27 +140,15 @@ exports[`FileUpload matches snapshot: enzyme.mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif;",
-                        "-webkit-font-smoothing: antialiased;",
-                        "-moz-osx-font-smoothing: grayscale;",
-                        "@media print {",
-                        "font-size: 14px;",
-                        "line-height: 1.15;",
-                        "}",
-                        "font-weight: 400;",
-                        "font-size: 16px;",
-                        "line-height: 1.25;",
-                        "@media only screen and (min-width: 641px) {",
-                        "font-size: 19px;",
-                        "line-height: 1.3157894736842106;",
-                        "}",
-                        "color: #0b0c0c;",
-                        "@media print {",
-                        "color: #000;",
-                        "}",
-                        "display: block;",
-                        "clear: none;",
-                        "padding-bottom: 2px;",
+                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                        "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                        "display: block; clear: none; padding-bottom: 2px;",
                         [Function],
                         [Function],
                       ],
@@ -190,7 +173,7 @@ exports[`FileUpload matches snapshot: enzyme.mount 1`] = `
               </StyledComponent>
             </styled.span>
           </LabelText>
-          <src__StyledInput
+          <styled.input
             type="file"
           >
             <StyledComponent
@@ -199,31 +182,19 @@ exports[`FileUpload matches snapshot: enzyme.mount 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "src__StyledInput-rem2hi-0",
-                    "isStatic": false,
+                    "componentId": "sc-ifAKCX",
+                    "isStatic": true,
                     "lastClassName": "c2",
                     "rules": Array [
-                      "box-sizing: border-box;",
-                      "font-family: \\"nta\\", Arial, sans-serif;",
-                      "-webkit-font-smoothing: antialiased;",
-                      "-moz-osx-font-smoothing: grayscale;",
-                      "font-weight: 400;",
-                      "text-transform: none;",
-                      "font-size: 14px;",
-                      "line-height: 1.1428571429;",
-                      "@media only screen and (min-width: 641px) {",
-                      "font-size: 16px;",
-                      "line-height: 1.25;",
-                      "width: 50%;",
-                      "}",
-                      "width: 100%;",
-                      "padding: 5px 4px 4px;",
+                      "box-sizing: border-box; font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-weight: 400; text-transform: none; font-size: 14px; line-height: 1.1428571429; @media only screen and (min-width: 641px) {
+  font-size: 16px; line-height: 1.25; width: 50%;
+} width: 100%; padding: 5px 4px 4px;",
                     ],
                   },
-                  "displayName": "src__StyledInput",
+                  "displayName": "styled.input",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "src__StyledInput-rem2hi-0",
+                  "styledComponentId": "sc-ifAKCX",
                   "target": "input",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -238,7 +209,7 @@ exports[`FileUpload matches snapshot: enzyme.mount 1`] = `
                 type="file"
               />
             </StyledComponent>
-          </src__StyledInput>
+          </styled.input>
         </label>
       </StyledComponent>
     </styled.label>

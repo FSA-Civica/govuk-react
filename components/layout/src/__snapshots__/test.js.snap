@@ -7,25 +7,24 @@ exports[`Layout matches wrapper snapshot: wrapper mount 1`] = `
 }
 
 <Layout>
-  <src__StyledLayout>
+  <styled.div>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledLayout-z4uxph-0",
-            "isStatic": false,
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
-              "padding: 10px;",
-              "box-sizing: border-box;",
+              "padding: 10px; box-sizing: border-box;",
             ],
           },
-          "displayName": "src__StyledLayout",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledLayout-z4uxph-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -40,6 +39,6 @@ exports[`Layout matches wrapper snapshot: wrapper mount 1`] = `
         example
       </div>
     </StyledComponent>
-  </src__StyledLayout>
+  </styled.div>
 </Layout>
 `;
