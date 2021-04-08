@@ -1,6 +1,6 @@
 {
   "name": "@slice-and-dice/govuk-react-hint-text",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "dependencies": {
     "@slice-and-dice/govuk-react-constants": "^0.7.2",
     "@slice-and-dice/govuk-react-lib": "^0.7.2",
