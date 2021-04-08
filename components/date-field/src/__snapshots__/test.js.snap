@@ -109,7 +109,7 @@ exports[`DateField matches wrappersnapshot: wrapper mount 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border-left: 4px solid #b10e1e;
+  border-left: 4px solid #d4351c;
   margin-right: 15px;
   padding-left: 10px;
   margin-bottom: 20px;

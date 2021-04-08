@@ -95,7 +95,7 @@ exports[`Footer matches default snapshot: Footer 1`] = `
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -224,7 +224,7 @@ exports[`Footer matches default snapshot: Footer 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                 "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -754,7 +754,7 @@ exports[`Footer matches with copyright snapshot: FooterWithCopyright 1`] = `
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -910,7 +910,7 @@ exports[`Footer matches with copyright snapshot: FooterWithCopyright 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                 "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -1542,7 +1542,7 @@ exports[`Footer matches with custom width snapshot: FooterWithCustomWidth 1`] = 
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -1688,7 +1688,7 @@ exports[`Footer matches with custom width snapshot: FooterWithCustomWidth 1`] = 
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                 "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -2169,7 +2169,7 @@ exports[`Footer matches with meta custom snapshot: FooterWithMetaCustom 1`] = `
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -2308,7 +2308,7 @@ exports[`Footer matches with meta custom snapshot: FooterWithMetaCustom 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                 "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -2986,7 +2986,7 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -3196,7 +3196,7 @@ exports[`Footer matches with meta links and custom snapshot: FooterWithMetaLinks
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                     "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -4464,7 +4464,7 @@ exports[`Footer matches with meta links snapshot: FooterWithMetaLinks 1`] = `
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -4664,7 +4664,7 @@ exports[`Footer matches with meta links snapshot: FooterWithMetaLinks 1`] = `
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                     "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -5859,7 +5859,7 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -6141,7 +6141,7 @@ exports[`Footer matches with navigation and meta snapshot: FooterWithNavigationA
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                     "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -9327,7 +9327,7 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -9551,7 +9551,7 @@ exports[`Footer matches with navigation snapshot: FooterWithNavigation 1`] = `
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                     "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -11958,7 +11958,7 @@ exports[`Footer matches with single meta link snapshot: FooterWithSingleMetaLink
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12147,7 +12147,7 @@ exports[`Footer matches with single meta link snapshot: FooterWithSingleMetaLink
                   "isStatic": false,
                   "lastClassName": "c0",
                   "rules": Array [
-                    "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                    "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                     "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {
@@ -13016,7 +13016,7 @@ exports[`Footer matches with single navigation link snapshot: FooterWithSingleNa
 
 .c0 {
   border-top: 1px solid #a1acb2;
-  background: #dee0e2;
+  background: #f3f2f1;
   color: #454a4c;
   font-family: "nta",Arial,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -13210,7 +13210,7 @@ exports[`Footer matches with single navigation link snapshot: FooterWithSingleNa
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "border-top: 1px solid #a1acb2; background: #dee0e2; color: #454a4c;",
+                "border-top: 1px solid #a1acb2; background: #f3f2f1; color: #454a4c;",
                 "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
   font-size: 14px; line-height: 1.2;
 } font-weight: 400; font-size: 14px; line-height: 1.1428571428571428; @media only screen and (min-width: 641px) {

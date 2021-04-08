@@ -46,7 +46,7 @@ exports[`MultiChoice matches snapshot 1`] = `
   border: 0;
   box-sizing: border-box;
   width: 100%;
-  border-left: 4px solid #b10e1e;
+  border-left: 4px solid #d4351c;
   margin-right: 15px;
   padding-left: 10px;
   margin-bottom: 0;
