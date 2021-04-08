@@ -166,14 +166,9 @@ exports[`Textarea matches snapshot for error: wrapperErrorText mount 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "display: flex;",
-                "flex-direction: column;",
-                "box-sizing: border-box;",
-                ":after {",
-                "content: '';",
-                "display: table;",
-                "clear: both;",
-                "}",
+                "display: flex; flex-direction: column; box-sizing: border-box; :after {
+  content: ''; display: table; clear: both;
+}",
                 [Function],
                 [Function],
               ],
@@ -205,27 +200,15 @@ exports[`Textarea matches snapshot for error: wrapperErrorText mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif;",
-                        "-webkit-font-smoothing: antialiased;",
-                        "-moz-osx-font-smoothing: grayscale;",
-                        "@media print {",
-                        "font-size: 14px;",
-                        "line-height: 1.15;",
-                        "}",
-                        "font-weight: 400;",
-                        "font-size: 16px;",
-                        "line-height: 1.25;",
-                        "@media only screen and (min-width: 641px) {",
-                        "font-size: 19px;",
-                        "line-height: 1.3157894736842106;",
-                        "}",
-                        "color: #0b0c0c;",
-                        "@media print {",
-                        "color: #000;",
-                        "}",
-                        "display: block;",
-                        "clear: none;",
-                        "padding-bottom: 2px;",
+                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                        "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                        "display: block; clear: none; padding-bottom: 2px;",
                         [Function],
                         [Function],
                       ],
@@ -335,7 +318,7 @@ exports[`Textarea matches snapshot for error: wrapperErrorText mount 1`] = `
               </StyledComponent>
             </styled.span>
           </ErrorText>
-          <src__TextAreaField
+          <styled.textarea
             error="example"
             rows="5"
             type="text"
@@ -359,7 +342,7 @@ exports[`Textarea matches snapshot for error: wrapperErrorText mount 1`] = `
                       [Function],
                     ],
                   },
-                  "displayName": "src__TextAreaField",
+                  "displayName": "styled.textarea",
                   "foldedComponentIds": Array [],
                   "render": [Function],
                   "styledComponentId": "sc-EHOje",
@@ -379,7 +362,7 @@ exports[`Textarea matches snapshot for error: wrapperErrorText mount 1`] = `
                 type="text"
               />
             </StyledComponent>
-          </src__TextAreaField>
+          </styled.textarea>
         </label>
       </StyledComponent>
     </styled.label>
@@ -525,14 +508,9 @@ exports[`Textarea matches snapshot for hint: wrapperHint mount 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "display: flex;",
-                "flex-direction: column;",
-                "box-sizing: border-box;",
-                ":after {",
-                "content: '';",
-                "display: table;",
-                "clear: both;",
-                "}",
+                "display: flex; flex-direction: column; box-sizing: border-box; :after {
+  content: ''; display: table; clear: both;
+}",
                 [Function],
                 [Function],
               ],
@@ -564,27 +542,15 @@ exports[`Textarea matches snapshot for hint: wrapperHint mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif;",
-                        "-webkit-font-smoothing: antialiased;",
-                        "-moz-osx-font-smoothing: grayscale;",
-                        "@media print {",
-                        "font-size: 14px;",
-                        "line-height: 1.15;",
-                        "}",
-                        "font-weight: 400;",
-                        "font-size: 16px;",
-                        "line-height: 1.25;",
-                        "@media only screen and (min-width: 641px) {",
-                        "font-size: 19px;",
-                        "line-height: 1.3157894736842106;",
-                        "}",
-                        "color: #0b0c0c;",
-                        "@media print {",
-                        "color: #000;",
-                        "}",
-                        "display: block;",
-                        "clear: none;",
-                        "padding-bottom: 2px;",
+                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                        "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                        "display: block; clear: none; padding-bottom: 2px;",
                         [Function],
                         [Function],
                       ],
@@ -621,23 +587,12 @@ exports[`Textarea matches snapshot for hint: wrapperHint mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif;",
-                        "-webkit-font-smoothing: antialiased;",
-                        "-moz-osx-font-smoothing: grayscale;",
-                        "@media print {",
-                        "font-size: 14px;",
-                        "line-height: 1.15;",
-                        "}",
-                        "font-weight: 400;",
-                        "font-size: 16px;",
-                        "line-height: 1.25;",
-                        "@media only screen and (min-width: 641px) {",
-                        "font-size: 19px;",
-                        "line-height: 1.3157894736842106;",
-                        "}",
-                        "display: block;",
-                        "margin-bottom: 15px;",
-                        "color: #6f777b;",
+                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                        "display: block; margin-bottom: 15px; color: #6f777b;",
                         [Function],
                       ],
                     },
@@ -661,7 +616,7 @@ exports[`Textarea matches snapshot for hint: wrapperHint mount 1`] = `
               </StyledComponent>
             </styled.span>
           </HintText>
-          <src__TextAreaField
+          <styled.textarea
             rows="5"
             type="text"
           >
@@ -683,7 +638,7 @@ exports[`Textarea matches snapshot for hint: wrapperHint mount 1`] = `
                       [Function],
                     ],
                   },
-                  "displayName": "src__TextAreaField",
+                  "displayName": "styled.textarea",
                   "foldedComponentIds": Array [],
                   "render": [Function],
                   "styledComponentId": "sc-EHOje",
@@ -703,7 +658,7 @@ exports[`Textarea matches snapshot for hint: wrapperHint mount 1`] = `
                 type="text"
               />
             </StyledComponent>
-          </src__TextAreaField>
+          </styled.textarea>
         </label>
       </StyledComponent>
     </styled.label>
@@ -822,14 +777,9 @@ exports[`Textarea matches wrapper snapshot: wrapper mount 1`] = `
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "display: flex;",
-                "flex-direction: column;",
-                "box-sizing: border-box;",
-                ":after {",
-                "content: '';",
-                "display: table;",
-                "clear: both;",
-                "}",
+                "display: flex; flex-direction: column; box-sizing: border-box; :after {
+  content: ''; display: table; clear: both;
+}",
                 [Function],
                 [Function],
               ],
@@ -861,27 +811,15 @@ exports[`Textarea matches wrapper snapshot: wrapper mount 1`] = `
                       "isStatic": false,
                       "lastClassName": "c1",
                       "rules": Array [
-                        "font-family: \\"nta\\", Arial, sans-serif;",
-                        "-webkit-font-smoothing: antialiased;",
-                        "-moz-osx-font-smoothing: grayscale;",
-                        "@media print {",
-                        "font-size: 14px;",
-                        "line-height: 1.15;",
-                        "}",
-                        "font-weight: 400;",
-                        "font-size: 16px;",
-                        "line-height: 1.25;",
-                        "@media only screen and (min-width: 641px) {",
-                        "font-size: 19px;",
-                        "line-height: 1.3157894736842106;",
-                        "}",
-                        "color: #0b0c0c;",
-                        "@media print {",
-                        "color: #000;",
-                        "}",
-                        "display: block;",
-                        "clear: none;",
-                        "padding-bottom: 2px;",
+                        "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                        "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                        "display: block; clear: none; padding-bottom: 2px;",
                         [Function],
                         [Function],
                       ],
@@ -906,7 +844,7 @@ exports[`Textarea matches wrapper snapshot: wrapper mount 1`] = `
               </StyledComponent>
             </styled.span>
           </LabelText>
-          <src__TextAreaField
+          <styled.textarea
             rows="5"
             type="text"
           >
@@ -928,7 +866,7 @@ exports[`Textarea matches wrapper snapshot: wrapper mount 1`] = `
                       [Function],
                     ],
                   },
-                  "displayName": "src__TextAreaField",
+                  "displayName": "styled.textarea",
                   "foldedComponentIds": Array [],
                   "render": [Function],
                   "styledComponentId": "sc-EHOje",
@@ -948,7 +886,7 @@ exports[`Textarea matches wrapper snapshot: wrapper mount 1`] = `
                 type="text"
               />
             </StyledComponent>
-          </src__TextAreaField>
+          </styled.textarea>
         </label>
       </StyledComponent>
     </styled.label>
