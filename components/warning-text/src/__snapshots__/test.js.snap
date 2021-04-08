@@ -55,28 +55,25 @@ exports[`WarningText to match snapshot 1`] = `
 
 <WarningTextWithKnobs>
   <WarningText>
-    <src__StyledWarningText>
+    <styled.div>
       <StyledComponent
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "src__StyledWarningText-sc-1qj2gkq-0",
+              "componentId": "sc-bdVaJa",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "align-items: center;",
-                "box-sizing: border-box;",
-                "display: flex;",
-                "width: 100%;",
+                "align-items: center; box-sizing: border-box; display: flex; width: 100%;",
                 [Function],
               ],
             },
-            "displayName": "src__StyledWarningText",
+            "displayName": "styled.div",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "src__StyledWarningText-sc-1qj2gkq-0",
+            "styledComponentId": "sc-bdVaJa",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -88,27 +85,24 @@ exports[`WarningText to match snapshot 1`] = `
         <div
           className="c0"
         >
-          <src__IconImportantWrapper>
+          <styled.div>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "src__IconImportantWrapper-sc-1qj2gkq-1",
-                    "isStatic": false,
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "flex: none;",
-                      "height: 35px;",
-                      "margin-right: 15px;",
-                      "width: 35px;",
+                      "flex: none; height: 35px; margin-right: 15px; width: 35px;",
                     ],
                   },
-                  "displayName": "src__IconImportantWrapper",
+                  "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "src__IconImportantWrapper-sc-1qj2gkq-1",
+                  "styledComponentId": "sc-bwzfXH",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -161,38 +155,29 @@ exports[`WarningText to match snapshot 1`] = `
                 </IconImportant>
               </div>
             </StyledComponent>
-          </src__IconImportantWrapper>
-          <src__WarningTextWrapper>
+          </styled.div>
+          <styled.strong>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "src__WarningTextWrapper-sc-1qj2gkq-2",
-                    "isStatic": false,
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
                     "lastClassName": "c2",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif;",
-                      "-webkit-font-smoothing: antialiased;",
-                      "-moz-osx-font-smoothing: grayscale;",
-                      "@media print {",
-                      "font-size: 14px;",
-                      "line-height: 1.15;",
-                      "}",
-                      "font-weight: 700;",
-                      "font-size: 16px;",
-                      "line-height: 1.25;",
-                      "@media only screen and (min-width: 641px) {",
-                      "font-size: 19px;",
-                      "line-height: 1.3157894736842106;",
-                      "}",
+                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 700; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
                     ],
                   },
-                  "displayName": "src__WarningTextWrapper",
+                  "displayName": "styled.strong",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "src__WarningTextWrapper-sc-1qj2gkq-2",
+                  "styledComponentId": "sc-htpNat",
                   "target": "strong",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -207,10 +192,10 @@ exports[`WarningText to match snapshot 1`] = `
                 A very long warning message. This includes a lot of text to give a good representation of a more average length warning. That way you can see more than one line wrapping.
               </strong>
             </StyledComponent>
-          </src__WarningTextWrapper>
+          </styled.strong>
         </div>
       </StyledComponent>
-    </src__StyledWarningText>
+    </styled.div>
   </WarningText>
 </WarningTextWithKnobs>
 `;

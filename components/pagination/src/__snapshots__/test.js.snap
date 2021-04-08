@@ -55,48 +55,32 @@ exports[`Pagination matches wrapper snapshot: wrapper mount 1`] = `
 }
 
 <Pagination>
-  <src__StyledList>
+  <styled.ul>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledList-sc-14i9jj3-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "font-family: \\"nta\\", Arial, sans-serif;",
-              "-webkit-font-smoothing: antialiased;",
-              "-moz-osx-font-smoothing: grayscale;",
-              "@media print {",
-              "font-size: 14px;",
-              "line-height: 1.15;",
-              "}",
-              "font-weight: 400;",
-              "font-size: 16px;",
-              "line-height: 1.25;",
-              "@media only screen and (min-width: 641px) {",
-              "font-size: 19px;",
-              "line-height: 1.3157894736842106;",
-              "}",
-              "box-sizing: border-box;",
-              "display: flex;",
-              "flex-direction: column;",
-              "margin-top: 25px;",
-              "padding: 10px;",
-              "justify-content: space-between;",
-              "width: 100%;",
-              "@media only screen and (min-width: 641px) {",
-              "flex-direction: row;",
-              "}",
+              "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+              "box-sizing: border-box; display: flex; flex-direction: column; margin-top: 25px; padding: 10px; justify-content: space-between; width: 100%; @media only screen and (min-width: 641px) {
+  flex-direction: row;
+}",
               [Function],
             ],
           },
-          "displayName": "src__StyledList",
+          "displayName": "styled.ul",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledList-sc-14i9jj3-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "ul",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -111,6 +95,6 @@ exports[`Pagination matches wrapper snapshot: wrapper mount 1`] = `
         Example
       </ul>
     </StyledComponent>
-  </src__StyledList>
+  </styled.ul>
 </Pagination>
 `;

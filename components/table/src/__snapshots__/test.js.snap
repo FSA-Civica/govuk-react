@@ -64,45 +64,33 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
 
 <TableSimple>
   <Table>
-    <src__StyledTable>
+    <styled.table>
       <StyledComponent
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "src__StyledTable-sc-1bargub-0",
+              "componentId": "sc-EHOje",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.15;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 19px;",
-                "line-height: 1.3157894736842106;",
-                "}",
-                "color: #0b0c0c;",
-                "@media print {",
-                "color: #000;",
-                "}",
-                "width: 100%;",
-                "border-spacing: 0;",
-                "border-collapse: collapse;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                "width: 100%; border-spacing: 0; border-collapse: collapse;",
                 [Function],
               ],
             },
-            "displayName": "src__StyledTable",
+            "displayName": "styled.table",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "src__StyledTable-sc-1bargub-0",
+            "styledComponentId": "sc-EHOje",
             "target": "table",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -114,22 +102,24 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
         <table
           className="c0"
         >
-          <TableBody>
+          <styled.tbody>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "TableBody-qlrtmv-0",
-                    "isStatic": false,
-                    "lastClassName": "cTWIRu",
-                    "rules": Array [],
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "lastClassName": "uTxCW",
+                    "rules": Array [
+                      "",
+                    ],
                   },
-                  "displayName": "TableBody",
+                  "displayName": "styled.tbody",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "TableBody-qlrtmv-0",
+                  "styledComponentId": "sc-bwzfXH",
                   "target": "tbody",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -141,22 +131,24 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
               <tbody
                 className=""
               >
-                <Row>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -169,7 +161,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -182,7 +174,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -191,7 +183,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -200,7 +192,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -216,16 +208,16 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                               First 6 weeks
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c2",
                                 "rules": Array [
@@ -234,7 +226,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -243,7 +235,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -258,26 +250,28 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                             £109.80 per week
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -290,7 +284,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -303,7 +297,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -312,7 +306,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -321,7 +315,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -337,16 +331,16 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                               Next 33 weeks
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c2",
                                 "rules": Array [
@@ -355,7 +349,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -364,7 +358,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -379,26 +373,28 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                             £109.80 per week
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -411,7 +407,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -424,7 +420,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -433,7 +429,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -442,7 +438,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -458,16 +454,16 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                               Total estimated pay
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c2",
                                 "rules": Array [
@@ -476,7 +472,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -485,7 +481,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -500,26 +496,28 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                             £4,282.20
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -532,7 +530,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -545,7 +543,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c2",
                                   "rules": Array [
@@ -554,7 +552,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -563,7 +561,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -579,16 +577,16 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                               Tell the mother’s employer
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c2",
                                 "rules": Array [
@@ -597,7 +595,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -606,7 +604,7 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -621,16 +619,16 @@ exports[`Table renders a simple example matching snapshot: simple table 1`] = `
                             28 days before they want to start maternity pay
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
+                </styled.tr>
               </tbody>
             </StyledComponent>
-          </TableBody>
+          </styled.tbody>
         </table>
       </StyledComponent>
-    </src__StyledTable>
+    </styled.table>
   </Table>
 </TableSimple>
 `;
@@ -707,73 +705,61 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
   <Table
     body={
       <React.Fragment>
-        <ForwardRef(Row)>
+        <ForwardRef>
           <CellHeader>
             First 6 weeks
           </CellHeader>
-          <ForwardRef(Cell)>
+          <ForwardRef>
             £109.80 per week
-          </ForwardRef(Cell)>
-        </ForwardRef(Row)>
-        <ForwardRef(Row)>
+          </ForwardRef>
+        </ForwardRef>
+        <ForwardRef>
           <CellHeader>
             Next 33 weeks
           </CellHeader>
-          <ForwardRef(Cell)>
+          <ForwardRef>
             £109.80 per week
-          </ForwardRef(Cell)>
-        </ForwardRef(Row)>
-        <ForwardRef(Row)>
+          </ForwardRef>
+        </ForwardRef>
+        <ForwardRef>
           <CellHeader>
             Total estimated pay
           </CellHeader>
-          <ForwardRef(Cell)>
+          <ForwardRef>
             £4,282.20
-          </ForwardRef(Cell)>
-        </ForwardRef(Row)>
+          </ForwardRef>
+        </ForwardRef>
       </React.Fragment>
     }
     caption="Dates and amounts"
   >
-    <src__StyledTable>
+    <styled.table>
       <StyledComponent
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "src__StyledTable-sc-1bargub-0",
+              "componentId": "sc-EHOje",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.15;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 19px;",
-                "line-height: 1.3157894736842106;",
-                "}",
-                "color: #0b0c0c;",
-                "@media print {",
-                "color: #000;",
-                "}",
-                "width: 100%;",
-                "border-spacing: 0;",
-                "border-collapse: collapse;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                "width: 100%; border-spacing: 0; border-collapse: collapse;",
                 [Function],
               ],
             },
-            "displayName": "src__StyledTable",
+            "displayName": "styled.table",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "src__StyledTable-sc-1bargub-0",
+            "styledComponentId": "sc-EHOje",
             "target": "table",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -785,26 +771,24 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
         <table
           className="c0"
         >
-          <Caption>
+          <styled.caption>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "Caption-sc-9y4wqu-0",
-                    "isStatic": false,
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-weight: 700;",
-                      "display: table-caption;",
-                      "text-align: left;",
+                      "font-weight: 700; display: table-caption; text-align: left;",
                     ],
                   },
-                  "displayName": "Caption",
+                  "displayName": "styled.caption",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "Caption-sc-9y4wqu-0",
+                  "styledComponentId": "sc-htpNat",
                   "target": "caption",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -819,23 +803,25 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                 Dates and amounts
               </caption>
             </StyledComponent>
-          </Caption>
-          <TableBody>
+          </styled.caption>
+          <styled.tbody>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "TableBody-qlrtmv-0",
-                    "isStatic": false,
-                    "lastClassName": "cTWIRu",
-                    "rules": Array [],
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "lastClassName": "uTxCW",
+                    "rules": Array [
+                      "",
+                    ],
                   },
-                  "displayName": "TableBody",
+                  "displayName": "styled.tbody",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "TableBody-qlrtmv-0",
+                  "styledComponentId": "sc-bwzfXH",
                   "target": "tbody",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -847,22 +833,24 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
               <tbody
                 className=""
               >
-                <Row>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -875,7 +863,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -888,7 +876,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
@@ -897,7 +885,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -906,7 +894,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -922,16 +910,16 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                               First 6 weeks
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c3",
                                 "rules": Array [
@@ -940,7 +928,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -949,7 +937,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -964,26 +952,28 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                             £109.80 per week
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -996,7 +986,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -1009,7 +999,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
@@ -1018,7 +1008,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -1027,7 +1017,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -1043,16 +1033,16 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                               Next 33 weeks
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c3",
                                 "rules": Array [
@@ -1061,7 +1051,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -1070,7 +1060,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -1085,26 +1075,28 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                             £109.80 per week
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1117,7 +1109,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -1130,7 +1122,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
@@ -1139,7 +1131,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -1148,7 +1140,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -1164,16 +1156,16 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                               Total estimated pay
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c3",
                                 "rules": Array [
@@ -1182,7 +1174,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -1191,7 +1183,7 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -1206,16 +1198,16 @@ exports[`Table renders a table with a caption matching snapshot: table with capt
                             £4,282.20
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
+                </styled.tr>
               </tbody>
             </StyledComponent>
-          </TableBody>
+          </styled.tbody>
         </table>
       </StyledComponent>
-    </src__StyledTable>
+    </styled.table>
   </Table>
 </TableWithCaption>
 `;
@@ -1328,7 +1320,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
   <Table
     caption="Custom widths"
     head={
-      <ForwardRef(Row)>
+      <ForwardRef>
         <CellHeader
           setWidth="one-half"
         >
@@ -1342,48 +1334,36 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
         <CellHeader>
           Normal
         </CellHeader>
-      </ForwardRef(Row)>
+      </ForwardRef>
     }
   >
-    <src__StyledTable>
+    <styled.table>
       <StyledComponent
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "src__StyledTable-sc-1bargub-0",
+              "componentId": "sc-EHOje",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.15;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 19px;",
-                "line-height: 1.3157894736842106;",
-                "}",
-                "color: #0b0c0c;",
-                "@media print {",
-                "color: #000;",
-                "}",
-                "width: 100%;",
-                "border-spacing: 0;",
-                "border-collapse: collapse;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                "width: 100%; border-spacing: 0; border-collapse: collapse;",
                 [Function],
               ],
             },
-            "displayName": "src__StyledTable",
+            "displayName": "styled.table",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "src__StyledTable-sc-1bargub-0",
+            "styledComponentId": "sc-EHOje",
             "target": "table",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1395,26 +1375,24 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
         <table
           className="c0"
         >
-          <Caption>
+          <styled.caption>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "Caption-sc-9y4wqu-0",
-                    "isStatic": false,
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-weight: 700;",
-                      "display: table-caption;",
-                      "text-align: left;",
+                      "font-weight: 700; display: table-caption; text-align: left;",
                     ],
                   },
-                  "displayName": "Caption",
+                  "displayName": "styled.caption",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "Caption-sc-9y4wqu-0",
+                  "styledComponentId": "sc-htpNat",
                   "target": "caption",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1429,23 +1407,25 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                 Custom widths
               </caption>
             </StyledComponent>
-          </Caption>
-          <TableHeader>
+          </styled.caption>
+          <styled.thead>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "TableHeader-sc-1vwatho-0",
-                    "isStatic": false,
-                    "lastClassName": "fEdZjd",
-                    "rules": Array [],
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "bDWFJH",
+                    "rules": Array [
+                      "",
+                    ],
                   },
-                  "displayName": "TableHeader",
+                  "displayName": "styled.thead",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "TableHeader-sc-1vwatho-0",
+                  "styledComponentId": "sc-bdVaJa",
                   "target": "thead",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1457,22 +1437,24 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
               <thead
                 className=""
               >
-                <Row>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1487,7 +1469,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                       <CellHeader
                         setWidth="one-half"
                       >
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -1501,7 +1483,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c5",
                                   "rules": Array [
@@ -1510,7 +1492,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -1519,7 +1501,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -1536,12 +1518,12 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                               one-half
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
                       <CellHeader
                         setWidth="22%"
                       >
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -1555,7 +1537,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c5",
                                   "rules": Array [
@@ -1564,7 +1546,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -1573,7 +1555,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -1590,10 +1572,10 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                               22%
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -1606,7 +1588,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c5",
                                   "rules": Array [
@@ -1615,7 +1597,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -1624,7 +1606,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -1640,30 +1622,32 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                               Normal
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
                     </tr>
                   </StyledComponent>
-                </Row>
+                </styled.tr>
               </thead>
             </StyledComponent>
-          </TableHeader>
-          <TableBody>
+          </styled.thead>
+          <styled.tbody>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "TableBody-qlrtmv-0",
-                    "isStatic": false,
-                    "lastClassName": "cTWIRu",
-                    "rules": Array [],
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "lastClassName": "uTxCW",
+                    "rules": Array [
+                      "",
+                    ],
                   },
-                  "displayName": "TableBody",
+                  "displayName": "styled.tbody",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "TableBody-qlrtmv-0",
+                  "styledComponentId": "sc-bwzfXH",
                   "target": "tbody",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1675,22 +1659,24 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
               <tbody
                 className=""
               >
-                <Row>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1702,14 +1688,14 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                     <tr
                       className=""
                     >
-                      <Cell>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c5",
                                 "rules": Array [
@@ -1718,7 +1704,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -1727,7 +1713,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -1742,15 +1728,15 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                             Column uses setWidth="one-half" in header
                           </td>
                         </StyledComponent>
-                      </Cell>
-                      <Cell>
+                      </styled.td>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c5",
                                 "rules": Array [
@@ -1759,7 +1745,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -1768,7 +1754,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -1783,15 +1769,15 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                             setWidth="22%"
                           </td>
                         </StyledComponent>
-                      </Cell>
-                      <Cell>
+                      </styled.td>
+                      <styled.td>
                         <StyledComponent
                           forwardedComponent={
                             Object {
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c5",
                                 "rules": Array [
@@ -1800,7 +1786,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -1809,7 +1795,7 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -1824,16 +1810,16 @@ exports[`Table renders a table with custom widths matching snapshot: table with 
                             Not specified
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
+                </styled.tr>
               </tbody>
             </StyledComponent>
-          </TableBody>
+          </styled.tbody>
         </table>
       </StyledComponent>
-    </src__StyledTable>
+    </styled.table>
   </Table>
 </TableWithCustomWidths>
 `;
@@ -1931,7 +1917,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
   <Table
     caption="Attention, I am the caption of this ship!"
     head={
-      <ForwardRef(Row)>
+      <ForwardRef>
         <CellHeader>
           Month you apply
         </CellHeader>
@@ -1945,48 +1931,36 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
         >
           Rate for bicycles
         </CellHeader>
-      </ForwardRef(Row)>
+      </ForwardRef>
     }
   >
-    <src__StyledTable>
+    <styled.table>
       <StyledComponent
         forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "src__StyledTable-sc-1bargub-0",
+              "componentId": "sc-EHOje",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "font-family: \\"nta\\", Arial, sans-serif;",
-                "-webkit-font-smoothing: antialiased;",
-                "-moz-osx-font-smoothing: grayscale;",
-                "@media print {",
-                "font-size: 14px;",
-                "line-height: 1.15;",
-                "}",
-                "font-weight: 400;",
-                "font-size: 16px;",
-                "line-height: 1.25;",
-                "@media only screen and (min-width: 641px) {",
-                "font-size: 19px;",
-                "line-height: 1.3157894736842106;",
-                "}",
-                "color: #0b0c0c;",
-                "@media print {",
-                "color: #000;",
-                "}",
-                "width: 100%;",
-                "border-spacing: 0;",
-                "border-collapse: collapse;",
+                "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                "width: 100%; border-spacing: 0; border-collapse: collapse;",
                 [Function],
               ],
             },
-            "displayName": "src__StyledTable",
+            "displayName": "styled.table",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "src__StyledTable-sc-1bargub-0",
+            "styledComponentId": "sc-EHOje",
             "target": "table",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -1998,26 +1972,24 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
         <table
           className="c0"
         >
-          <Caption>
+          <styled.caption>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "Caption-sc-9y4wqu-0",
-                    "isStatic": false,
+                    "componentId": "sc-htpNat",
+                    "isStatic": true,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-weight: 700;",
-                      "display: table-caption;",
-                      "text-align: left;",
+                      "font-weight: 700; display: table-caption; text-align: left;",
                     ],
                   },
-                  "displayName": "Caption",
+                  "displayName": "styled.caption",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "Caption-sc-9y4wqu-0",
+                  "styledComponentId": "sc-htpNat",
                   "target": "caption",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -2032,23 +2004,25 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                 Attention, I am the caption of this ship!
               </caption>
             </StyledComponent>
-          </Caption>
-          <TableHeader>
+          </styled.caption>
+          <styled.thead>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "TableHeader-sc-1vwatho-0",
-                    "isStatic": false,
-                    "lastClassName": "fEdZjd",
-                    "rules": Array [],
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": true,
+                    "lastClassName": "bDWFJH",
+                    "rules": Array [
+                      "",
+                    ],
                   },
-                  "displayName": "TableHeader",
+                  "displayName": "styled.thead",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "TableHeader-sc-1vwatho-0",
+                  "styledComponentId": "sc-bdVaJa",
                   "target": "thead",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -2060,22 +2034,24 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
               <thead
                 className=""
               >
-                <Row>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2088,7 +2064,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -2101,7 +2077,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
@@ -2110,7 +2086,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -2119,7 +2095,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -2135,12 +2111,12 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               Month you apply
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
                       <CellHeader
                         numeric={true}
                       >
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -2154,7 +2130,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
@@ -2163,7 +2139,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -2172,7 +2148,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -2189,12 +2165,12 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               Rate for vehicles
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
                       <CellHeader
                         numeric={true}
                       >
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -2208,7 +2184,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
@@ -2217,7 +2193,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -2226,7 +2202,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -2243,30 +2219,32 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               Rate for bicycles
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
                     </tr>
                   </StyledComponent>
-                </Row>
+                </styled.tr>
               </thead>
             </StyledComponent>
-          </TableHeader>
-          <TableBody>
+          </styled.thead>
+          <styled.tbody>
             <StyledComponent
               forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "TableBody-qlrtmv-0",
-                    "isStatic": false,
-                    "lastClassName": "cTWIRu",
-                    "rules": Array [],
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": true,
+                    "lastClassName": "uTxCW",
+                    "rules": Array [
+                      "",
+                    ],
                   },
-                  "displayName": "TableBody",
+                  "displayName": "styled.tbody",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "TableBody-qlrtmv-0",
+                  "styledComponentId": "sc-bwzfXH",
                   "target": "tbody",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -2278,22 +2256,24 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
               <tbody
                 className=""
               >
-                <Row>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2306,7 +2286,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -2319,7 +2299,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
@@ -2328,7 +2308,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -2337,7 +2317,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -2353,9 +2333,9 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               January
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2364,7 +2344,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2373,7 +2353,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2382,7 +2362,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2398,8 +2378,8 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £165.00
                           </td>
                         </StyledComponent>
-                      </Cell>
-                      <Cell
+                      </styled.td>
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2408,7 +2388,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2417,7 +2397,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2426,7 +2406,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2442,26 +2422,28 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £85.00
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2474,7 +2456,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -2487,7 +2469,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
@@ -2496,7 +2478,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -2505,7 +2487,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -2521,9 +2503,9 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               February
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2532,7 +2514,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2541,7 +2523,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2550,7 +2532,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2566,8 +2548,8 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £165.00
                           </td>
                         </StyledComponent>
-                      </Cell>
-                      <Cell
+                      </styled.td>
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2576,7 +2558,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2585,7 +2567,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2594,7 +2576,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2610,26 +2592,28 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £85.00
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2642,7 +2626,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -2655,7 +2639,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
@@ -2664,7 +2648,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -2673,7 +2657,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -2689,9 +2673,9 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               March
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2700,7 +2684,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2709,7 +2693,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2718,7 +2702,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2734,8 +2718,8 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £151.00
                           </td>
                         </StyledComponent>
-                      </Cell>
-                      <Cell
+                      </styled.td>
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2744,7 +2728,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2753,7 +2737,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2762,7 +2746,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2778,26 +2762,28 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £77.00
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
-                <Row>
+                </styled.tr>
+                <styled.tr>
                   <StyledComponent
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "Row-sc-1npyg1s-0",
-                          "isStatic": false,
-                          "lastClassName": "gYOxoV",
-                          "rules": Array [],
+                          "componentId": "sc-ifAKCX",
+                          "isStatic": true,
+                          "lastClassName": "cFlEyZ",
+                          "rules": Array [
+                            "",
+                          ],
                         },
-                        "displayName": "Row",
+                        "displayName": "styled.tr",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "Row-sc-1npyg1s-0",
+                        "styledComponentId": "sc-ifAKCX",
                         "target": "tr",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -2810,7 +2796,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                       className=""
                     >
                       <CellHeader>
-                        <Cell
+                        <styled.td
                           as="th"
                           bold={true}
                           isHeader={true}
@@ -2823,7 +2809,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": Array [],
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "Cell-sc-1dif7kh-0",
+                                  "componentId": "sc-bxivhb",
                                   "isStatic": false,
                                   "lastClassName": "c4",
                                   "rules": Array [
@@ -2832,7 +2818,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                     [Function],
                                   ],
                                 },
-                                "displayName": "Cell",
+                                "displayName": "styled.td",
                                 "foldedComponentIds": Array [],
                                 "propTypes": Object {
                                   "alignRight": [Function],
@@ -2841,7 +2827,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   "numeric": [Function],
                                 },
                                 "render": [Function],
-                                "styledComponentId": "Cell-sc-1dif7kh-0",
+                                "styledComponentId": "sc-bxivhb",
                                 "target": "td",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -2857,9 +2843,9 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               April
                             </th>
                           </StyledComponent>
-                        </Cell>
+                        </styled.td>
                       </CellHeader>
-                      <Cell
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2868,7 +2854,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2877,7 +2863,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2886,7 +2872,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2902,8 +2888,8 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £136.00
                           </td>
                         </StyledComponent>
-                      </Cell>
-                      <Cell
+                      </styled.td>
+                      <styled.td
                         numeric={true}
                       >
                         <StyledComponent
@@ -2912,7 +2898,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": Array [],
                               "componentStyle": ComponentStyle {
-                                "componentId": "Cell-sc-1dif7kh-0",
+                                "componentId": "sc-bxivhb",
                                 "isStatic": false,
                                 "lastClassName": "c4",
                                 "rules": Array [
@@ -2921,7 +2907,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                   [Function],
                                 ],
                               },
-                              "displayName": "Cell",
+                              "displayName": "styled.td",
                               "foldedComponentIds": Array [],
                               "propTypes": Object {
                                 "alignRight": [Function],
@@ -2930,7 +2916,7 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                                 "numeric": [Function],
                               },
                               "render": [Function],
-                              "styledComponentId": "Cell-sc-1dif7kh-0",
+                              "styledComponentId": "sc-bxivhb",
                               "target": "td",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -2946,16 +2932,16 @@ exports[`Table renders a table with head and numerics matching snapshot: table w
                             £70.00
                           </td>
                         </StyledComponent>
-                      </Cell>
+                      </styled.td>
                     </tr>
                   </StyledComponent>
-                </Row>
+                </styled.tr>
               </tbody>
             </StyledComponent>
-          </TableBody>
+          </styled.tbody>
         </table>
       </StyledComponent>
-    </src__StyledTable>
+    </styled.table>
   </Table>
 </TableWithHeadAndNumerics>
 `;

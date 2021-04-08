@@ -69,28 +69,25 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
 <SearchBox
   placeholder="example"
 >
-  <src__SearchBoxWrapper>
+  <styled.div>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__SearchBoxWrapper-cv6pjz-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "box-sizing: border-box;",
-              "display: flex;",
-              "width: 100%;",
-              "background: #ffffff;",
+              "box-sizing: border-box; display: flex; width: 100%; background: #ffffff;",
               [Function],
             ],
           },
-          "displayName": "src__SearchBoxWrapper",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__SearchBoxWrapper-cv6pjz-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -102,7 +99,7 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
       <div
         className="c0"
       >
-        <src__InputSearchBox
+        <styled.input
           placeholder="example"
           type="search"
         >
@@ -112,8 +109,8 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "src__InputSearchBox-cv6pjz-1",
-                  "isStatic": false,
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
                   "lastClassName": "c1",
                   "rules": Array [
                     "width: 100%; height: 40px; padding: 6px; margin: 0; border: solid 1px #bfc1c3; border-right: 0; box-sizing: border-box; font-family: \\"nta\\", Arial, sans-serif; font-weight: 400; text-transform: none; font-size: 16px; line-height: 1.75; background: #ffffff; border-radius: 0; -webkit-appearance: none; :focus {
@@ -123,10 +120,10 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
 }",
                   ],
                 },
-                "displayName": "src__InputSearchBox",
+                "displayName": "styled.input",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "src__InputSearchBox-cv6pjz-1",
+                "styledComponentId": "sc-bwzfXH",
                 "target": "input",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -143,8 +140,8 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
               type="search"
             />
           </StyledComponent>
-        </src__InputSearchBox>
-        <src__SearchButton
+        </styled.input>
+        <styled.button
           title="Search"
         >
           <StyledComponent
@@ -153,8 +150,8 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
-                  "componentId": "src__SearchButton-cv6pjz-2",
-                  "isStatic": false,
+                  "componentId": "sc-htpNat",
+                  "isStatic": true,
                   "lastClassName": "c2",
                   "rules": Array [
                     "background-color: #2b8cc4; border: 0; display: block; color: #ffffff; position: relative; padding: 10px; width: 45px; height: 40px; background-repeat: no-repeat; background-position: 2px 50%; text-indent: -999em; overflow: hidden; :focus {
@@ -162,10 +159,10 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
 }",
                   ],
                 },
-                "displayName": "src__SearchButton",
+                "displayName": "styled.button",
                 "foldedComponentIds": Array [],
                 "render": [Function],
-                "styledComponentId": "src__SearchButton-cv6pjz-2",
+                "styledComponentId": "sc-htpNat",
                 "target": "button",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -211,9 +208,9 @@ exports[`SearchBox matches wrapper snapshot: wrapper mount 1`] = `
               </Search>
             </button>
           </StyledComponent>
-        </src__SearchButton>
+        </styled.button>
       </div>
     </StyledComponent>
-  </src__SearchBoxWrapper>
+  </styled.div>
 </SearchBox>
 `;

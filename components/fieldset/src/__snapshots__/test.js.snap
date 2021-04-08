@@ -26,7 +26,7 @@ exports[`Fieldset matches snapshot: Fieldset 1`] = `
 }
 
 <FieldsetDocumented>
-  <src__Fieldset>
+  <styled.fieldset>
     <StyledComponent
       forwardedComponent={
         Object {
@@ -34,24 +34,21 @@ exports[`Fieldset matches snapshot: Fieldset 1`] = `
           "Legend": [Function],
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__Fieldset-sc-374div-0",
+            "componentId": "sc-htpNat",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "border: 0;",
-              "&:after {",
-              "content: \\"\\";",
-              "display: block;",
-              "clear: both;",
-              "}",
+              "border: 0; &:after {
+  content: \\"\\"; display: block; clear: both;
+}",
               [Function],
             ],
           },
-          "displayName": "src__Fieldset",
+          "displayName": "styled.fieldset",
           "foldedComponentIds": Array [],
           "propTypes": undefined,
           "render": [Function],
-          "styledComponentId": "src__Fieldset-sc-374div-0",
+          "styledComponentId": "sc-htpNat",
           "target": "fieldset",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -64,6 +61,6 @@ exports[`Fieldset matches snapshot: Fieldset 1`] = `
         className="c0"
       />
     </StyledComponent>
-  </src__Fieldset>
+  </styled.fieldset>
 </FieldsetDocumented>
 `;

@@ -143,47 +143,36 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
 }
 
 <DocumentedComponent>
-  <src__OrderedList>
+  <styled.ol>
     <StyledComponent
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "_foldedDefaultProps": Object {
-            "listStyleType": undefined,
-          },
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "c0",
             "isStatic": false,
             "lastClassName": "c1",
             "rules": Array [
-              "font-family: \\"nta\\", Arial, sans-serif;",
-              "-webkit-font-smoothing: antialiased;",
-              "-moz-osx-font-smoothing: grayscale;",
-              "@media print {",
-              "font-size: 14px;",
-              "line-height: 1.15;",
-              "}",
-              "font-weight: 400;",
-              "font-size: 16px;",
-              "line-height: 1.25;",
-              "@media only screen and (min-width: 641px) {",
-              "font-size: 19px;",
-              "line-height: 1.3157894736842106;",
-              "}",
-              "color: #0b0c0c;",
-              "@media print {",
-              "color: #000;",
-              "}",
-              "margin-top: 0;",
-              "& & {",
-              "margin-top: 10px;",
-              "}",
+              "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+              "color: #0b0c0c; @media print {
+  color: #000;
+}",
+              "margin-top: 0; & & {
+  margin-top: 10px;
+}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__OrderedList",
+          "defaultProps": Object {
+            "listStyleType": undefined,
+          },
+          "displayName": "styled.ol",
           "foldedComponentIds": Array [],
           "propTypes": undefined,
           "render": [Function],
@@ -210,20 +199,11 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                   "isStatic": false,
                   "lastClassName": "c3",
                   "rules": Array [
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.15;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 19px;",
-                    "line-height: 1.3157894736842106;",
-                    "}",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
                     "margin-bottom: 5px;",
                     [Function],
                   ],
@@ -254,11 +234,6 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
-                      "_foldedDefaultProps": Object {
-                        "muted": false,
-                        "noVisitedState": false,
-                        "textColour": false,
-                      },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-bdVaJa",
@@ -293,6 +268,11 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                           [Function],
                           [Function],
                         ],
+                      },
+                      "defaultProps": Object {
+                        "muted": false,
+                        "noVisitedState": false,
+                        "textColour": false,
                       },
                       "displayName": "styled.a",
                       "foldedComponentIds": Array [],
@@ -334,20 +314,11 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                   "isStatic": false,
                   "lastClassName": "c3",
                   "rules": Array [
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.15;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 19px;",
-                    "line-height: 1.3157894736842106;",
-                    "}",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
                     "margin-bottom: 5px;",
                     [Function],
                   ],
@@ -378,11 +349,6 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
-                      "_foldedDefaultProps": Object {
-                        "muted": false,
-                        "noVisitedState": false,
-                        "textColour": false,
-                      },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-bdVaJa",
@@ -417,6 +383,11 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                           [Function],
                           [Function],
                         ],
+                      },
+                      "defaultProps": Object {
+                        "muted": false,
+                        "noVisitedState": false,
+                        "textColour": false,
                       },
                       "displayName": "styled.a",
                       "foldedComponentIds": Array [],
@@ -458,20 +429,11 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                   "isStatic": false,
                   "lastClassName": "c3",
                   "rules": Array [
-                    "font-family: \\"nta\\", Arial, sans-serif;",
-                    "-webkit-font-smoothing: antialiased;",
-                    "-moz-osx-font-smoothing: grayscale;",
-                    "@media print {",
-                    "font-size: 14px;",
-                    "line-height: 1.15;",
-                    "}",
-                    "font-weight: 400;",
-                    "font-size: 16px;",
-                    "line-height: 1.25;",
-                    "@media only screen and (min-width: 641px) {",
-                    "font-size: 19px;",
-                    "line-height: 1.3157894736842106;",
-                    "}",
+                    "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
                     "margin-bottom: 5px;",
                     [Function],
                   ],
@@ -502,11 +464,6 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                   forwardedComponent={
                     Object {
                       "$$typeof": Symbol(react.forward_ref),
-                      "_foldedDefaultProps": Object {
-                        "muted": false,
-                        "noVisitedState": false,
-                        "textColour": false,
-                      },
                       "attrs": Array [],
                       "componentStyle": ComponentStyle {
                         "componentId": "sc-bdVaJa",
@@ -542,6 +499,11 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
                           [Function],
                         ],
                       },
+                      "defaultProps": Object {
+                        "muted": false,
+                        "noVisitedState": false,
+                        "textColour": false,
+                      },
                       "displayName": "styled.a",
                       "foldedComponentIds": Array [],
                       "propTypes": undefined,
@@ -573,6 +535,6 @@ exports[`OrderedList matches wrapper snapshot: wrapper mount 1`] = `
         </styled.li>
       </ol>
     </StyledComponent>
-  </src__OrderedList>
+  </styled.ol>
 </DocumentedComponent>
 `;

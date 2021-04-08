@@ -43,7 +43,7 @@ exports[`Heading matches wrapper snapshot: wrapper mount 1`] = `
 <Heading
   size="XLARGE"
 >
-  <src__StyledHeading
+  <styled.h1
     size="XLARGE"
   >
     <StyledComponent
@@ -52,25 +52,23 @@ exports[`Heading matches wrapper snapshot: wrapper mount 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledHeading-mieua5-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "color: #0b0c0c;",
-              "@media print {",
-              "color: #000;",
-              "}",
+              "color: #0b0c0c; @media print {
+  color: #000;
+}",
               [Function],
-              "display: block;",
-              "margin-top: 0;",
+              "display: block; margin-top: 0;",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__StyledHeading",
+          "displayName": "styled.h1",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledHeading-mieua5-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "h1",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -87,6 +85,6 @@ exports[`Heading matches wrapper snapshot: wrapper mount 1`] = `
         example
       </h1>
     </StyledComponent>
-  </src__StyledHeading>
+  </styled.h1>
 </Heading>
 `;

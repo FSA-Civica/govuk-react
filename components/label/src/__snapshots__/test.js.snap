@@ -31,7 +31,7 @@ exports[`Label matches withError snapshot: with error mount 1`] = `
 <Label
   error="example"
 >
-  <src__StyledLabel
+  <styled.label
     error="example"
   >
     <StyledComponent
@@ -41,26 +41,21 @@ exports[`Label matches withError snapshot: with error mount 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledLabel-cojxvj-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "display: flex;",
-              "flex-direction: column;",
-              "box-sizing: border-box;",
-              ":after {",
-              "content: '';",
-              "display: table;",
-              "clear: both;",
-              "}",
+              "display: flex; flex-direction: column; box-sizing: border-box; :after {
+  content: ''; display: table; clear: both;
+}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__StyledLabel",
+          "displayName": "styled.label",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledLabel-cojxvj-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "label",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -75,7 +70,7 @@ exports[`Label matches withError snapshot: with error mount 1`] = `
         example
       </label>
     </StyledComponent>
-  </src__StyledLabel>
+  </styled.label>
 </Label>
 `;
 
@@ -107,7 +102,7 @@ exports[`Label matches wrapper snapshot: wrapper mount 1`] = `
 <Label
   error={false}
 >
-  <src__StyledLabel
+  <styled.label
     error={false}
   >
     <StyledComponent
@@ -117,26 +112,21 @@ exports[`Label matches wrapper snapshot: wrapper mount 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledLabel-cojxvj-0",
+            "componentId": "sc-bdVaJa",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "display: flex;",
-              "flex-direction: column;",
-              "box-sizing: border-box;",
-              ":after {",
-              "content: '';",
-              "display: table;",
-              "clear: both;",
-              "}",
+              "display: flex; flex-direction: column; box-sizing: border-box; :after {
+  content: ''; display: table; clear: both;
+}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__StyledLabel",
+          "displayName": "styled.label",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledLabel-cojxvj-0",
+          "styledComponentId": "sc-bdVaJa",
           "target": "label",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -151,6 +141,6 @@ exports[`Label matches wrapper snapshot: wrapper mount 1`] = `
         example
       </label>
     </StyledComponent>
-  </src__StyledLabel>
+  </styled.label>
 </Label>
 `;

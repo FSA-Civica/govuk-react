@@ -143,7 +143,7 @@ exports[`MultiChoice matches snapshot 1`] = `
     }
   }
 >
-  <src__StyledFieldset
+  <styled.div
     error="Example error"
   >
     <StyledComponent
@@ -153,28 +153,21 @@ exports[`MultiChoice matches snapshot 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "src__StyledFieldset-sc-16f5t2-0",
+            "componentId": "sc-ifAKCX",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
-              "padding: 0;",
-              "margin: 0;",
-              "border: 0;",
-              "box-sizing: border-box;",
-              "width: 100%;",
-              ":after {",
-              "content: '';",
-              "display: table;",
-              "clear: both;",
-              "}",
+              "padding: 0; margin: 0; border: 0; box-sizing: border-box; width: 100%; :after {
+  content: ''; display: table; clear: both;
+}",
               [Function],
               [Function],
             ],
           },
-          "displayName": "src__StyledFieldset",
+          "displayName": "styled.div",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "src__StyledFieldset-sc-16f5t2-0",
+          "styledComponentId": "sc-ifAKCX",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -198,27 +191,15 @@ exports[`MultiChoice matches snapshot 1`] = `
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif;",
-                      "-webkit-font-smoothing: antialiased;",
-                      "-moz-osx-font-smoothing: grayscale;",
-                      "@media print {",
-                      "font-size: 14px;",
-                      "line-height: 1.15;",
-                      "}",
-                      "font-weight: 400;",
-                      "font-size: 16px;",
-                      "line-height: 1.25;",
-                      "@media only screen and (min-width: 641px) {",
-                      "font-size: 19px;",
-                      "line-height: 1.3157894736842106;",
-                      "}",
-                      "color: #0b0c0c;",
-                      "@media print {",
-                      "color: #000;",
-                      "}",
-                      "display: block;",
-                      "clear: none;",
-                      "padding-bottom: 2px;",
+                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                      "color: #0b0c0c; @media print {
+  color: #000;
+}",
+                      "display: block; clear: none; padding-bottom: 2px;",
                       [Function],
                       [Function],
                     ],
@@ -255,23 +236,12 @@ exports[`MultiChoice matches snapshot 1`] = `
                     "isStatic": false,
                     "lastClassName": "c2",
                     "rules": Array [
-                      "font-family: \\"nta\\", Arial, sans-serif;",
-                      "-webkit-font-smoothing: antialiased;",
-                      "-moz-osx-font-smoothing: grayscale;",
-                      "@media print {",
-                      "font-size: 14px;",
-                      "line-height: 1.15;",
-                      "}",
-                      "font-weight: 400;",
-                      "font-size: 16px;",
-                      "line-height: 1.25;",
-                      "@media only screen and (min-width: 641px) {",
-                      "font-size: 19px;",
-                      "line-height: 1.3157894736842106;",
-                      "}",
-                      "display: block;",
-                      "margin-bottom: 15px;",
-                      "color: #6f777b;",
+                      "font-family: \\"nta\\", Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; @media print {
+  font-size: 14px; line-height: 1.15;
+} font-weight: 400; font-size: 16px; line-height: 1.25; @media only screen and (min-width: 641px) {
+  font-size: 19px; line-height: 1.3157894736842106;
+}",
+                      "display: block; margin-bottom: 15px; color: #6f777b;",
                       [Function],
                     ],
                   },
@@ -340,10 +310,6 @@ exports[`MultiChoice matches snapshot 1`] = `
                     forwardedComponent={
                       Object {
                         "$$typeof": Symbol(react.forward_ref),
-                        "_foldedDefaultProps": Object {
-                          "focusable": false,
-                          "important": true,
-                        },
                         "attrs": Array [
                           [Function],
                         ],
@@ -354,6 +320,10 @@ exports[`MultiChoice matches snapshot 1`] = `
                           "rules": Array [
                             [Function],
                           ],
+                        },
+                        "defaultProps": Object {
+                          "focusable": false,
+                          "important": true,
                         },
                         "displayName": "styled.span",
                         "foldedComponentIds": Array [],
@@ -382,6 +352,6 @@ exports[`MultiChoice matches snapshot 1`] = `
         </ErrorText>
       </div>
     </StyledComponent>
-  </src__StyledFieldset>
+  </styled.div>
 </MultiChoice>
 `;
