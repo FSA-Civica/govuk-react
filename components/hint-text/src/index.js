@@ -3,7 +3,6 @@
 import styled from 'styled-components';
 import React from 'react';
 import PropTypes from 'prop-types';
-import { SECONDARY_TEXT_COLOUR } from 'govuk-colours';
 import { SPACING_POINTS } from '@govuk-react/constants';
 import { spacing, typography } from '@govuk-react/lib';
 
@@ -13,7 +12,7 @@ const StyledHint = styled('span')(
     display: 'block',
     // NB non-responsive marginBottom here
     marginBottom: SPACING_POINTS[3],
-    color: `${SECONDARY_TEXT_COLOUR}`,
+    color: '#505a5f',
   },
   spacing.withWhiteSpace()
 );
